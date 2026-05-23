@@ -1,0 +1,1556 @@
+name,role,no_of_projects,business_relevance,presentation_score,documentation_quality,tools_used,avg_project_score,task_consistency,Readiness_Score,Employability_Label
+The Algorithms,Full-Stack Developer,44,10.0,10.0,5.62,"Mojo, HTML, Fortran",8.69,10.0,94.75999999999999,Job Ready
+GPU.net,Software Intern,18,9.98,1.5,9.66,"Kotlin, JavaScript, Elixir, Rust, TypeScript",7.34,8.79,85.67,Job Ready
+Shradha Khapra,Software Intern,24,10.0,5.5,10.0,"Python, HTML, Jupyter Notebook",8.65,9.35,92.65,Job Ready
+N17R0,Full-Stack Developer,19,10.0,5.5,8.81,"PHP, HTML, Shell",8.29,8.58,88.9,Job Ready
+vivekweb2013,Software Intern,25,7.4,3.0,8.61,"Lua, Rust, TypeScript",6.44,9.24,75.68,Job Ready
+Kovid Goyal,Software Intern,45,10.0,7.0,9.26,"C, Go",8.88,10.0,95.52,Job Ready
+Anuj Kumar Sharma,Backend Engineer,48,10.0,10.0,6.12,"TypeScript, Java",8.84,10.0,95.36,Job Ready
+Akshay Saini,Frontend Engineer,12,9.75,8.5,6.05,"JavaScript, TypeScript",8.26,7.17,83.79999999999998,Job Ready
+Hack with GitHub,Frontend Engineer,11,10.0,7.0,5.42,JavaScript,7.73,7.0,81.92,Job Ready
+Hardik Zinzu,Full-Stack Developer,25,10.0,5.5,9.63,TypeScript,8.54,9.08,91.4,Job Ready
+Liyas Thomas,Full-Stack Developer,37,9.7,10.0,10.0,"JavaScript, TypeScript",9.88,10.0,98.62,Job Ready
+Aditya Shakya,Full-Stack Developer,19,10.0,8.5,8.5,"SCSS, HTML",9.1,8.11,90.73,Job Ready
+TechChip,Data Analyst,16,10.0,5.5,6.66,"Python, C++, Shell",7.65,7.64,83.52000000000001,Job Ready
+VIMAL DHAMA,Frontend Engineer,14,6.61,7.0,8.74,"Python, Jupyter Notebook",7.37,7.34,71.33000000000001,Almost Ready
+Aditya Chatterjee,Software Intern,26,8.21,5.5,7.54,Handlebars,7.2,9.13,80.82000000000001,Job Ready
+Rajkumar Dusad,Software Intern,6,10.0,8.5,10.0,"PHP, JavaScript",9.55,6.12,86.56,Job Ready
+Jay Dev,Full-Stack Developer,16,6.65,1.5,6.52,"Shell, C++, HTML",5.07,7.61,63.06,Almost Ready
+Tanay Pratap,Full-Stack Developer,42,9.19,7.0,8.16,"Python, JavaScript",8.22,10.0,90.45,Job Ready
+Gaurav Sen,Frontend Engineer,13,9.9,5.5,8.73,Java,8.23,7.16,84.1,Job Ready
+MAZHAR,Backend Engineer,29,10.0,5.5,5.59,C++,7.33,9.52,87.88,Job Ready
+GSSoC24,Frontend Engineer,5,10.0,7.0,10.0,JavaScript,9.1,5.9,84.1,Job Ready
+Pradeep Kumar,Full-Stack Developer,46,10.0,10.0,5.5,JavaScript,8.65,10.0,94.60000000000001,Job Ready
+Anubhav Chaturvedi,Frontend Engineer,14,7.77,5.5,10.0,"JavaScript, TypeScript",7.76,7.22,76.00999999999999,Job Ready
+Haris Ali Khan,Full-Stack Developer,30,9.55,1.5,10.0,"HTML, CSS",7.27,9.6,86.53,Job Ready
+Ravi Tamada,Software Intern,39,10.0,5.5,6.35,Kotlin,7.55,10.0,90.19999999999999,Job Ready
+Ayushi Rawat,Data Analyst,23,9.76,5.5,7.21,Python,7.72,8.54,85.78,Job Ready
+Akash T K,Data Analyst,19,6.4,7.0,7.8,"Python, Vue, JavaScript, TypeScript",7.0,7.93,70.99000000000001,Almost Ready
+ＭＵＨＩＬＡＮ,Frontend Engineer,10,8.65,5.5,9.87,"JavaScript, TypeScript",8.07,6.57,77.94,Job Ready
+Aritra Roy,Full-Stack Developer,34,10.0,5.5,10.0,JavaScript,8.65,10.0,94.60000000000001,Job Ready
+🎯✨Peetla Mahesh💫🤖,Full-Stack Developer,35,7.13,10.0,6.08,"JavaScript, Java, TypeScript",7.68,10.0,82.11,Job Ready
+Savio Martin,Frontend Engineer,5,9.58,7.0,10.0,"JavaScript, TypeScript",8.93,5.79,81.83,Job Ready
+Rahul Raj 🇮🇳 ,Data Analyst,40,6.96,7.0,10.0,Python,7.89,10.0,82.44,Job Ready
+Devansh Batham,Data Analyst,34,10.0,1.5,9.09,"Python, Go, JavaScript",7.18,10.0,88.72,Job Ready
+Zerodha Tech,Backend Engineer,50,10.0,10.0,8.53,"HTML, Go, Java",9.56,10.0,98.24,Job Ready
+Eazy Bytes,Full-Stack Developer,21,10.0,7.0,8.01,"JavaScript, Java",8.5,8.16,88.48,Job Ready
+Amit Agarwal,Full-Stack Developer,44,10.0,8.5,9.63,"C++, Astro, JavaScript",9.44,10.0,97.75999999999999,Job Ready
+Sriyank Siddhartha,Software Intern,40,10.0,5.5,8.93,"Kotlin, C, TypeScript",8.33,10.0,93.32000000000001,Job Ready
+Parth Johar,Full-Stack Developer,25,8.59,1.5,5.15,"HTML, JavaScript, TypeScript",5.43,8.73,73.68,Almost Ready
+Soumyajit Behera,Full-Stack Developer,40,10.0,8.5,10.0,"JavaScript, TypeScript",9.55,10.0,98.2,Job Ready
+Aniket Dobriyal,Full-Stack Developer,19,4.58,10.0,8.72,"HTML, JavaScript",7.45,7.83,67.03,Almost Ready
+Blue,Full-Stack Developer,33,10.0,10.0,9.96,"Kotlin, CSS, JavaScript, TypeScript",9.99,9.93,99.75,Job Ready
+Learn Code With Durgesh Officials,Backend Engineer,47,9.74,10.0,9.13,"TypeScript, HTML, Java",9.64,10.0,97.78,Job Ready
+Ramakant Tiwari,Software Intern,19,6.33,7.0,7.73,"Dart, HTML",6.95,7.8,70.19,Almost Ready
+Amar kumar,Full-Stack Developer,33,7.42,5.5,10.0,"CSS, Jupyter Notebook",7.62,9.9,82.44,Job Ready
+Pinaki,Data Analyst,12,10.0,10.0,9.12,"Python, HTML, Go",9.74,6.73,89.15,Job Ready
+Aman Kharwal,Data Analyst,38,9.12,8.5,8.86,Python,8.85,10.0,92.75999999999999,Job Ready
+Vipul Tiwari,Full-Stack Developer,28,10.0,10.0,9.68,"Shell, JavaScript",9.9,9.12,96.96,Job Ready
+Mrugesh Mohapatra,Data Analyst,29,6.58,7.0,7.21,"Python, Shell, TypeScript",6.9,9.26,75.12,Job Ready
+Vijay Mahajan,Data Analyst,20,6.4,5.5,4.65,"Python, Java",5.61,7.9,65.34,Almost Ready
+Kanav Bansal,Data Analyst,45,9.83,7.0,10.0,"Python, Rust, TypeScript",9.03,10.0,95.61,Job Ready
+Sumersing Patil,Software Intern,6,5.28,1.5,6.73,"Python, Jupyter Notebook",4.58,5.78,51.5,Almost Ready
+Samir Paul,Full-Stack Developer,17,10.0,10.0,10.0,"Shell, HTML, JavaScript",10.0,7.43,92.28999999999999,Job Ready
+Nasiullha Chaudhari,Full-Stack Developer,44,10.0,1.5,10.0,JavaScript,7.45,10.0,89.80000000000001,Job Ready
+Coding Dev,Full-Stack Developer,18,7.81,10.0,8.74,"HTML, CSS, JavaScript",8.75,7.57,81.14000000000001,Job Ready
+Kunal Tyagi,Full-Stack Developer,27,10.0,5.5,8.06,"JavaScript, TypeScript",8.07,8.92,89.03999999999999,Job Ready
+sumit kumar,Full-Stack Developer,27,10.0,3.0,7.11,HTML,7.03,8.91,84.85,Job Ready
+Agniva De Sarker,Full-Stack Developer,47,9.07,10.0,7.67,Go,8.93,10.0,92.92999999999999,Job Ready
+Shantun Singh Parmar,Full-Stack Developer,24,6.04,10.0,3.39,"Python, JavaScript",6.44,8.46,69.26,Almost Ready
+sabeer bikba,Software Intern,17,6.33,4.5,4.7,"Vue, HTML, TypeScript",5.29,7.41,62.38,Almost Ready
+InterviewReady,Frontend Engineer,9,10.0,7.0,4.82,"Java, TypeScript",7.55,6.19,78.77,Job Ready
+Tapajyoti Bose,Software Intern,33,9.18,5.5,10.0,"Python, Objective-C++, TypeScript",8.32,9.78,90.16,Job Ready
+Archcraft,Full-Stack Developer,45,10.0,10.0,10.0,Shell,10.0,10.0,100.0,Job Ready
+Himanshu Singh,Software Intern,39,10.0,7.0,10.0,"Kotlin, TypeScript",9.1,10.0,96.4,Job Ready
+Aman Verma,Backend Engineer,21,5.16,7.0,5.27,Java,5.75,7.96,62.36000000000001,Almost Ready
+Rushabh Mehta,Full-Stack Developer,39,6.55,10.0,9.36,"Python, Astro",8.43,10.0,83.37,Job Ready
+Nishant Mittal,Full-Stack Developer,44,8.78,7.0,10.0,TypeScript,8.61,10.0,90.78,Job Ready
+Rohan Rao,Data Analyst,12,9.05,5.5,10.0,"Python, Jupyter Notebook",8.27,6.6,80.03,Job Ready
+Mohit Kumar,Data Analyst,27,10.0,5.5,6.83,Python,7.7,8.85,87.35,Job Ready
+Ayush Sharma,Full-Stack Developer,17,6.02,10.0,10.0,"Python, Java",8.41,7.34,73.72000000000001,Almost Ready
+Sarthak Shrivastava,Full-Stack Developer,22,8.85,5.5,10.0,"PHP, JavaScript",8.19,8.09,83.57999999999998,Job Ready
+Aniket Singh,Data Analyst,13,4.88,5.5,8.05,"Python, Kotlin, JavaScript",6.02,6.74,58.94,Almost Ready
+Neeraj Singh,Backend Engineer,19,10.0,7.0,9.31,"SCSS, Java, Go, JavaScript",8.89,7.64,88.48,Job Ready
+Mohd Iftekhar Qurashi,Full-Stack Developer,29,10.0,5.5,9.5,"Swift, Objective-C",8.5,9.14,91.41999999999999,Job Ready
+Sahil,Full-Stack Developer,27,4.4,3.0,7.37,"C++, TypeScript",4.87,8.83,59.17000000000001,Almost Ready
+Niharika Arora,Full-Stack Developer,29,8.88,10.0,9.49,Kotlin,9.4,9.13,91.63,Job Ready
+Complete Coding with Prashant Sir,Frontend Engineer,15,9.94,10.0,9.36,JavaScript,9.78,7.02,90.0,Job Ready
+SnippetCoder,Backend Engineer,30,8.37,5.5,7.17,"Dart, C++",7.15,9.27,81.52,Job Ready
+Mainak,Full-Stack Developer,44,6.38,7.0,4.69,JavaScript,6.06,10.0,73.38,Almost Ready
+Fenrir,Software Intern,14,8.67,7.0,10.0,"Markdown, JavaScript",8.57,6.87,80.9,Job Ready
+GreatStack,Frontend Engineer,5,10.0,5.5,8.47,"JavaScript, TypeScript",8.19,5.51,79.28999999999999,Job Ready
+Sreeraj S Kurup ,Data Analyst,45,9.24,1.5,4.49,"Python, C++, JavaScript, Shell",5.49,10.0,79.68,Job Ready
+Prashant Kumar Pandey,Full-Stack Developer,29,10.0,7.0,9.93,JavaScript,9.08,9.11,93.65,Job Ready
+Saurav Mukherjee,Full-Stack Developer,41,9.33,10.0,10.0,"HTML, CSS, TypeScript",9.73,10.0,96.91000000000001,Job Ready
+Urvashi,Full-Stack Developer,46,7.13,10.0,8.46,"HTML, JavaScript, TypeScript",8.39,10.0,84.94999999999999,Job Ready
+Chetan Kaushik,Software Intern,38,9.41,6.0,7.28,"PHP, Ruby",7.75,10.0,89.23,Job Ready
+Sujeet Kumar,Full-Stack Developer,36,5.39,7.0,10.0,JavaScript,7.26,10.0,75.21,Job Ready
+tapaScript,Full-Stack Developer,49,9.2,5.5,6.7,"JavaScript, TypeScript",7.34,10.0,86.96,Job Ready
+Archie Sengupta,Data Analyst,46,7.36,5.5,6.35,Python,6.5,10.0,78.08,Job Ready
+Kailash Ahirwar,Full-Stack Developer,21,10.0,10.0,8.66,"Python, MDX, TypeScript",9.6,7.86,91.98,Job Ready
+Chetan Nada,Full-Stack Developer,16,10.0,5.5,7.92,"JavaScript, TypeScript",8.02,7.11,83.41000000000001,Job Ready
+Sanjeev Jaiswal,Full-Stack Developer,24,10.0,8.5,8.38,Python,9.07,8.3,91.18,Job Ready
+Aswin S,Software Intern,9,10.0,5.5,10.0,"HTML, Jupyter Notebook",8.65,6.05,82.75,Job Ready
+Harsh Bothra,Full-Stack Developer,22,10.0,10.0,10.0,"Go, Java",10.0,7.99,93.97,Job Ready
+Jason J Pulikkottil,Full-Stack Developer,27,5.33,5.5,5.7,"Python, JavaScript, Shell",5.49,8.74,64.17,Almost Ready
+Arsh Verma,Full-Stack Developer,31,7.03,10.0,8.18,"Python, JavaScript, TypeScript",8.27,9.34,82.19,Job Ready
+Bhautik Dudhat,Full-Stack Developer,23,4.74,1.5,6.0,"HTML, JavaScript",4.15,8.14,55.24,Almost Ready
+Mathew Sachin,Frontend Engineer,6,10.0,8.5,10.0,"MDX, Kotlin, CSS, C#",9.55,5.58,84.94,Job Ready
+FOSS United Foundation,Full-Stack Developer,43,8.86,10.0,9.14,"Python, Vue, Go",9.29,10.0,93.73999999999998,Job Ready
+Nilarjun Das,Full-Stack Developer,42,10.0,10.0,7.51,"Python, JavaScript",9.25,10.0,97.0,Job Ready
+Anushka Gupta,Full-Stack Developer,21,10.0,5.5,9.45,"HTML, JavaScript",8.49,7.82,87.42000000000002,Job Ready
+Anshul Rajput ,Software Intern,6,5.7,1.5,3.48,"Python, C++, Jupyter Notebook",3.78,5.57,48.93,Needs Improvement
+Shoaib Ahmad,Software Intern,39,3.29,3.0,10.0,"Python, HTML, Jupyter Notebook",5.21,10.0,60.709999999999994,Almost Ready
+Gaurav Baweja,Software Intern,19,5.86,3.0,8.76,"C++, Jupyter Notebook",5.87,7.52,63.620000000000005,Almost Ready
+Abhishek Sharma,Frontend Engineer,11,9.95,5.5,10.0,"C++, Jupyter Notebook",8.63,6.32,83.33,Job Ready
+Arindam B.,Full-Stack Developer,30,6.0,7.0,10.0,Python,7.5,9.15,75.45,Job Ready
+Manoj Vivek,Full-Stack Developer,46,10.0,10.0,9.56,"JavaScript, TypeScript",9.87,10.0,99.48,Job Ready
+Akash Hamirwasia,Full-Stack Developer,43,10.0,10.0,9.55,"Shell, MDX, Vue, TypeScript",9.87,10.0,99.48,Job Ready
+Abu Huraira,Full-Stack Developer,21,6.26,5.5,10.0,"Python, JavaScript",7.15,7.79,70.75,Almost Ready
+Waqar Ahmad,Backend Engineer,23,8.18,7.0,7.34,"C++, Java",7.57,8.09,79.09,Job Ready
+ABHIJITH T ,Full-Stack Developer,23,6.89,5.5,10.0,"Kotlin, TypeScript",7.41,8.09,74.58,Almost Ready
+Vanshika Garg,Full-Stack Developer,44,6.91,5.5,10.0,JavaScript,7.41,10.0,80.37,Job Ready
+Suhel Hasan,Full-Stack Developer,29,5.3,9.0,7.05,"JavaScript, TypeScript",6.94,8.98,70.60000000000001,Almost Ready
+Mayank Gupta 🪿,Full-Stack Developer,16,9.4,5.5,5.26,JavaScript,6.99,7.03,77.25,Job Ready
+Arun Mutharasu,Software Intern,21,9.38,5.5,8.25,C#,7.88,7.78,83.0,Job Ready
+Shiju Varghese,Backend Engineer,37,10.0,7.0,9.44,Go,8.93,10.0,95.72,Job Ready
+CircuitVerse,Full-Stack Developer,20,10.0,10.0,8.7,"Ruby, JavaScript, TypeScript",9.61,7.62,91.29999999999998,Job Ready
+sanal m s,Backend Engineer,21,4.91,7.0,5.74,"Python, C++",5.79,7.77,61.2,Almost Ready
+Harjot Singh Oberai,Full-Stack Developer,29,10.0,5.5,10.0,Java,8.65,8.97,91.50999999999999,Job Ready
+karthikeyan.V,Data Analyst,41,7.92,7.0,10.0,"Python, PHP, HTML, Shell",8.27,10.0,86.83999999999999,Job Ready
+Divyanshu Vyas,Full-Stack Developer,42,8.38,5.5,10.0,Jupyter Notebook,8.0,10.0,87.14,Job Ready
+Ashitesh,Full-Stack Developer,26,7.15,8.5,10.0,"Python, JavaScript, TypeScript",8.41,8.5,80.58999999999999,Job Ready
+S Abhishek,Full-Stack Developer,31,6.13,10.0,10.0,Java,8.45,9.25,79.94,Job Ready
+Kuldeep RajPut,Data Analyst,15,6.26,1.5,5.82,"Python, TypeScript",4.7,6.85,58.129999999999995,Almost Ready
+         Mandeep Malakar ,Full-Stack Developer,43,7.73,10.0,8.38,"JavaScript, TypeScript",8.6,10.0,87.59,Job Ready
+Cybrosys Technologies,Full-Stack Developer,26,9.76,5.5,10.0,"HTML, Dockerfile",8.55,8.5,88.97999999999999,Job Ready
+Subhra Das Gupta,Software Intern,24,10.0,10.0,6.46,"Jupyter Notebook, JavaScript",8.94,8.2,90.36,Job Ready
+Sanu Kumar,Full-Stack Developer,37,7.41,10.0,10.0,JavaScript,8.96,10.0,88.07000000000001,Job Ready
+AndroidIDE,Software Intern,19,10.0,7.0,9.51,"Shell, Batchfile, C, Rust, Java",8.95,7.44,88.12,Job Ready
+Manikandan Raji,Frontend Engineer,7,10.0,1.5,7.76,JavaScript,6.78,5.64,74.03999999999999,Almost Ready
+Mohit Kamboj,Data Analyst,35,7.81,7.0,4.95,"Python, HTML",6.71,9.84,79.79,Job Ready
+Gaurav Arora,Software Intern,40,9.51,7.0,10.0,"Liquid, Jupyter Notebook",8.9,10.0,94.13,Job Ready
+Harshal Chaudhari,Frontend Engineer,13,2.21,1.5,6.15,"C, HTML, CSS, TypeScript",3.18,6.53,38.94,Needs Improvement
+Jiganesh Patil,Full-Stack Developer,48,8.25,10.0,7.73,"Python, JavaScript",8.62,10.0,89.23,Job Ready
+Parth Jadhav,Full-Stack Developer,47,10.0,5.5,8.36,"Shell, Rust, Ruby, TypeScript",8.16,10.0,92.63999999999999,Job Ready
+Nikhil Lohia,Full-Stack Developer,29,8.47,10.0,8.4,"Swift, HTML, JavaScript",8.91,8.93,87.84,Job Ready
+Dheeraj Joshi,Full-Stack Developer,38,10.0,9.0,10.0,JavaScript,9.7,10.0,98.79999999999998,Job Ready
+PYTHON WORLD,Frontend Engineer,12,10.0,10.0,7.76,"Python, HTML",9.33,6.37,86.43,Job Ready
+Garima Jain,Full-Stack Developer,21,8.04,8.5,10.0,"Objective-C, Java",8.77,7.72,82.35999999999999,Job Ready
+Shashank Rustagi,Full-Stack Developer,18,9.46,7.0,5.79,"Dart, HTML, TypeScript",7.62,7.26,80.64,Job Ready
+DEVs Dungeon,Frontend Engineer,7,7.91,7.0,10.0,"HTML, JavaScript",8.26,5.61,73.6,Almost Ready
+Ragunath Jawahar,Full-Stack Developer,50,10.0,8.5,10.0,TypeScript,9.55,10.0,98.2,Job Ready
+Code for Good Tech (C4GT),Data Analyst,17,9.35,8.5,9.84,"Python, TypeScript",9.24,7.11,86.34,Job Ready
+Abhigyan Patwari,Full-Stack Developer,20,10.0,7.5,9.16,"Python, TypeScript",9.0,7.55,88.65,Job Ready
+AFSAL  AT,Full-Stack Developer,23,4.85,4.5,7.27,"Python, HTML, TypeScript",5.47,8.0,60.43,Almost Ready
+Prathy,Data Analyst,20,5.47,1.5,7.98,"Python, Jupyter Notebook",5.03,7.55,59.17999999999999,Almost Ready
+Surfside Media,Software Intern,9,8.11,10.0,9.54,"PHP, HTML, CSS",9.1,5.89,78.4,Job Ready
+Vipul Vaibhaw,Data Analyst,19,8.43,8.5,10.0,"Python, Rust",8.92,7.39,83.14,Job Ready
+Dr.Caduceus,Frontend Engineer,13,10.0,10.0,3.54,Python,8.06,6.49,81.71,Job Ready
+Paras Jain,Full-Stack Developer,30,9.63,5.5,8.37,"Dart, C++, JavaScript",8.01,9.04,88.05,Job Ready
+Yash Mittra,Full-Stack Developer,45,7.5,5.5,8.5,Jupyter Notebook,7.2,10.0,81.30000000000001,Job Ready
+Akash Kumar,Full-Stack Developer,28,6.87,10.0,10.0,"PHP, HTML, CSS",8.75,8.73,81.8,Job Ready
+Devfolio,Data Analyst,25,9.41,10.0,10.0,"Python, MDX, TypeScript",9.77,8.28,92.15,Job Ready
+Yogesh Haribhau Kulkarni,Data Analyst,16,8.68,5.5,10.0,Python,8.12,6.93,79.30999999999999,Job Ready
+GOPIKRISHNAN S,Software Intern,19,6.1,10.0,5.51,"Python, Kotlin, HTML, JavaScript",7.09,7.38,68.80000000000001,Almost Ready
+Gevendra Sahu,Full-Stack Developer,17,8.48,10.0,7.49,"HTML, CSS, JavaScript",8.64,7.08,81.24000000000001,Job Ready
+Dinudsi,Backend Engineer,34,4.12,3.0,8.12,"JavaScript, Java",4.98,9.63,61.17,Almost Ready
+Gaurav Ghai,Full-Stack Developer,18,9.0,5.5,8.08,"HTML, TypeScript",7.67,7.22,79.33999999999999,Job Ready
+Shivam Bhadani,Full-Stack Developer,36,7.0,8.5,6.92,"Go, JavaScript, TypeScript",7.43,9.92,80.48,Job Ready
+Codedamn,Full-Stack Developer,16,9.43,7.0,9.38,"HTML, JavaScript, TypeScript",8.69,6.92,83.81,Job Ready
+Tomas Cooper,Frontend Engineer,13,5.35,5.5,9.85,JavaScript,6.74,6.46,62.39,Almost Ready
+Samanta Das,Frontend Engineer,14,5.41,5.5,8.24,"Python, TypeScript",6.28,6.61,61.180000000000014,Almost Ready
+Priyanka Jha,Frontend Engineer,13,8.67,5.5,8.9,Jupyter Notebook,7.79,6.46,76.55,Job Ready
+CRED,Data Analyst,16,10.0,10.0,9.45,"Ruby, Go, Python, Smarty, Java",9.84,6.91,90.09,Job Ready
+YBI Foundation,Full-Stack Developer,25,10.0,5.5,6.19,Jupyter Notebook,7.51,8.26,84.82,Job Ready
+Ujaval Gandhi,Full-Stack Developer,35,7.96,10.0,8.34,"Python, HTML",8.69,9.75,87.89,Job Ready
+Ankit Kumar,Software Intern,34,9.29,7.0,10.0,C,8.82,9.6,91.95,Job Ready
+satyam ,Backend Engineer,21,5.33,8.5,8.99,"HTML, Java",7.38,7.65,68.46000000000001,Almost Ready
+Swati Tanu,Full-Stack Developer,43,4.18,5.5,10.0,"JavaScript, TypeScript",6.32,10.0,67.82,Almost Ready
+Mohit Sehrawat,Full-Stack Developer,20,7.78,10.0,8.33,JavaScript,8.61,7.5,80.28,Job Ready
+Krish Lalwani ,Full-Stack Developer,18,7.95,10.0,9.15,"Python, Java",8.92,7.2,81.13,Job Ready
+CSEdge,Frontend Engineer,15,8.36,5.5,6.01,"JavaScript, TypeScript",6.8,6.74,72.5,Almost Ready
+Khushi Chetule ,Full-Stack Developer,39,5.9,7.5,6.76,"JavaScript, TypeScript",6.64,10.0,74.26,Almost Ready
+The Spirit of Nikola Tesla,Full-Stack Developer,19,7.19,5.5,9.65,"Python, Jupyter Notebook",7.42,7.34,73.27,Almost Ready
+Fayas,Full-Stack Developer,44,9.51,8.5,9.12,"Python, TypeScript",9.09,10.0,94.89000000000001,Job Ready
+Moncy Yohannan,Frontend Engineer,8,9.24,1.5,5.93,"JavaScript, TypeScript",5.92,5.69,68.47,Almost Ready
+Megh Bari,Full-Stack Developer,44,10.0,8.5,10.0,TypeScript,9.55,10.0,98.2,Job Ready
+Prasad Gujar,Full-Stack Developer,31,10.0,8.5,10.0,"Python, JavaScript",9.55,9.14,95.62,Job Ready
+Aryan Kyatham,Full-Stack Developer,31,7.38,4.5,8.28,"Python, C++, JavaScript, SCSS",6.78,9.13,76.65,Job Ready
+Vishal Krishna ,Full-Stack Developer,49,4.35,8.5,10.0,JavaScript,7.29,10.0,72.21000000000001,Almost Ready
+‎Harsh Kumar Singh,Data Analyst,19,7.01,1.5,6.46,"Python, Prolog, Jupyter Notebook, Java",5.19,7.33,63.78,Almost Ready
+Kunal Ghosh,Software Intern,18,7.93,5.5,10.0,"SourcePawn, Verilog",7.82,7.18,76.61,Job Ready
+Ajay Kumar S,Full-Stack Developer,44,5.61,7.0,8.58,Python,6.92,10.0,74.51,Almost Ready
+ReactPlayIO,Frontend Engineer,14,10.0,7.0,10.0,"HTML, TypeScript",9.1,6.58,86.14000000000001,Job Ready
+BackSlash Flutter,Full-Stack Developer,34,8.32,8.5,10.0,HTML,8.88,9.58,89.22,Job Ready
+Kunal jain,Software Intern,31,9.14,5.5,7.76,Jupyter Notebook,7.63,9.12,85.30000000000001,Job Ready
+Hassan Shoayb,Data Analyst,35,5.66,7.0,8.02,Python,6.77,9.72,73.22000000000001,Almost Ready
+Ashish Kulkarni,Backend Engineer,6,8.97,4.5,10.0,"Python, C, Go",7.94,5.37,74.78,Almost Ready
+sarvam.ai,Data Analyst,33,8.08,5.5,10.0,"Python, TypeScript",7.88,9.42,84.02,Job Ready
+Ankam Ravi Kumar,Full-Stack Developer,18,9.98,8.5,8.79,"PHP, Python, PowerShell",9.18,7.17,88.17,Job Ready
+Tech VJ,Data Analyst,28,10.0,1.5,6.39,Python,6.37,8.67,81.49000000000001,Job Ready
+Aaditya Sinha,Frontend Engineer,5,3.42,9.0,6.15,"CSS, JavaScript",5.91,5.22,49.56,Needs Improvement
+Aman Goel,Frontend Engineer,12,5.95,5.5,10.0,JavaScript,7.03,6.27,64.78,Almost Ready
+Nirmalya Ghosh,Full-Stack Developer,46,9.67,7.0,7.14,"MDX, TypeScript",8.11,10.0,91.44999999999999,Job Ready
+Santosh Baliarsingh,Full-Stack Developer,33,6.05,5.5,5.9,JavaScript,5.84,9.41,69.74000000000001,Almost Ready
+Aditya Tiwari,Full-Stack Developer,22,8.97,7.0,8.16,TypeScript,8.14,7.76,82.75,Job Ready
+Cloud Wala Banda,Frontend Engineer,5,9.04,5.5,8.44,"Shell, Jupyter Notebook",7.8,5.21,73.94999999999999,Almost Ready
+HARSHITA,Full-Stack Developer,23,5.97,10.0,7.98,"Dart, C++, Jupyter Notebook, JavaScript",7.78,7.91,72.75999999999999,Almost Ready
+Saurabh Kumar,Full-Stack Developer,28,3.9,10.0,4.75,"HTML, JavaScript",5.99,8.66,61.64,Almost Ready
+Punyapal Shah ,Full-Stack Developer,31,8.93,10.0,9.73,"PHP, HTML",9.49,9.11,92.08,Job Ready
+LogicOps Lab by Ravish,Data Analyst,21,9.32,5.5,8.2,"Python, CSS, JavaScript, HCL",7.84,7.6,82.12,Job Ready
+Shiv Singh,Data Analyst,17,2.52,5.5,10.0,"Python, TypeScript",5.66,7.0,51.20000000000001,Almost Ready
+Aayushi Sharma,Full-Stack Developer,26,8.32,10.0,7.91,Python,8.7,8.35,84.81,Job Ready
+Sobhit jadoun,Software Intern,35,9.82,10.0,7.4,"Shell, Python, JavaScript",9.15,9.7,95.16,Job Ready
+Kiran Jonnalagadda,Full-Stack Developer,42,6.18,10.0,8.96,"Shell, Python",8.16,10.0,81.18,Job Ready
+Avanish Mani Tripathi,Full-Stack Developer,27,5.16,7.0,3.93,Java,5.34,8.5,62.34,Almost Ready
+LetsUpgrade Community,Backend Engineer,33,9.81,8.5,8.69,"Jupyter Notebook, HTML, JavaScript, Java",9.08,9.4,93.94999999999999,Job Ready
+Abhishek D. Patil,Full-Stack Developer,28,6.45,7.0,5.27,Java,6.26,8.65,70.34,Almost Ready
+Pugalarasan,Software Intern,20,10.0,7.0,8.36,"Shell, Python, HTML, Go",8.61,7.44,86.76,Job Ready
+Nabin Hait,Full-Stack Developer,48,5.33,1.5,10.0,JavaScript,5.58,10.0,68.31,Almost Ready
+Shubham Panchal,Software Intern,46,9.81,10.0,10.0,"Kotlin, C",9.92,10.0,99.11,Job Ready
+Ankit Gupta,Software Intern,16,9.15,8.5,10.0,"HTML, Jupyter Notebook",9.21,6.84,84.81000000000002,Job Ready
+Kashyap Patel,Full-Stack Developer,21,4.63,10.0,9.97,"HTML, JavaScript",7.84,7.59,68.02000000000001,Almost Ready
+Hackers Colony Official,Data Analyst,50,7.78,7.0,3.84,"Python, Shell",6.36,10.0,78.78,Job Ready
+RAJKUMAR,Data Analyst,42,5.49,7.0,6.88,"Python, Jupyter Notebook, TypeScript",6.36,10.0,71.91000000000001,Almost Ready
+Shyam Seshadri,Full-Stack Developer,20,10.0,7.0,10.0,"JavaScript, TypeScript",9.1,7.44,88.72,Job Ready
+Ankit Priyarup,Full-Stack Developer,38,10.0,5.5,7.77,"Jupyter Notebook, JavaScript, TypeScript",7.98,10.0,91.92,Job Ready
+Madhukara Phatak,Full-Stack Developer,48,9.25,10.0,10.0,"Jupyter Notebook, HTML, Scala, JavaScript",9.7,10.0,96.55,Job Ready
+Pankaj Kumar,Frontend Engineer,6,10.0,5.5,9.21,JavaScript,8.41,5.34,79.66,Job Ready
+Ramaguru Radhakrishnan,Full-Stack Developer,34,6.0,10.0,9.9,"Python, HTML",8.37,9.54,80.09999999999998,Job Ready
+Harshit Joshi,Data Analyst,26,7.73,1.5,5.82,"Python, JavaScript, TypeScript",5.29,8.34,69.37,Almost Ready
+Aditya Telange,Data Analyst,40,10.0,10.0,6.04,"Python, JavaScript",8.81,10.0,95.24000000000001,Job Ready
+Lakshay Kumar,Frontend Engineer,14,6.22,4.5,6.09,"Python, HTML",5.67,6.53,60.93,Almost Ready
+Swapnil Srivastava,Full-Stack Developer,44,10.0,8.5,9.04,"Go, TypeScript",9.26,10.0,97.04,Job Ready
+Piyush Agrawal,Full-Stack Developer,40,7.33,8.5,10.0,JavaScript,8.48,10.0,85.91000000000001,Job Ready
+Japneet Sachdeva,Full-Stack Developer,25,7.93,8.5,6.97,"Java, JavaScript, TypeScript",7.81,8.18,79.57,Job Ready
+Snaxxx,Frontend Engineer,13,3.73,1.5,2.25,Shell,2.62,6.38,40.809999999999995,Needs Improvement
+Manoj Kumar,Full-Stack Developer,28,6.72,10.0,2.34,JavaScript,6.39,8.63,71.61,Almost Ready
+Tarun Kumar Sao,Full-Stack Developer,39,5.16,7.0,10.0,"JavaScript, TypeScript",7.17,10.0,74.16,Almost Ready
+Karandeep Singh Grover,Frontend Engineer,8,6.02,5.5,10.0,"Python, Jupyter Notebook",7.06,5.62,63.16,Almost Ready
+Tony George,Software Intern,25,10.0,10.0,6.66,Shell,9.0,8.17,90.51,Job Ready
+Alex,Frontend Engineer,10,5.82,1.5,10.0,"Python, JavaScript, TypeScript",5.78,5.92,58.339999999999996,Almost Ready
+AD,Backend Engineer,41,6.87,5.5,6.26,"C++, Go, HCL",6.28,10.0,75.73,Job Ready
+Pradeep Pandey ,Full-Stack Developer,21,9.08,5.5,8.88,JavaScript,7.95,7.57,81.75,Job Ready
+kailash jha,Full-Stack Developer,37,4.18,7.0,5.65,JavaScript,5.47,9.96,64.3,Almost Ready
+PyContributors Developers Community,Data Analyst,47,10.0,10.0,6.93,"Python, HTML",9.08,10.0,96.32,Job Ready
+Karishma Shukla,Full-Stack Developer,35,7.38,7.0,9.37,"C, JavaScript, TypeScript",7.87,9.66,82.6,Job Ready
+Aakib khan,Full-Stack Developer,50,9.55,1.5,4.8,"Handlebars, TypeScript",5.71,10.0,81.49000000000001,Job Ready
+Abhishek Prajapatt,Backend Engineer,28,7.37,5.5,10.0,"C, JavaScript, Java",7.6,8.61,78.34,Job Ready
+Bala Priya C,Full-Stack Developer,33,8.96,1.5,6.98,Jupyter Notebook,6.13,9.36,79.48,Job Ready
+Divyanshu Maithani,Full-Stack Developer,46,7.3,10.0,8.62,"JavaScript, TypeScript",8.51,10.0,85.94,Job Ready
+Umesh Shinde,Data Analyst,33,9.41,5.5,8.68,"Python, HTML",8.02,9.36,88.39,Job Ready
+Shijith Kunhitty,Software Intern,47,6.32,10.0,10.0,"Python, Svelte",8.53,10.0,83.08,Job Ready
+Indian Algorithmic Trading Community,Backend Engineer,14,7.47,1.5,9.33,"Python, C, Go",6.24,6.51,66.89999999999999,Almost Ready
+Mitul Golakiya,Full-Stack Developer,24,8.63,5.5,9.57,Java,7.97,8.01,81.8,Job Ready
+RAVI MISHRA,Software Intern,22,4.74,4.5,8.03,"PHP, Shell",5.65,7.71,59.95,Almost Ready
+Sreya Satheesh,Frontend Engineer,15,6.64,1.5,4.0,TypeScript,4.31,6.66,57.13999999999999,Almost Ready
+Lungoupao Khongsai,Frontend Engineer,14,4.78,5.5,10.0,JavaScript,6.56,6.5,60.08,Almost Ready
+Technitium,Software Intern,6,10.0,5.5,8.54,C#,8.21,5.3,78.74000000000001,Job Ready
+Avishkar Patil,Data Analyst,8,10.0,3.0,3.97,"Python, PHP, JavaScript",6.09,5.6,71.16,Almost Ready
+Ajay S,Full-Stack Developer,18,6.71,5.5,10.0,"Python, R, Jupyter Notebook",7.33,7.1,70.75,Almost Ready
+Sourav ,Frontend Engineer,15,10.0,10.0,10.0,JavaScript,10.0,6.65,89.95000000000002,Job Ready
+Ivin Titus,Backend Engineer,21,5.41,5.5,10.0,"Go, JavaScript",6.81,7.55,66.12,Almost Ready
+Arun,Data Analyst,27,7.85,5.5,10.0,"Python, TSQL",7.79,8.45,80.06,Job Ready
+Vishal R,Software Intern,6,7.98,3.0,5.33,"PHP, Python, JavaScript",5.69,5.3,62.599999999999994,Almost Ready
+MindOrks,Full-Stack Developer,26,10.0,7.0,10.0,"Kotlin, HTML",9.1,8.29,91.26999999999998,Job Ready
+Sitaram Chamarty,Full-Stack Developer,16,10.0,10.0,10.0,"Vim Script, Perl",10.0,6.79,90.36999999999999,Job Ready
+Anshuman Yadav,Full-Stack Developer,48,4.3,1.5,5.84,TypeScript,3.92,10.0,58.58,Almost Ready
+ControllersTech,Frontend Engineer,6,8.52,5.5,9.99,C,8.05,5.29,73.63,Almost Ready
+Anubhav Kashyap,Full-Stack Developer,23,9.26,4.5,6.52,"Python, HTML",7.01,7.84,79.34,Job Ready
+Vanshaj,Frontend Engineer,5,10.0,5.5,9.4,Go,8.47,5.14,79.3,Job Ready
+AKARSH JHA,Full-Stack Developer,44,7.21,7.0,8.43,"Dart, Python, Jupyter Notebook, JavaScript",7.51,10.0,81.67,Job Ready
+Ayon Roy,Frontend Engineer,7,8.76,7.0,9.2,HTML,8.37,5.44,76.08000000000001,Job Ready
+Sunchit Dudeja,Full-Stack Developer,20,9.01,3.0,6.0,JavaScript,6.3,7.39,74.39999999999999,Almost Ready
+Pavan Podila,Software Intern,33,7.13,5.5,10.0,"Dart, JavaScript",7.5,9.34,79.41,Job Ready
+NitinSemwal,Full-Stack Developer,42,6.26,8.5,10.0,"JavaScript, TypeScript",8.05,10.0,80.98,Job Ready
+developersIndia,Frontend Engineer,11,7.73,10.0,6.84,"Python, HTML, CSS",8.14,6.04,73.86999999999999,Almost Ready
+Keshav Bagaade,Full-Stack Developer,23,7.78,5.5,10.0,TypeScript,7.76,7.83,77.86999999999999,Job Ready
+Gagan Kumar Jindal,Full-Stack Developer,22,4.3,3.0,9.23,"HTML, JavaScript",5.39,7.68,57.5,Almost Ready
+Shraddha Agrawal,Software Intern,49,7.59,5.5,7.76,Shell,7.02,10.0,80.85,Job Ready
+Analytics India Magazine,Frontend Engineer,10,8.54,5.5,9.37,"CSS, JavaScript",7.88,5.88,74.78,Almost Ready
+Ashwini Sahu,Full-Stack Developer,47,9.82,4.5,8.51,"Shell, JavaScript",7.83,10.0,90.78,Job Ready
+Induprasad S R,Frontend Engineer,13,5.19,3.0,9.64,HTML,5.87,6.33,58.040000000000006,Almost Ready
+TrainWithShubham | DevOps & Cloud Community,Frontend Engineer,14,10.0,8.5,4.98,"Python, HCL",8.04,6.48,81.6,Job Ready
+GirlScript Foundation,Full-Stack Developer,41,10.0,10.0,9.92,JavaScript,9.98,10.0,99.92000000000002,Job Ready
+Ashita Prasad,Software Intern,21,5.85,7.0,10.0,"Dart, Python, TypeScript",7.44,7.53,69.9,Almost Ready
+Yogini Bende,Full-Stack Developer,16,7.62,5.5,8.82,JavaScript,7.35,6.77,72.57,Almost Ready
+Suraj Upadhyay,Full-Stack Developer,36,5.28,10.0,8.32,TypeScript,7.61,9.77,75.58999999999999,Job Ready
+Aakash Rao,Frontend Engineer,14,8.66,1.5,7.34,"Shell, C",6.12,6.47,69.87,Almost Ready
+Jay Sabva,Backend Engineer,32,5.54,7.5,8.83,"Shell, Rust, Java",7.11,9.17,72.57000000000001,Almost Ready
+Vinayak Sarawagi,Backend Engineer,40,4.91,7.0,10.0,"Go, TypeScript",7.06,10.0,72.97,Almost Ready
+Vipin Mishra,Full-Stack Developer,21,3.82,1.5,9.88,Python,4.94,7.52,53.78,Almost Ready
+Deepak Sharma,Full-Stack Developer,34,4.05,7.0,9.8,"CSS, JavaScript",6.66,9.47,67.2,Almost Ready
+Saswat Seth,Data Analyst,43,4.4,10.0,10.0,"Python, Jupyter Notebook",7.76,10.0,74.24000000000001,Almost Ready
+Gaurav Kesh Roushan,Full-Stack Developer,46,5.75,8.5,10.0,"HTML, Go, TypeScript",7.85,10.0,78.65,Job Ready
+Yash Bhindia,Backend Engineer,35,4.78,7.0,4.54,Java,5.37,9.61,64.65,Almost Ready
+Prajjwal Pathak,Data Analyst,44,9.15,4.5,8.85,"Python, JavaScript, TypeScript",7.67,10.0,88.13,Job Ready
+Ritik Prasad,Software Intern,17,7.76,1.5,4.63,"Swift, JavaScript, Java",4.94,6.91,63.77000000000001,Almost Ready
+Bhupesh Varshney,Backend Engineer,33,10.0,10.0,9.31,"Go, JavaScript",9.79,9.31,97.09,Job Ready
+Aditya Ramesh,Data Analyst,28,9.38,10.0,9.17,"Python, CSS",9.5,8.56,91.82000000000001,Job Ready
+Himanshu Kumar,Full-Stack Developer,16,5.16,7.0,8.87,"C++, HTML, CSS",6.83,6.76,63.08,Almost Ready
+Gogul Ilango,Full-Stack Developer,16,9.22,8.5,10.0,"Python, HTML, CSS, JavaScript",9.24,6.76,84.9,Job Ready
+Mohammed Ismail,Full-Stack Developer,41,9.94,8.5,8.79,JavaScript,9.16,10.0,96.46,Job Ready
+The Ashish Gavade,Full-Stack Developer,29,7.28,10.0,10.0,"Python, HTML",8.91,8.71,83.61000000000001,Job Ready
+Testers Talk,Data Analyst,30,8.78,8.5,9.0,"Python, HTML, TypeScript",8.76,8.86,87.96,Job Ready
+Muhammed,Data Analyst,19,6.04,10.0,10.0,"Python, HTML",8.42,7.21,73.43,Almost Ready
+Acode Foundation,Full-Stack Developer,20,10.0,7.0,9.72,"JavaScript, TypeScript",9.02,7.35,88.13,Job Ready
+Nishanth Vijayan,Full-Stack Developer,34,8.88,10.0,10.0,"JavaScript, Java",9.55,9.45,93.19,Job Ready
+Code Artisan Lab,Full-Stack Developer,42,7.8,5.5,8.68,"JavaScript, TypeScript",7.37,10.0,82.88,Job Ready
+Aryan,Frontend Engineer,14,6.56,5.5,8.04,"Python, JavaScript, TypeScript",6.69,6.45,65.79,Almost Ready
+King Sidharth,Full-Stack Developer,30,9.42,5.5,8.76,"Python, TypeScript",8.05,8.85,87.01,Job Ready
+RevoltSecurities,Backend Engineer,31,9.93,5.5,6.11,"Python, Go",7.46,9.0,86.62999999999998,Job Ready
+Tutor Joes,Full-Stack Developer,24,7.06,5.5,8.89,"Dart, CSS, JavaScript",7.14,7.95,73.59,Almost Ready
+Anirudh Murali,Frontend Engineer,13,4.54,5.5,8.31,"TSQL, Jupyter Notebook, Julia, JavaScript",5.96,6.3,56.36,Almost Ready
+Farman Tasleem,Full-Stack Developer,33,5.37,3.0,6.14,"JavaScript, TypeScript",4.89,9.3,63.57,Almost Ready
+Coding Wallah,Frontend Engineer,11,6.45,1.5,7.72,"CSS, Java",5.35,5.99,58.72,Almost Ready
+Harshil Shah,Full-Stack Developer,33,10.0,8.5,7.15,Swift,8.7,9.29,92.66999999999999,Job Ready
+Gaurav kumar,Full-Stack Developer,46,4.3,7.0,7.22,JavaScript,5.99,10.0,66.86000000000001,Almost Ready
+Anirudh Malik,Backend Engineer,5,9.24,1.5,9.56,"Shell, JavaScript, Java",7.01,5.09,71.03,Almost Ready
+Blank,Software Intern,8,9.48,1.5,5.89,"Python, V, Go, C#",6.01,5.54,69.1,Almost Ready
+Navdeep,Full-Stack Developer,33,7.16,7.0,9.27,"Vue, HTML, TypeScript",7.75,9.29,80.35,Job Ready
+Muhammed Afsal Villan,Backend Engineer,18,9.55,5.5,7.7,Java,7.78,7.04,80.89,Job Ready
+Vicky Chijwani,Software Intern,41,8.93,10.0,9.83,"Dockerfile, JavaScript, Java",9.52,10.0,94.87,Job Ready
+Md Saban,Full-Stack Developer,16,7.77,8.5,7.37,"JavaScript, TypeScript",7.87,6.74,75.00999999999999,Job Ready
+Tech God,Data Analyst,39,10.0,5.5,9.03,Python,8.36,10.0,93.44,Job Ready
+Priyanka Sharma,Full-Stack Developer,27,9.51,9.0,4.61,"Python, JavaScript, TypeScript",7.89,8.39,85.25999999999999,Job Ready
+Abhishek Aggarwal,Backend Engineer,41,8.68,3.0,10.0,"Kotlin, Java",7.37,10.0,85.52,Job Ready
+Rishiraj Sharma,Frontend Engineer,8,8.97,5.5,8.28,MDX,7.72,5.54,74.41000000000001,Almost Ready
+Daksh P. Jain,Software Intern,41,9.1,10.0,9.45,"Python, Jupyter Notebook, TypeScript",9.48,10.0,95.22,Job Ready
+Ashwin Hariharan,Full-Stack Developer,28,10.0,8.5,10.0,"Python, Jupyter Notebook",9.55,8.54,93.82,Job Ready
+Rushikesh Konapure,Software Intern,38,7.42,7.0,9.28,"HTML, Svelte",7.85,10.0,83.66,Job Ready
+Pratap Vardhan,Full-Stack Developer,36,8.18,10.0,10.0,"Python, Jupyter Notebook, HTML, JavaScript",9.27,9.73,90.81,Job Ready
+Sourav Kalal,Software Intern,32,9.37,10.0,9.49,"Java, TypeScript, JavaScript, C#",9.59,9.13,93.86000000000001,Job Ready
+Daksh Jain,Full-Stack Developer,34,4.91,3.0,7.02,"Python, TypeScript",4.97,9.43,62.9,Almost Ready
+Kaiwan N Billimoria,Software Intern,49,7.97,5.5,8.05,"Shell, C",7.25,10.0,82.91,Job Ready
+Nisarga Adhikary,Full-Stack Developer,39,8.37,5.5,9.14,"Python, C++, Vue, TypeScript",7.74,10.0,86.07,Job Ready
+Princi Vershwal,Full-Stack Developer,28,5.16,3.0,8.27,JavaScript,5.45,8.53,62.87,Almost Ready
+Abhishek Suresh,Frontend Engineer,10,10.0,5.5,7.5,JavaScript,7.9,5.83,79.09,Job Ready
+Swapnil Rao,Data Analyst,19,5.95,1.5,6.71,"Python, C++",4.84,7.18,58.75,Almost Ready
+iSPIRT/ProductNation,Full-Stack Developer,36,7.6,10.0,9.38,"Python, C++",8.85,9.73,87.38999999999999,Job Ready
+Roop Aparajita Subhra Purushottam,Data Analyst,24,8.86,5.5,6.32,Python,7.09,7.93,78.72999999999999,Job Ready
+Shyam Tawli,Full-Stack Developer,34,9.27,10.0,10.0,JavaScript,9.71,9.43,94.94,Job Ready
+Prateek,Full-Stack Developer,29,9.53,10.0,6.75,"JavaScript, TypeScript",8.83,8.67,89.91999999999999,Job Ready
+Ashish Kumar,Backend Engineer,34,5.24,7.0,5.34,Java,5.8,9.42,67.18,Almost Ready
+Abhishek Gandre,Software Intern,37,5.21,3.0,1.8,"HTML, Groovy, Java",3.53,9.87,59.35999999999999,Almost Ready
+Pratik Bhavsar,Full-Stack Developer,38,8.07,7.0,10.0,"Python, Jupyter Notebook, HTML, JavaScript",8.33,10.0,87.53,Job Ready
+Pranit Bauva,Data Analyst,29,6.07,7.0,9.06,"Python, Go",7.25,8.67,73.22,Almost Ready
+NetworkEvolution,Data Analyst,23,8.0,5.5,5.6,Python,6.53,7.77,73.43,Almost Ready
+Karthik Balakrishnan,Full-Stack Developer,50,7.56,10.0,9.36,JavaScript,8.83,10.0,88.0,Job Ready
+Ben S George,Full-Stack Developer,50,10.0,5.5,9.97,JavaScript,8.64,10.0,94.56,Job Ready
+Seema Saharan,Full-Stack Developer,35,6.18,8.5,10.0,"Python, HCL, JavaScript, TypeScript",8.02,9.56,79.30000000000001,Job Ready
+ARUNAGIRINATHAN_K ,Full-Stack Developer,35,7.55,10.0,9.77,"Python, Jupyter Notebook, Java",8.95,9.56,87.13000000000001,Job Ready
+Pushkar Dangi,Full-Stack Developer,36,4.54,7.0,6.8,"HTML, JavaScript, TypeScript",5.96,9.71,66.59,Almost Ready
+Deepak,Full-Stack Developer,29,6.17,5.5,9.23,"Python, JavaScript",6.89,8.66,72.05,Almost Ready
+Rohit Kushvaha,Full-Stack Developer,35,8.95,3.0,8.14,"JavaScript, Kotlin, Java, TypeScript",6.92,9.56,83.21,Job Ready
+Sarita Maurya,Full-Stack Developer,19,4.94,7.0,8.49,"Shell, Jupyter Notebook",6.62,7.16,62.78,Almost Ready
+Harsh Jaiswal,Full-Stack Developer,40,5.52,7.0,10.0,JavaScript,7.31,10.0,75.8,Job Ready
+Pari Meena,Full-Stack Developer,26,5.57,1.5,8.36,"HTML, JavaScript",5.19,8.21,62.1,Almost Ready
+anand  chauhan,Full-Stack Developer,39,7.74,5.5,8.27,Python,7.23,10.0,82.14,Job Ready
+BlackPerl,Full-Stack Developer,20,7.9,5.5,10.0,"SCSS, Jupyter Notebook",7.81,7.3,76.84,Job Ready
+Aadith Sukumar,Data Analyst,34,10.0,10.0,9.27,"Python, Jupyter Notebook, TypeScript",9.78,9.4,97.32,Job Ready
+Mohit Kumar,Full-Stack Developer,30,4.24,7.0,7.44,"CSS, JavaScript, C#",6.03,8.8,63.24000000000001,Almost Ready
+lalit wagh,Data Analyst,31,8.99,7.0,9.05,"Python, CSS",8.41,8.95,87.45999999999998,Job Ready
+Shobha Malviya,Full-Stack Developer,27,5.11,3.0,5.79,"HTML, JavaScript",4.68,8.35,59.1,Almost Ready
+Gaurav Ganguly,Full-Stack Developer,19,4.18,7.0,8.74,"HTML, JavaScript, Java",6.39,7.15,59.55,Almost Ready
+LooKeR,Software Intern,19,8.16,10.0,10.0,"Astro, Kotlin, Java",9.26,7.15,82.97,Job Ready
+Shivam Shekhar,Full-Stack Developer,27,7.62,9.0,4.77,"HTML, JavaScript, TypeScript",7.18,8.35,76.63,Job Ready
+Divit Mittal,Full-Stack Developer,50,7.46,5.5,5.64,"Nix, Jinja",6.32,10.0,77.66,Job Ready
+procademy,Frontend Engineer,13,8.71,5.5,8.73,"JavaScript, TypeScript",7.76,6.25,75.92,Job Ready
+Kashish Kanojia,Data Analyst,8,9.53,10.0,7.94,"Python, Batchfile",9.19,5.5,81.85000000000001,Job Ready
+Shrutz,Full-Stack Developer,26,6.05,10.0,6.66,"Solidity, TypeScript",7.42,8.2,72.42999999999998,Almost Ready
+Tummala Dhanvi,Frontend Engineer,9,3.73,5.5,10.0,"Ruby, JavaScript, TypeScript",6.14,5.64,52.669999999999995,Almost Ready
+Kauserali,Full-Stack Developer,30,7.05,7.0,9.96,JavaScript,7.91,8.79,79.16,Job Ready
+Aryan Vikash,Full-Stack Developer,37,10.0,7.0,5.15,"JavaScript, TypeScript",7.65,9.84,90.12,Job Ready
+Abhay Faldu,Full-Stack Developer,37,4.7,7.0,10.0,TypeScript,6.98,9.84,71.53999999999999,Almost Ready
+Apurva Kumar,Software Intern,44,5.14,6.0,7.35,"TSQL, Jupyter Notebook, PLpgSQL, JavaScript",6.06,10.0,69.66,Almost Ready
+Anubhav Choubey,Full-Stack Developer,48,6.35,7.0,6.41,"Python, Jupyter Notebook",6.57,10.0,75.33,Job Ready
+Neha Yadav,Full-Stack Developer,32,8.96,1.5,8.7,Go,6.64,9.09,80.71,Job Ready
+Aditya Tripathi,Full-Stack Developer,25,4.91,10.0,10.0,"Python, TypeScript",7.96,8.04,70.69,Almost Ready
+Aarnav Jindal,Full-Stack Developer,46,6.92,5.5,9.85,"Swift, TypeScript, Java",7.37,10.0,80.24000000000001,Job Ready
+Harsh H. Rajpurohit,Full-Stack Developer,16,8.95,3.0,9.51,"Dart, Ruby, JavaScript, Java",7.33,6.69,76.24,Job Ready
+Programmer Gaurav,Full-Stack Developer,35,9.06,10.0,6.34,JavaScript,8.53,9.54,89.91999999999999,Job Ready
+Shashank Mehta,Full-Stack Developer,18,8.98,10.0,6.69,"CSS, JavaScript, TypeScript",8.6,6.99,82.31,Job Ready
+Ashish Gupta,Full-Stack Developer,20,3.53,7.0,9.71,"JavaScript, Java",6.43,7.29,58.18000000000001,Almost Ready
+Infosec Warrior,Full-Stack Developer,25,9.4,8.5,5.34,CSS,7.91,8.04,83.96,Job Ready
+Saquib Shadab,Software Intern,18,5.08,3.0,5.09,"Liquid, Jupyter Notebook",4.46,6.98,54.02,Almost Ready
+Arjun Singh,Full-Stack Developer,33,6.09,10.0,9.28,"TypeScript, CSS, JavaScript, Java",8.22,9.23,78.84,Job Ready
+Sukhbir Singh,Full-Stack Developer,45,7.66,3.0,10.0,Java,6.96,10.0,80.82000000000001,Job Ready
+Karthik S ✔️,Backend Engineer,18,4.4,7.0,6.67,Java,5.86,6.98,57.58000000000001,Almost Ready
+Shashi Ranjan,Backend Engineer,23,3.82,7.0,10.0,Java,6.63,7.73,61.17,Almost Ready
+Mr. Sangwan,Frontend Engineer,6,9.06,7.0,10.0,"JavaScript, Python, Java, TypeScript",8.73,5.18,77.64,Job Ready
+NALAN,Frontend Engineer,14,5.79,1.5,8.58,"Python, Assembly, C",5.34,6.38,57.87,Almost Ready
+Prateek Gianchandani,Full-Stack Developer,40,9.54,10.0,9.3,JavaScript,9.61,10.0,97.06,Job Ready
+Juned Chhipa,Frontend Engineer,8,6.78,3.0,10.0,TypeScript,6.61,5.48,63.22,Almost Ready
+Anand B Pillai,Data Analyst,21,6.35,5.5,9.37,"Python, HTML, Rust, Go",7.0,7.43,69.33999999999999,Almost Ready
+IHA089,Full-Stack Developer,44,8.14,7.0,9.21,"Python, HTML, JavaScript",8.12,10.0,86.89999999999999,Job Ready
+ツAбхишек Kумар,Full-Stack Developer,19,9.77,1.5,5.29,Python,5.95,7.13,74.5,Almost Ready
+Nitin Aggarwal,Software Intern,35,8.06,10.0,6.8,Swift,8.26,9.53,85.81,Job Ready
+Nikit Bhandari,Software Intern,50,7.09,8.5,10.0,Kotlin,8.38,10.0,84.78999999999999,Job Ready
+Sankhadip Bag,Backend Engineer,8,4.63,1.5,2.66,"JavaScript, Java",3.1,5.48,42.730000000000004,Needs Improvement
+qxresearch,Frontend Engineer,13,10.0,10.0,10.0,"SCSS, HTML",10.0,6.22,88.66,Job Ready
+Shubham Kumar singh,Full-Stack Developer,19,5.11,8.5,7.83,JavaScript,6.94,7.12,64.45000000000002,Almost Ready
+Tejas Vilas Medade,Backend Engineer,18,6.67,7.0,6.36,Java,6.68,6.97,67.63999999999999,Almost Ready
+Sandesh Shrestha,Full-Stack Developer,23,6.24,5.5,7.99,TypeScript,6.54,7.72,68.04,Almost Ready
+Manish Ranjan,Frontend Engineer,14,6.5,5.5,5.46,Python,5.89,6.37,62.169999999999995,Almost Ready
+Akash Yadav,Full-Stack Developer,33,7.5,7.0,10.0,"Kotlin, Java",8.1,9.22,82.56,Job Ready
+Zuhed Shaikh,Full-Stack Developer,18,6.79,7.0,7.62,"JavaScript, TypeScript",7.1,6.97,69.67999999999999,Almost Ready
+Irshad_Baruah,Software Intern,36,4.18,6.0,6.31,"Python, Jupyter Notebook",5.36,9.67,62.989999999999995,Almost Ready
+Aman Chowdhury,Frontend Engineer,14,9.78,4.5,3.81,HTML,6.4,6.37,74.05,Almost Ready
+Shashi Raj,Full-Stack Developer,27,10.0,10.0,10.0,JavaScript,10.0,8.32,94.96000000000001,Job Ready
+Abid K,Backend Engineer,31,10.0,1.5,10.0,C++,7.45,8.92,86.56,Job Ready
+Sudhanshu K,Full-Stack Developer,37,6.26,1.5,8.47,"Bicep, JavaScript",5.5,9.82,70.24000000000001,Almost Ready
+Ronit Mevada,Full-Stack Developer,19,2.77,3.0,10.0,"C++, HTML",5.01,7.12,49.71,Needs Improvement
+Rounak Banik,Software Intern,50,9.52,7.5,5.95,"Jupyter Notebook, JavaScript",7.84,10.0,89.92000000000002,Job Ready
+Rishon Anvay Singh,Frontend Engineer,9,2.21,7.0,9.72,Java,5.9,5.62,47.09,Needs Improvement
+KodiMadhavaRao,Software Intern,32,5.7,1.5,6.45,"Dart, Kotlin",4.67,9.07,62.99,Almost Ready
+Vinod Balakrishnan,Frontend Engineer,8,4.12,5.5,6.34,JavaScript,5.2,5.46,49.54,Needs Improvement
+Abhinav Singwal,Full-Stack Developer,30,9.97,10.0,8.48,JavaScript,9.53,8.76,94.30999999999999,Job Ready
+Pystar ,Full-Stack Developer,20,5.37,4.5,10.0,"Python, HTML",6.5,7.26,63.89,Almost Ready
+Panda Sai Sankara Kesava Nath,Data Analyst,27,7.24,5.5,8.49,"Python, Handlebars, HTML, JavaScript",7.1,8.31,75.05000000000001,Job Ready
+Atul Kumar,Frontend Engineer,8,6.28,5.5,10.0,"JavaScript, C#",7.16,5.46,63.860000000000014,Almost Ready
+Sagar Utekar,Full-Stack Developer,25,8.46,5.5,7.33,"Shell, Python",7.23,8.01,78.33,Job Ready
+Kautilya Tripathi,Full-Stack Developer,50,9.96,10.0,10.0,"C++, Smarty, TypeScript",9.99,10.0,99.84,Job Ready
+Nitin Sharma,Backend Engineer,24,8.3,8.5,9.43,"C, HTML, Go",8.7,7.86,83.28,Job Ready
+Shambhavi Mishra,Full-Stack Developer,34,8.5,7.0,10.0,"Jupyter Notebook, JavaScript",8.5,9.36,87.57999999999998,Job Ready
+Shubham,Software Intern,19,9.26,3.0,9.69,"Python, Kotlin, JavaScript, Java",7.51,7.11,79.15,Job Ready
+Srijan Srivastava,Data Analyst,14,6.37,8.5,8.17,"Python, C++, C#",7.55,6.36,68.39,Almost Ready
+Aman Kumar,Backend Engineer,47,4.91,8.5,8.66,"Ruby, TypeScript",7.11,10.0,73.17,Almost Ready
+Himanshu Ahuja,Data Analyst,44,6.04,5.5,10.0,"Python, Jupyter Notebook",7.07,10.0,76.4,Job Ready
+Utsho Sadhak Joy,Full-Stack Developer,17,3.29,6.0,10.0,HTML,6.11,6.81,54.74,Almost Ready
+Brita Nadar,Backend Engineer,5,3.82,1.5,7.75,"C++, HTML, CSS, Jupyter Notebook",4.3,5.01,43.69,Needs Improvement
+Hriday G,Backend Engineer,18,9.0,3.0,9.18,"Python, C++, CMake",7.26,6.95,76.89,Job Ready
+Jeevanjyoti Chakraborty,Frontend Engineer,10,6.29,5.5,10.0,"HTML, Jupyter Notebook",7.17,5.75,64.80000000000001,Almost Ready
+Darshan Pawar,Full-Stack Developer,22,8.52,10.0,4.31,"JavaScript, TypeScript",7.7,7.55,79.00999999999999,Job Ready
+Ilyas F,Frontend Engineer,14,9.99,8.5,9.56,"JavaScript, TypeScript",9.42,6.35,86.7,Job Ready
+Anurag Verma,Full-Stack Developer,31,7.73,7.0,9.19,"Python, JavaScript",7.95,8.9,81.69,Job Ready
+InterviewBit & Scaler,Data Analyst,11,9.33,5.5,10.0,"Python, JavaScript, TypeScript",8.38,5.9,79.21,Job Ready
+Harish Sridharan,Full-Stack Developer,25,10.0,3.0,8.71,Java,7.51,8.0,84.03999999999999,Job Ready
+Devang Kartik ,Frontend Engineer,11,4.12,1.5,3.91,JavaScript,3.27,5.9,43.14,Needs Improvement
+Rahul Bansal,Full-Stack Developer,23,3.9,7.0,8.27,Python,6.14,7.7,59.36,Almost Ready
+!~ ٴ! it's manish 🪄,Full-Stack Developer,19,10.0,5.5,8.54,"HTML, JavaScript, TypeScript",8.21,7.1,84.14000000000001,Job Ready
+Code Kerala,Software Intern,10,8.99,5.5,7.43,PHP,7.47,5.75,74.1,Almost Ready
+Akshat Jain,Full-Stack Developer,30,8.51,7.0,10.0,"Shell, C++, HTML, Java",8.5,8.75,85.78,Job Ready
+Ꮦushar bɾ,Data Analyst,8,1.0,5.5,8.67,"Python, CSS, JavaScript, Java",4.65,5.45,37.95,Needs Improvement
+Mehfooz Khan ✅,Full-Stack Developer,45,6.26,8.5,8.59,JavaScript,7.63,10.0,79.3,Job Ready
+Mohan M,Full-Stack Developer,40,4.63,7.0,5.45,"CSS, JavaScript",5.59,10.0,66.25000000000001,Almost Ready
+Grace Hephzibah M,Backend Engineer,43,5.03,7.0,7.77,"Python, JavaScript, Jupyter Notebook, Java",6.44,10.0,70.85000000000001,Almost Ready
+Abhinav Jha,Data Analyst,42,6.98,10.0,9.62,"Python, C++, Go",8.68,10.0,85.66,Job Ready
+Ashhar Farhan,Backend Engineer,32,9.13,5.5,10.0,"C++, C",8.3,9.04,87.71000000000001,Job Ready
+Sapan V,Backend Engineer,42,3.14,1.5,5.02,"Dockerfile, Go, Java",3.21,10.0,52.26,Almost Ready
+Ashish,Software Intern,22,6.63,1.5,9.56,"Dart, C++, JavaScript",5.97,7.54,66.39,Almost Ready
+Abhinav Singh,Full-Stack Developer,27,10.0,7.0,9.92,Shell,9.08,8.29,91.19,Job Ready
+Suraj Sangle,Full-Stack Developer,35,4.81,7.0,5.61,"JavaScript, TypeScript",5.71,9.49,65.74,Almost Ready
+A.R.P. Syndicate,Full-Stack Developer,23,10.0,5.5,10.0,Python,8.65,7.69,87.66999999999999,Job Ready
+MrMKN,Frontend Engineer,9,10.0,7.0,7.22,"Python, JavaScript",8.27,5.59,79.85,Job Ready
+Ankush Chimnani,Frontend Engineer,9,9.15,1.5,8.91,"Python, TypeScript",6.78,5.59,71.34,Almost Ready
+nav,Full-Stack Developer,39,9.22,10.0,9.38,"Shell, Python, Kotlin, TypeScript",9.5,10.0,95.66000000000001,Job Ready
+Bhavuk Jain,Full-Stack Developer,30,6.19,7.5,6.89,"C++, Swift, HTML, JavaScript",6.79,8.74,71.95,Almost Ready
+Mahesh Chauhan,Full-Stack Developer,25,10.0,3.0,6.63,Python,6.89,7.99,81.53,Job Ready
+Gagan,Data Analyst,16,10.0,5.5,5.32,"Python, PHP",7.25,6.64,78.92,Job Ready
+Kumar Pratik ,Frontend Engineer,10,2.21,8.5,8.03,"Python, HTML, CSS",5.84,5.73,47.18,Needs Improvement
+Angel Saikia,Full-Stack Developer,28,4.3,7.0,10.0,"HTML, TypeScript",6.82,8.43,65.47,Almost Ready
+Sandeep Panda,Full-Stack Developer,30,7.92,5.5,10.0,"MDX, TypeScript",7.82,8.73,81.22999999999999,Job Ready
+Shivam Satija,Software Intern,13,10.0,5.5,8.67,"Kotlin, Java",8.25,6.18,81.53999999999999,Job Ready
+Hariom Balhara,Full-Stack Developer,33,4.12,5.5,10.0,TypeScript,6.3,9.18,65.1,Almost Ready
+Arun Prasaad Gunasekaran,Data Analyst,10,6.87,7.0,8.4,"Python, HTML",7.37,5.73,67.28,Almost Ready
+Syam kakarla,Full-Stack Developer,38,8.96,10.0,8.96,Jupyter Notebook,9.27,9.93,93.75,Job Ready
+Mukesh Mandora,Software Intern,36,10.0,5.5,9.87,Swift,8.61,9.63,93.33,Job Ready
+Urmil Shroff,Backend Engineer,49,8.62,10.0,9.93,"Dart, C++, JavaScript",9.43,10.0,93.58000000000001,Job Ready
+Shravan Koninti,Data Analyst,32,6.82,5.5,6.44,"Python, Jupyter Notebook",6.31,9.03,72.78999999999999,Almost Ready
+Ankit Jodhani,Data Analyst,32,8.6,5.5,10.0,"Python, Go",8.09,9.03,85.25,Job Ready
+Abhay Singh Rathore,Frontend Engineer,9,6.09,5.5,8.6,"JavaScript, TypeScript",6.66,5.58,61.65,Almost Ready
+Linuxndroid,Full-Stack Developer,28,8.29,7.0,3.93,"Python, HTML",6.59,8.43,76.52,Job Ready
+Angel One,Full-Stack Developer,28,8.72,3.0,10.0,Go,7.39,8.43,81.00999999999999,Job Ready
+NAGA SASANK ,Full-Stack Developer,32,5.72,10.0,8.24,HTML,7.76,9.02,75.26,Job Ready
+Ghanishtkhurana,Full-Stack Developer,38,4.67,7.0,6.84,"JavaScript, TypeScript",6.02,9.92,67.85,Almost Ready
+Gaurav Walia,Full-Stack Developer,49,7.73,8.5,9.9,"JavaScript, Java",8.61,10.0,87.63,Job Ready
+Usman Shah,Frontend Engineer,13,2.52,1.5,10.0,TypeScript,4.46,6.17,43.91,Needs Improvement
+The Commit Company,Data Analyst,13,9.43,7.0,7.15,"Python, TypeScript",8.02,6.17,78.88,Job Ready
+iNeuron-ai,Frontend Engineer,6,3.14,5.5,7.31,JavaScript,5.1,5.12,45.18,Needs Improvement
+Ankur Gupta,Full-Stack Developer,19,10.0,7.0,10.0,"Python, JavaScript",9.1,7.07,87.60999999999999,Job Ready
+Kumar Vaibhav Ugratara,Backend Engineer,13,2.21,4.5,4.48,"Python, C++, JavaScript",3.58,6.17,39.46,Needs Improvement
+Omar,Full-Stack Developer,40,5.81,1.5,9.64,C++,5.66,10.0,70.07,Almost Ready
+Abhiram Kumar,Data Analyst,23,9.61,7.0,10.0,"Python, Batchfile, HTML",8.94,7.67,87.6,Job Ready
+Sumit Pokhriyal,Full-Stack Developer,45,5.39,10.0,6.2,"JavaScript, TypeScript",7.01,10.0,74.21000000000001,Almost Ready
+EasyCode Sardar,Data Analyst,29,8.54,8.5,8.03,"Python, CSS, JavaScript",8.37,8.56,84.78,Job Ready
+Mahima Rawat,Frontend Engineer,13,5.79,6.0,6.59,"Python, JavaScript",6.09,6.16,60.21,Almost Ready
+ak@developer,Full-Stack Developer,42,6.78,1.5,9.48,"Python, HTML, JavaScript",6.01,10.0,74.38,Almost Ready
+Anurag Raj,Full-Stack Developer,28,4.4,7.0,9.8,"JavaScript, TypeScript",6.8,8.41,65.63000000000001,Almost Ready
+CursorTouch,Data Analyst,7,10.0,1.5,7.69,Python,6.76,5.26,72.82,Almost Ready
+Chandrakant Sharma,Data Analyst,23,2.77,7.0,10.0,"Python, Ruby, JavaScript",6.21,7.66,56.129999999999995,Almost Ready
+Vivek Prakash,Full-Stack Developer,19,8.2,7.0,9.52,"PHP, Assembly, C, CSS",8.24,7.06,78.73999999999998,Job Ready
+Mathesh,Data Analyst,50,9.03,1.5,5.53,"Python, HTML, Go",5.72,10.0,79.97,Job Ready
+SUDHARSANAN S R,Backend Engineer,37,8.23,10.0,10.0,Java,9.29,9.76,91.13,Job Ready
+Paranjay Singh,Full-Stack Developer,49,9.01,1.5,8.46,"Go, TypeScript",6.59,10.0,83.39,Job Ready
+Mayuri Samanta,Software Intern,23,6.5,10.0,5.65,"Kotlin, Java",7.29,7.66,71.64,Almost Ready
+Sukhdev Hansda,Full-Stack Developer,21,4.7,10.0,4.76,"HTML, JavaScript",6.31,7.36,61.42,Almost Ready
+Mohd Zubair,Frontend Engineer,15,3.29,1.5,5.17,JavaScript,3.32,6.46,42.53,Needs Improvement
+Madhurendra kumar,Data Analyst,20,9.68,10.0,9.93,"Python, HTML",9.85,7.21,90.07,Job Ready
+MV Karan,Full-Stack Developer,32,6.48,1.5,9.63,"JavaScript, TypeScript",5.93,9.0,70.16,Almost Ready
+Rohit Verma,Frontend Engineer,13,8.7,1.5,10.0,Shell,6.93,6.15,72.27000000000001,Almost Ready
+Shovan Chatterjee,Full-Stack Developer,24,10.0,10.0,9.24,"Python, Astro, TypeScript",9.77,7.8,92.47999999999999,Job Ready
+Saurabh Pawar,Frontend Engineer,14,4.85,8.5,9.21,"HTML, JavaScript",7.25,6.3,62.45,Almost Ready
+Aarav Jain ,Frontend Engineer,13,4.12,5.5,5.71,"Python, C, Jupyter Notebook",5.01,6.15,50.85,Almost Ready
+Arfin Parween,Data Analyst,19,6.63,5.5,8.5,Python,6.85,7.05,68.44,Almost Ready
+Robin Rodricks,Full-Stack Developer,40,10.0,3.0,7.81,"C, C#",7.24,10.0,88.96000000000001,Job Ready
+Mayank Aggarwal,Full-Stack Developer,40,8.94,10.0,10.0,"HTML, JavaScript, TypeScript",9.58,10.0,95.14000000000001,Job Ready
+PES University,Software Intern,29,6.74,7.0,3.33,Shell,5.79,8.55,69.03,Almost Ready
+Mohammad Imran,Full-Stack Developer,49,7.55,5.5,7.81,Python,7.01,10.0,80.69,Job Ready
+Veera,Full-Stack Developer,30,8.47,5.5,8.2,"HTML, JavaScript, TypeScript",7.5,8.7,81.50999999999999,Job Ready
+Anmol Tomer,Full-Stack Developer,38,7.94,10.0,9.19,"Python, Jupyter Notebook, JavaScript",8.93,9.9,89.24,Job Ready
+SafwanGanz,Full-Stack Developer,24,5.95,7.0,6.24,"Python, HTML, JavaScript, TypeScript",6.35,7.8,66.65,Almost Ready
+Sanjay Patel,Full-Stack Developer,34,9.04,7.0,5.3,TypeScript,7.31,9.3,84.26,Job Ready
+Muhammed ,Full-Stack Developer,21,10.0,3.0,7.44,"Python, JavaScript",7.13,7.35,80.57000000000001,Job Ready
+MR_GT,Frontend Engineer,8,6.28,1.5,6.57,Python,4.94,5.39,54.77,Almost Ready
+Shreyans Shrimal,Frontend Engineer,5,8.9,5.5,9.63,"Python, Jupyter Notebook, Java, TypeScript",8.1,4.94,73.92,Almost Ready
+decipher,Full-Stack Developer,18,9.1,3.0,9.06,"Python, Rust, CSS, TypeScript",7.26,6.89,77.01,Job Ready
+Nilam Anil Khose,Frontend Engineer,14,5.16,7.0,10.0,JavaScript,7.17,6.29,63.03000000000001,Almost Ready
+Bipin,Full-Stack Developer,40,9.99,10.0,6.45,"Python, TypeScript",8.93,10.0,95.69,Job Ready
+Hitanshu Dhawan,Full-Stack Developer,46,9.01,10.0,3.95,TypeScript,7.79,10.0,88.19,Job Ready
+Vishesh Guria,Backend Engineer,13,5.19,7.0,5.73,Java,5.89,6.14,57.55,Almost Ready
+Mahesh Sawant,Full-Stack Developer,28,9.71,10.0,6.03,"Python, HTML",8.69,8.39,89.06,Job Ready
+Prabhat Poddar,Full-Stack Developer,17,3.9,7.0,10.0,JavaScript,6.66,6.74,58.56,Almost Ready
+Amisha Purswani,Full-Stack Developer,28,7.31,7.0,7.6,"HTML, JavaScript",7.31,8.39,76.33999999999999,Job Ready
+Sarthak Sharma,Full-Stack Developer,40,9.34,10.0,5.85,"JavaScript, TypeScript",8.49,10.0,91.98,Job Ready
+shubham gupta,Frontend Engineer,10,8.07,10.0,9.35,"HTML, TypeScript",9.03,5.69,77.4,Job Ready
+Ishtmeet Singh,Software Intern,29,9.78,5.5,8.18,"MDX, Rust, Go, TypeScript",8.01,8.54,87.0,Job Ready
+Aswin C,Data Analyst,48,5.43,10.0,10.0,"Python, Rust, TypeScript",8.17,10.0,78.97,Job Ready
+MANOVISHNU ADEPU,Full-Stack Developer,36,8.43,10.0,6.31,"Python, Jupyter Notebook",8.26,9.59,87.10000000000001,Job Ready
+Govind B Chandran,Full-Stack Developer,49,8.09,10.0,8.19,"JavaScript, TypeScript",8.69,10.0,89.03,Job Ready
+Vishal Nehra,Full-Stack Developer,19,5.06,7.0,9.5,Kotlin,6.97,7.03,64.15,Almost Ready
+W4RR10R,Full-Stack Developer,37,8.82,1.5,10.0,"JavaScript, TypeScript",6.98,9.73,83.57,Job Ready
+Manav Darji,Full-Stack Developer,43,5.14,5.5,10.0,TypeScript,6.7,10.0,72.22,Almost Ready
+Avinash Pandey,Software Intern,22,9.52,10.0,5.28,"HTML, Rust, Go",8.39,7.48,84.56,Job Ready
+neogcamp,Full-Stack Developer,21,9.16,5.5,7.59,JavaScript,7.59,7.33,79.82999999999998,Job Ready
+sneha srishti,Frontend Engineer,7,3.98,1.5,9.39,"HTML, CSS",4.86,5.23,47.07000000000001,Needs Improvement
+Mahesh,Frontend Engineer,7,9.9,3.0,8.67,"Python, Kotlin, HTML",7.46,5.23,75.22999999999999,Job Ready
+Umang Ahuja,Full-Stack Developer,34,8.89,6.0,6.81,"C++, C",7.4,9.28,84.11,Job Ready
+Jenil,Full-Stack Developer,37,3.73,1.5,6.96,JavaScript,4.03,9.73,56.5,Almost Ready
+Utsanjan Maity,Software Intern,22,9.41,10.0,10.0,"HTML, Jupyter Notebook, JavaScript",9.76,7.48,89.71000000000001,Job Ready
+Pranjal,Full-Stack Developer,30,9.28,7.0,4.56,"Shell, Python, JavaScript",7.18,8.68,82.59999999999998,Job Ready
+T. Stephen Raj,Backend Engineer,9,2.77,8.5,8.8,"HTML, JavaScript, Java",6.3,5.53,50.099999999999994,Almost Ready
+Indrajit Paul,Data Analyst,36,4.4,3.0,9.03,"Python, JavaScript",5.37,9.58,63.42,Almost Ready
+ S A U R A V ,Full-Stack Developer,33,5.0,1.5,5.53,JavaScript,4.11,9.13,58.83000000000001,Almost Ready
+Shubhajit Basak,Full-Stack Developer,48,7.85,10.0,9.28,"HTML, JavaScript, TypeScript",8.93,10.0,89.27,Job Ready
+Ankit Goyal,Backend Engineer,30,7.18,10.0,10.0,"Python, Jupyter Notebook, Go, JavaScript",8.87,8.67,83.03,Job Ready
+Sourav Mandal,Full-Stack Developer,20,7.62,5.5,8.18,"HTML, CSS, JavaScript",7.15,7.17,72.97,Almost Ready
+Hariprasaanth R,Data Analyst,19,9.15,3.0,7.9,"Python, HTML",6.93,7.02,76.23,Job Ready
+Chandra Prakash Dhaker,Full-Stack Developer,34,4.85,7.0,9.85,"HTML, Java",6.99,9.27,70.32,Almost Ready
+Bhuvnesh Jain,Backend Engineer,20,8.49,3.0,6.89,"C++, HTML",6.36,7.17,72.42000000000002,Almost Ready
+Akash Yadav,Backend Engineer,13,3.9,8.5,6.35,"HTML, Java",6.02,6.12,54.14,Almost Ready
+Sarang Parikh,Full-Stack Developer,45,6.75,3.0,6.04,Solidity,5.41,10.0,71.89,Almost Ready
+Ritesh Firodiya,Software Intern,7,4.05,8.5,7.69,"MDX, JavaScript, TypeScript",6.48,5.22,53.730000000000004,Almost Ready
+OM GAWANDE,Full-Stack Developer,31,8.88,10.0,10.0,"JavaScript, TypeScript",9.55,8.82,91.30000000000001,Job Ready
+Kedar Sovani,Full-Stack Developer,44,5.99,10.0,8.08,JavaScript,7.82,10.0,79.25,Job Ready
+Ashutosh Pandey,Data Analyst,27,6.25,7.0,10.0,"Python, JavaScript, TeX",7.6,8.22,73.81,Almost Ready
+Tushar Verma,Full-Stack Developer,20,8.83,5.5,8.4,Shell,7.7,7.17,78.8,Job Ready
+rishi singh,Software Intern,19,2.52,1.5,6.38,"Python, C++, HTML, Jupyter Notebook",3.37,7.02,42.1,Needs Improvement
+Shreekanth Guttedar,Data Analyst,5,4.4,5.5,8.3,"Python, HTML, Jupyter Notebook",5.9,4.92,51.56,Almost Ready
+Pramod Kumar Jena,Full-Stack Developer,42,6.91,7.0,9.06,"HTML, CSS, JavaScript",7.58,10.0,81.05000000000001,Job Ready
+MONA,Backend Engineer,15,9.66,7.0,9.62,"Shell, C++, HTML, Java",8.85,6.41,83.61000000000001,Job Ready
+Amal Murali,Full-Stack Developer,42,8.74,5.5,10.0,"Python, HTML",8.14,10.0,88.78,Job Ready
+Gokul Alex,Software Intern,27,5.57,8.5,5.81,Jupyter Notebook,6.52,8.21,67.42,Almost Ready
+Prajjwal,Full-Stack Developer,45,8.8,10.0,10.0,JavaScript,9.52,10.0,94.48,Job Ready
+Ayush Kulshrestha,Full-Stack Developer,32,8.25,10.0,9.86,"Rust, JavaScript, TypeScript",9.26,8.96,88.67000000000002,Job Ready
+Shuveb Hussain,Full-Stack Developer,21,10.0,5.5,10.0,"Python, HTML",8.65,7.31,86.53,Job Ready
+Rudrakshi,Full-Stack Developer,43,7.07,10.0,9.91,"Python, JavaScript, Java",8.8,10.0,86.41,Job Ready
+Prit Kalariya,Backend Engineer,35,7.04,7.0,10.0,"Python, Visual Basic .NET, Java",7.92,9.41,81.03,Job Ready
+Priyanshi Sharma,Software Intern,44,6.95,10.0,10.0,"Jupyter Notebook, JavaScript",8.78,10.0,85.97000000000001,Job Ready
+Harsh Upadhayay,Full-Stack Developer,19,5.61,10.0,7.52,"JavaScript, TypeScript",7.5,7.01,67.86,Almost Ready
+Amrita TIFAC-CORE: B.Tech Projects,Frontend Engineer,7,4.12,10.0,4.55,JavaScript,6.01,5.21,52.029999999999994,Almost Ready
+Pt. Prashant tripathi,Full-Stack Developer,30,8.11,10.0,10.0,"C++, HTML, JavaScript, TypeScript",9.24,8.66,87.27000000000001,Job Ready
+Mohammad ovais,Full-Stack Developer,26,4.05,7.0,4.36,JavaScript,5.03,8.06,56.449999999999996,Almost Ready
+Samrat Gupta,Full-Stack Developer,22,7.71,7.0,9.11,"Rust, TypeScript",7.92,7.46,77.19,Job Ready
+ckmrp,Full-Stack Developer,46,3.42,10.0,10.0,"Python, JavaScript, TypeScript",7.37,10.0,69.74000000000001,Almost Ready
+Monu Yadav,Full-Stack Developer,33,5.26,7.0,6.66,"JavaScript, TypeScript",6.2,9.11,67.91,Almost Ready
+Hemant Aher,Full-Stack Developer,37,4.35,7.0,10.0,JavaScript,6.84,9.71,69.54,Almost Ready
+Rahul Singh,Full-Stack Developer,22,4.88,7.0,10.0,"Python, JavaScript, TypeScript",7.05,7.45,65.19,Almost Ready
+Bhuvan Singla,Full-Stack Developer,45,6.36,5.5,10.0,JavaScript,7.2,10.0,77.88,Job Ready
+Karan Adhikari,Full-Stack Developer,16,9.03,3.0,8.36,"Python, JavaScript",7.02,6.55,74.82,Almost Ready
+Shiva yadav,Full-Stack Developer,42,5.19,5.5,9.83,"JavaScript, TypeScript",6.67,10.0,72.25,Almost Ready
+Chandan Kumar,Software Intern,33,4.24,7.0,8.56,"Handlebars, HTML, JavaScript, TypeScript",6.36,9.1,65.46000000000001,Almost Ready
+Sumit Ghosh,Frontend Engineer,7,9.79,5.5,10.0,"Python, C#, JavaScript, TypeScript",8.56,5.2,79.21,Job Ready
+Samrood Ali,Full-Stack Developer,41,5.96,10.0,5.13,"Shell, JavaScript, TypeScript",6.92,10.0,75.56,Job Ready
+Prantosh Biswas,Full-Stack Developer,24,5.93,10.0,8.71,JavaScript,7.98,7.75,72.96,Almost Ready
+Arjun Hore,Full-Stack Developer,18,4.35,7.0,8.72,"HTML, JavaScript, C#",6.46,6.85,59.43999999999999,Almost Ready
+Jobin Biju,Full-Stack Developer,49,8.05,10.0,8.57,"Swift, Go, JavaScript",8.79,10.0,89.31,Job Ready
+Himanshi Khattri,Frontend Engineer,9,4.12,3.0,6.26,"HTML, CSS, EJS",4.42,5.5,46.54,Needs Improvement
+S Vijayaprasad,Full-Stack Developer,44,4.63,10.0,9.02,"HTML, JavaScript",7.56,10.0,74.13,Almost Ready
+Ansheel Banthia,Full-Stack Developer,37,5.06,8.5,8.8,"HTML, TypeScript",7.21,9.7,73.12,Almost Ready
+Simran Makhija,Full-Stack Developer,41,4.74,10.0,7.51,TLA,7.15,10.0,72.82,Almost Ready
+Sujata R,Data Analyst,47,7.85,1.5,8.98,Python,6.28,10.0,78.67000000000002,Job Ready
+Varun Shanbhag,Full-Stack Developer,32,9.49,3.0,8.36,"Kotlin, TypeScript",7.21,8.95,84.16,Job Ready
+Prasath Mani,Full-Stack Developer,22,10.0,8.5,8.3,"JavaScript, TypeScript",9.04,7.45,88.50999999999999,Job Ready
+Prateek Bansal,Full-Stack Developer,48,9.05,10.0,8.82,"HTML, JavaScript, TypeScript",9.27,10.0,94.23,Job Ready
+Saurabh Pagrut,Software Intern,19,5.16,7.0,7.65,"PHP, HTML, CSS",6.46,7.0,62.32,Almost Ready
+Sibidharan,Software Intern,28,5.95,5.5,9.64,"PHP, JavaScript",6.92,8.35,70.58,Almost Ready
+Akshay_Patel,Frontend Engineer,13,3.98,7.0,9.02,"HTML, JavaScript",6.4,6.1,55.84,Almost Ready
+AMIT KUMAR MAHOUR,Full-Stack Developer,24,5.43,10.0,5.52,"HTML, CSS, JavaScript",6.83,7.74,66.83,Almost Ready
+Shubham Gaikwad,Software Intern,41,5.52,7.0,7.86,"Python, MDX, JavaScript",6.67,10.0,73.24,Almost Ready
+Abinav Seelan,Full-Stack Developer,33,7.19,10.0,5.68,"HTML, JavaScript, TypeScript",7.58,9.09,79.16,Job Ready
+shekhar suman,Frontend Engineer,12,2.52,7.0,5.67,JavaScript,4.81,5.94,44.62,Needs Improvement
+Vasanth Srivatsa,Full-Stack Developer,28,5.86,8.5,8.47,"JavaScript, TypeScript",7.43,8.34,72.32000000000001,Almost Ready
+Amandeep Singh,Frontend Engineer,10,8.87,7.0,9.1,"HTML, JavaScript, TypeScript",8.38,5.64,77.05,Job Ready
+MOHD_SHAHID,Full-Stack Developer,49,5.96,7.0,9.15,"JavaScript, TypeScript",7.23,10.0,76.80000000000001,Job Ready
+Sugith K,Full-Stack Developer,46,5.85,10.0,10.0,Dart,8.34,10.0,80.91000000000001,Job Ready
+Bhavya Krishna ,Full-Stack Developer,22,3.64,1.5,10.0,C,4.91,7.44,52.88,Almost Ready
+Sudhanshu Pal,Full-Stack Developer,36,4.05,10.0,7.37,JavaScript,6.83,9.54,68.08999999999999,Almost Ready
+Vineet Choudhary,Software Intern,26,9.15,10.0,7.68,"Shell, Swift, JavaScript",8.97,8.04,87.45000000000002,Job Ready
+Groww Deprecated,Backend Engineer,43,7.08,10.0,8.31,"C, Go, JavaScript",8.33,10.0,84.56000000000002,Job Ready
+Aman Mandal,Frontend Engineer,11,7.22,1.5,9.4,"Solidity, TypeScript",6.16,5.79,63.67000000000001,Almost Ready
+Gaurav Chandak,Full-Stack Developer,44,5.72,8.5,10.0,"MDX, HTML, JavaScript",7.84,10.0,78.52000000000001,Job Ready
+inpyjama,Software Intern,18,7.73,10.0,10.0,"Assembly, HTML, Dockerfile",9.09,6.84,80.07000000000002,Job Ready
+Sarvesh Gupta,Full-Stack Developer,38,4.5,10.0,8.61,"HTML, JavaScript",7.38,9.84,72.53999999999999,Almost Ready
+Shoaib Rayeen,Full-Stack Developer,34,8.91,10.0,8.01,"C++, Java",8.97,9.24,90.33000000000001,Job Ready
+Rohan Dev Singh,Data Analyst,26,8.88,5.5,7.52,"Python, JavaScript, TypeScript",7.46,8.04,80.6,Job Ready
+kajol,Full-Stack Developer,44,6.15,10.0,10.0,JavaScript,8.46,10.0,82.29,Job Ready
+Atal Kumar Pandey,Frontend Engineer,15,4.97,7.0,6.09,"HTML, Java",5.92,6.39,57.76,Almost Ready
+Stream-Pi,Software Intern,9,8.37,8.5,9.28,"Shell, TypeScript, JavaScript, Java",8.68,5.49,76.29999999999998,Job Ready
+Technical Dada,Full-Stack Developer,30,8.03,5.5,10.0,"HTML, CSS",7.86,8.64,81.44999999999999,Job Ready
+Arun Ponnusamy,Data Analyst,19,9.63,10.0,8.18,"Python, Jupyter Notebook",9.31,6.99,87.10000000000001,Job Ready
+Amit Singhal,Backend Engineer,15,5.16,10.0,9.78,"C++, CSS, JavaScript, Markdown",8.0,6.39,66.65,Almost Ready
+Shubhamdeep Jha,Full-Stack Developer,29,8.02,7.0,10.0,Jupyter Notebook,8.31,8.49,82.77000000000001,Job Ready
+Anuja Joshi,Full-Stack Developer,48,4.74,6.0,6.26,"HTML, JavaScript, TypeScript",5.58,10.0,66.53999999999999,Almost Ready
+Pyjama Cafe!,Data Analyst,27,8.42,8.5,3.59,"Python, Dockerfile",6.99,8.18,77.75999999999999,Job Ready
+Ashish  Shinde,Full-Stack Developer,21,4.58,5.5,7.76,"HTML, CSS, JavaScript",5.81,7.28,58.81999999999999,Almost Ready
+Aditya Suman ,Full-Stack Developer,39,5.11,10.0,1.8,C++,5.59,9.98,67.63000000000001,Almost Ready
+Ankit Kataria,Backend Engineer,31,6.33,7.0,8.81,"Jupyter Notebook, Ruby, Go",7.27,8.78,74.41,Almost Ready
+Parin,Full-Stack Developer,18,4.97,7.0,8.91,"Python, C++, CSS, JavaScript",6.76,6.83,62.44,Almost Ready
+Vivek Kumar Bansal,Full-Stack Developer,29,9.56,10.0,7.22,TypeScript,8.99,8.48,90.08000000000001,Job Ready
+Abhishek ,Full-Stack Developer,21,4.54,7.0,10.0,JavaScript,6.92,7.28,63.14,Almost Ready
+Rajveer Singh,Full-Stack Developer,36,6.4,3.0,9.37,"Python, CSS, TypeScript",6.27,9.53,72.86999999999999,Almost Ready
+Jitendra Singh,Full-Stack Developer,23,4.78,5.5,10.0,"PHP, TypeScript",6.56,7.58,63.32,Almost Ready
+Hiten Lulla,Frontend Engineer,5,7.51,1.5,2.44,"Python, TypeScript",4.18,4.88,53.88999999999999,Almost Ready
+Lavanya Varadharajan,Software Intern,15,5.43,7.0,7.31,"Python, HTML, Perl",6.46,6.38,61.269999999999996,Almost Ready
+Sasi Kalyan,Backend Engineer,12,3.14,3.0,5.43,"JavaScript, Jupyter Notebook, Java",3.79,5.93,42.370000000000005,Needs Improvement
+Vipul Jha,Software Intern,33,7.63,5.5,5.99,Kotlin,6.5,9.08,76.13,Job Ready
+Bharadwaj Machiraju,Backend Engineer,28,7.21,8.5,10.0,"Vim script, Rust, CodeQL, Go",8.43,8.33,80.34,Job Ready
+Shubhojeet Chatterjee,Full-Stack Developer,41,4.63,8.5,9.25,"CSS, JavaScript",7.18,10.0,72.61,Almost Ready
+Aaryan Sinha,Full-Stack Developer,35,6.18,7.0,7.74,"Dart, JavaScript, TypeScript",6.89,9.38,74.24000000000001,Almost Ready
+ADARSH KUMAR MISHRA,Frontend Engineer,7,2.77,8.5,8.06,"PHP, HTML, JavaScript",6.07,5.18,48.13000000000001,Needs Improvement
+Animesh Sinha,Software Intern,50,5.86,10.0,10.0,"Python, Cuda, Kotlin",8.34,10.0,80.94000000000001,Job Ready
+Arkodyuti Saha,Full-Stack Developer,21,6.62,7.5,10.0,HTML,7.9,7.28,73.3,Almost Ready
+DEEPAK KUMAR,Backend Engineer,24,4.88,7.0,9.35,Java,6.86,7.73,65.27000000000001,Almost Ready
+Sreejan,Data Analyst,19,8.74,5.5,9.65,"Python, TypeScript",8.04,6.98,79.32,Job Ready
+Victor K Varghese,Full-Stack Developer,28,9.7,5.5,5.63,TypeScript,7.22,8.33,82.97,Job Ready
+Dr. Alok Yadav,Data Analyst,9,7.37,7.0,10.0,Python,8.05,5.48,70.75000000000001,Almost Ready
+Kislay,Full-Stack Developer,34,7.06,5.5,9.69,"Python, Jupyter Notebook, TypeScript",7.38,9.23,78.39,Job Ready
+Palak Bhawsar,Data Analyst,30,8.61,5.5,4.54,"Python, HCL",6.46,8.63,77.56,Job Ready
+Kabir Jaipal,Frontend Engineer,6,8.85,5.5,6.74,"JavaScript, TypeScript",7.21,5.03,70.48,Almost Ready
+Swas.py,Data Analyst,43,8.53,10.0,9.87,Python,9.37,10.0,93.07,Job Ready
+Riyas S,Backend Engineer,18,3.29,7.0,7.84,"JavaScript, Java",5.77,6.82,53.41,Almost Ready
+Priyanka Kasture,Frontend Engineer,9,6.72,1.5,7.03,"Python, CSS",5.25,5.47,57.56999999999999,Almost Ready
+Pinkesh Darji,Software Intern,50,9.05,7.0,9.83,"Dart, Objective-C, JavaScript",8.67,10.0,91.83,Job Ready
+Priyanshu Gupta,Software Intern,44,7.82,8.5,8.74,"Python, Jupyter Notebook, JavaScript",8.3,10.0,86.66,Job Ready
+Kishan Ghetiya,Full-Stack Developer,16,4.81,7.0,8.0,"Python, HTML, TypeScript",6.43,6.52,59.709999999999994,Almost Ready
+hashclan102,Full-Stack Developer,29,6.83,7.0,9.53,"HTML, C#, JavaScript, TypeScript",7.69,8.47,76.66,Job Ready
+Ritika Agrawal,Full-Stack Developer,31,7.15,10.0,8.87,"JavaScript, Svelte",8.52,8.77,81.83999999999999,Job Ready
+Ansif,Full-Stack Developer,27,3.98,5.5,10.0,"Python, CSS, JavaScript",6.24,8.17,61.41000000000001,Almost Ready
+Antrixsh Gupta,Data Analyst,46,6.43,5.5,6.95,"Python, HTML, Jupyter Notebook",6.3,10.0,74.49,Almost Ready
+Biman,Full-Stack Developer,49,2.21,10.0,8.44,JavaScript,6.41,10.0,62.27,Almost Ready
+Nikhil Kothari,Full-Stack Developer,25,5.19,1.5,10.0,Python,5.52,7.87,61.25999999999999,Almost Ready
+NITISH BAKSHI,Full-Stack Developer,26,5.14,1.5,6.87,TypeScript,4.57,8.02,57.76,Almost Ready
+Sadanand,Frontend Engineer,15,4.24,3.0,5.94,"HTML, JavaScript",4.38,6.37,49.35000000000001,Needs Improvement
+Sripathi Krishnan,Full-Stack Developer,27,10.0,7.5,10.0,"Python, TypeScript",9.25,8.17,91.50999999999999,Job Ready
+Aasim Syed,Backend Engineer,21,4.58,7.0,9.7,"HTML, Java",6.84,7.27,62.91,Almost Ready
+Sharad Chitlangia,Software Intern,46,7.99,10.0,10.0,"TeX, Jupyter Notebook, JavaScript",9.2,10.0,90.77,Job Ready
+Tilak Patel,Full-Stack Developer,26,5.08,3.0,7.9,"Python, MDX, TypeScript",5.3,8.02,60.5,Almost Ready
+Sanskaar Singh,Full-Stack Developer,20,3.29,9.0,9.87,"HTML, CSS, JavaScript",6.97,7.12,59.11000000000001,Almost Ready
+Prosonjit Datta,Full-Stack Developer,32,4.78,10.0,6.67,TypeScript,6.91,8.92,68.74,Almost Ready
+Krayin CRM,Full-Stack Developer,16,10.0,8.5,8.54,"PHP, Shell",9.11,6.52,86.0,Job Ready
+Rahul Goswami,Software Intern,22,6.4,6.0,4.97,"Haskell, Python, Vim script, TeX",5.85,7.42,64.86,Almost Ready
+Akshay Arora,Full-Stack Developer,34,3.98,4.5,9.59,"Python, Objective-C",5.82,9.22,62.88,Almost Ready
+CΩDΣ PRΩGRΔMΣ,Full-Stack Developer,23,1.76,5.5,9.45,"JavaScript, TypeScript",5.19,7.57,48.75,Needs Improvement
+Vijay Aravamudhan,Full-Stack Developer,34,7.17,3.0,6.24,"Python, Shell",5.64,9.21,71.7,Almost Ready
+Stɑrry Shivɑm,Full-Stack Developer,26,6.07,8.5,10.0,"C, Dockerfile, JavaScript, Kotlin",7.98,8.01,74.16,Almost Ready
+Yash Raj Bothra,Full-Stack Developer,31,6.76,4.5,8.31,"Python, JavaScript, TypeScript",6.55,8.76,72.75999999999999,Almost Ready
+Sumit Kolhe,Full-Stack Developer,21,9.07,4.5,4.95,"Vue, TypeScript",6.46,7.26,74.83000000000001,Almost Ready
+Vipin Saini,Software Intern,22,5.95,5.5,10.0,"Swift, TypeScript",7.03,7.41,68.2,Almost Ready
+YAHUBABA,Frontend Engineer,12,5.43,5.5,7.68,"PHP, HTML, JavaScript, EJS",6.13,5.91,58.53999999999999,Almost Ready
+OSINT Ambition,Frontend Engineer,5,9.7,8.5,5.48,JavaScript,8.07,4.86,75.96000000000001,Job Ready
+Yashraj Kakkad,Full-Stack Developer,36,6.46,5.5,7.5,"Python, Go, JavaScript",6.48,9.51,73.83,Almost Ready
+Abdus,Software Intern,47,5.72,10.0,7.44,"Rust, JavaScript, HCL",7.52,10.0,77.24000000000001,Job Ready
+Anupam Das,Full-Stack Developer,23,6.74,7.0,9.11,"CSS, JavaScript, Java",7.53,7.56,73.02,Almost Ready
+Raj,Software Intern,46,6.61,5.5,8.67,"Python, Rust",6.89,10.0,77.39000000000001,Job Ready
+Abhimanyu Sharma,Backend Engineer,31,7.44,5.5,5.59,"Shell, Rust, Go",6.3,8.76,73.8,Almost Ready
+Sathish Gajendran,Full-Stack Developer,42,5.19,10.0,10.0,CSS,8.07,10.0,77.85,Job Ready
+Aditya Athalye,Full-Stack Developer,25,8.1,7.0,8.22,"Vue, HTML, Clojure",7.81,7.86,79.12,Job Ready
+C M Pandey,Full-Stack Developer,27,7.87,7.0,7.67,TypeScript,7.55,8.16,78.28999999999999,Job Ready
+Nikhar Savaliya,Full-Stack Developer,31,3.82,5.5,9.09,Lua,5.91,8.76,61.379999999999995,Almost Ready
+Abhishek Kumar,Backend Engineer,9,3.14,1.5,7.21,Java,3.87,5.46,41.28,Needs Improvement
+Rajkumar,Software Intern,28,7.84,5.5,10.0,"Solidity, Rust",7.78,8.31,79.57000000000001,Job Ready
+Megha Pathak,Full-Stack Developer,50,5.08,3.0,9.92,JavaScript,5.91,10.0,68.88000000000001,Almost Ready
+Sayantan Paul,Full-Stack Developer,41,9.91,10.0,8.56,"TypeScript, Kotlin, Java",9.53,10.0,97.85,Job Ready
+Helmer,Frontend Engineer,12,6.12,5.5,10.0,"C, Rust, TypeScript",7.1,5.9,64.46,Almost Ready
+Chirag Samal,Software Intern,26,7.83,7.0,8.84,Jupyter Notebook,7.88,8.0,79.00999999999999,Job Ready
+Colin Scott,Full-Stack Developer,35,9.86,10.0,9.75,"C, HTML, Ruby, JavaScript",9.87,9.35,97.11,Job Ready
+Rishabh Singh,Full-Stack Developer,38,7.81,7.0,8.22,"CSS, JavaScript, Swift, HTML, TypeScript",7.69,9.8,83.59,Job Ready
+Rohit Dhatrak,Data Analyst,21,6.88,5.5,7.14,"Python, Astro, Go",6.54,7.25,68.55000000000001,Almost Ready
+Harsh Trivedi,Software Intern,44,8.88,10.0,10.0,"HTML, CSS, JavaScript, Svelte",9.55,10.0,94.84,Job Ready
+Samuel Chase,Full-Stack Developer,20,5.72,5.5,10.0,"C++, Emacs Lisp",6.94,7.1,66.22000000000001,Almost Ready
+Harshit Raj Singh,Full-Stack Developer,25,9.21,5.5,10.0,"Python, JavaScript, TypeScript",8.33,7.85,84.50000000000001,Job Ready
+Anmol K Sachan,Full-Stack Developer,48,9.52,8.5,10.0,Python,9.36,10.0,96.0,Job Ready
+Vivek Chandel,Backend Engineer,39,5.97,7.0,8.83,"Python, JavaScript, Java",7.14,9.95,76.32,Job Ready
+Pratik Gadhesariya,Full-Stack Developer,33,8.68,10.0,7.22,HTML,8.64,9.05,87.75,Job Ready
+Jagmohan Singh,Full-Stack Developer,43,5.14,8.5,10.0,"C++, JavaScript",7.6,10.0,75.82,Job Ready
+Google Developer Student Club - LPU,Full-Stack Developer,23,7.48,5.5,7.87,"JavaScript, TypeScript",7.0,7.55,73.08999999999999,Almost Ready
+Saurabh Kumar,Full-Stack Developer,49,5.86,10.0,8.22,"JavaScript, TypeScript",7.81,10.0,78.82000000000001,Job Ready
+Chaintech Network,Software Intern,28,9.77,1.5,7.26,Kotlin,6.54,8.3,80.36999999999999,Job Ready
+AI & Data Engineer,Full-Stack Developer,48,5.59,5.5,4.37,"Python, HTML",5.2,10.0,67.57,Almost Ready
+Deepraj Baidya,Full-Stack Developer,22,7.13,10.0,5.28,"Python, HCL",7.43,7.4,73.31,Almost Ready
+Kaushik Lakhani,Full-Stack Developer,22,8.82,10.0,4.78,"Jupyter Notebook, CSS, Python, HTML, Java",7.96,7.4,80.5,Job Ready
+Immanuel Raj,Full-Stack Developer,36,5.5,10.0,10.0,"Python, C, JavaScript",8.2,9.5,77.8,Job Ready
+Monojit Mondal,Full-Stack Developer,23,4.63,7.0,4.97,JavaScript,5.44,7.55,58.3,Almost Ready
+Sneha,Full-Stack Developer,24,3.9,10.0,7.8,"HTML, JavaScript, TypeScript",6.9,7.7,62.400000000000006,Almost Ready
+Aayush Dhote,Full-Stack Developer,16,5.39,1.5,7.58,"Python, Jupyter Notebook",4.88,6.5,55.19,Almost Ready
+TheSpeedY,Frontend Engineer,13,10.0,1.5,7.62,"CSS, JavaScript",6.74,6.05,75.11,Job Ready
+Priyanshu,Full-Stack Developer,43,5.64,8.5,5.6,"JavaScript, TypeScript",6.49,10.0,72.88,Almost Ready
+Dhaval Patel,Full-Stack Developer,40,9.76,3.0,8.89,"Dart, Kotlin",7.47,10.0,89.16,Job Ready
+Open Dev Society,Frontend Engineer,11,10.0,5.5,9.86,"JavaScript, TypeScript",8.61,5.75,81.69,Job Ready
+Aman Bansal,Data Analyst,15,5.14,7.0,10.0,"Python, Java",7.15,6.35,63.07000000000001,Almost Ready
+Subham Surana,Full-Stack Developer,46,7.78,7.0,10.0,"Move, PLpgSQL, TypeScript",8.21,10.0,86.18,Job Ready
+Open Source Chandigarh,Software Intern,48,8.64,10.0,10.0,"SCSS, C++, JavaScript, TypeScript",9.45,10.0,93.72,Job Ready
+Anudeep K K,Full-Stack Developer,32,4.05,1.5,4.14,"Python, HTML, JavaScript",3.31,8.89,52.06,Almost Ready
+Sagar Chand Agarwal,Full-Stack Developer,24,8.02,7.0,10.0,HTML,8.31,7.69,80.36999999999999,Job Ready
+shirshadip,Data Analyst,23,2.21,10.0,8.39,"Python, HTML",6.4,7.54,54.85000000000001,Almost Ready
+Siddharth M,Backend Engineer,40,8.42,8.5,10.0,"C++, C",8.92,10.0,90.94,Job Ready
+pavan_pagan,Frontend Engineer,14,5.56,1.5,4.9,"HTML, JavaScript, Java",4.14,6.19,51.81,Almost Ready
+Ali Abbas,Full-Stack Developer,42,9.9,10.0,9.81,JavaScript,9.9,10.0,99.30000000000001,Job Ready
+tux,Software Intern,12,7.03,5.5,9.5,"QML, TypeScript, Lua, C#",7.31,5.89,68.0,Almost Ready
+Gaurav Kumar,Full-Stack Developer,27,9.99,5.5,10.0,Python,8.65,8.14,88.99000000000001,Job Ready
+Priyanshu Bhattacharjee,Full-Stack Developer,22,6.78,5.5,10.0,"HTML, Rust, C#",7.36,7.39,71.94999999999999,Almost Ready
+vedang lord coder,Full-Stack Developer,22,5.24,3.0,6.87,JavaScript,5.06,7.39,58.129999999999995,Almost Ready
+Komal Diwe,Full-Stack Developer,33,6.93,7.0,8.19,Jupyter Notebook,7.33,9.04,77.23,Job Ready
+Abhijit Kane,Full-Stack Developer,35,4.78,10.0,10.0,JavaScript,7.91,9.34,74.0,Almost Ready
+Dheeraj Kukreja,Frontend Engineer,9,3.29,1.5,4.45,"Python, JavaScript, TypeScript",3.1,5.44,38.59,Needs Improvement
+Akhilnath,Backend Engineer,16,2.21,1.5,2.82,Java,2.18,6.49,34.82,Needs Improvement
+Aakash Sen Sharma,Full-Stack Developer,35,6.46,10.0,8.03,"Python, Rust, JavaScript, Elixir",7.99,9.34,79.36,Job Ready
+"Consulting & Analytics Club, IIT Guwahati",Full-Stack Developer,21,6.07,10.0,9.9,HTML,8.4,7.24,73.53,Almost Ready
+Chirag Singh,Frontend Engineer,14,7.52,7.0,9.34,"HTML, Java",7.91,6.19,72.77,Almost Ready
+Anup Patel,Software Intern,22,7.25,7.0,7.63,"C, Makefile",7.29,7.39,73.08,Almost Ready
+Shashank,Full-Stack Developer,27,7.11,10.0,10.0,"JavaScript, TypeScript",8.84,8.14,81.11000000000001,Job Ready
+Nazim N,Software Intern,45,8.32,7.0,10.0,"Dart, Python, HTML",8.43,10.0,88.68,Job Ready
+Goutham Kumar,Data Analyst,13,8.63,1.5,6.95,"Shell, Jupyter Notebook, HCL, CSS, Python",5.99,6.04,67.97,Almost Ready
+Aayush Chouhan,Full-Stack Developer,48,5.14,3.0,7.79,"C++, JavaScript",5.29,10.0,66.58,Almost Ready
+Hacker Nowful,Full-Stack Developer,22,6.62,7.0,9.24,"C++, C, HTML",7.52,7.39,72.11,Almost Ready
+Vibali Joshi,Full-Stack Developer,22,8.12,10.0,10.0,"Solidity, Python, CSS",9.25,7.39,83.53,Job Ready
+Faiz Malkani,Frontend Engineer,13,8.91,10.0,8.93,"HTML, JavaScript, TypeScript",9.24,6.04,81.81,Job Ready
+Janaki Kangalgouda,Full-Stack Developer,35,5.67,10.0,8.73,JavaScript,7.89,9.34,76.59,Job Ready
+Deepjyoti Barman,Full-Stack Developer,34,10.0,5.5,8.46,"Go, Ruby, JavaScript",8.19,9.19,90.33,Job Ready
+Deepak Ramani,Full-Stack Developer,34,4.91,10.0,7.05,"HTML, JavaScript, TypeScript",7.08,9.19,70.62,Almost Ready
+Priyansh Prajapat ,Full-Stack Developer,19,9.0,10.0,7.24,Java,8.77,6.93,82.86999999999999,Job Ready
+Shreya Trivedi,Full-Stack Developer,25,5.19,5.5,4.57,JavaScript,5.1,7.83,59.459999999999994,Almost Ready
+Ujjval Agarwal,Data Analyst,15,3.73,1.5,7.66,"Python, JavaScript",4.24,6.33,47.14,Needs Improvement
+Ankita Thakur,Full-Stack Developer,49,5.19,7.0,8.73,JavaScript,6.79,10.0,72.73,Almost Ready
+Sanjay,Full-Stack Developer,16,3.42,5.5,5.09,"Jupyter Notebook, Java, TypeScript",4.54,6.48,47.86,Needs Improvement
+Bauddhik-Geeks,Software Intern,33,8.2,10.0,9.6,"PHP, HTML, Jupyter Notebook",9.16,9.03,88.32999999999998,Job Ready
+Vivek Jawale,Full-Stack Developer,45,5.24,5.5,8.76,"CSS, JavaScript",6.37,10.0,71.2,Almost Ready
+LocalMiner,Frontend Engineer,9,5.43,7.0,8.04,HTML,6.68,5.43,59.3,Almost Ready
+Aditya Domle,Full-Stack Developer,35,6.94,10.0,10.0,JavaScript,8.78,9.33,83.93,Job Ready
+Rishabh Poddar,Full-Stack Developer,44,4.78,5.5,10.0,"MDX, TypeScript",6.56,10.0,70.58000000000001,Almost Ready
+Clueless,Frontend Engineer,11,10.0,7.0,10.0,"Python, Dart, HTML, JavaScript",9.1,5.73,83.59,Job Ready
+MD TOUSEEB,Full-Stack Developer,28,4.45,1.5,4.57,JavaScript,3.6,8.28,52.589999999999996,Almost Ready
+Unbounded,Full-Stack Developer,50,8.21,9.0,8.49,"Python, HTML",8.53,10.0,88.75,Job Ready
+Vivek Agrawal,Full-Stack Developer,44,5.85,10.0,9.97,"MDX, HTML, TypeScript",8.33,10.0,80.87,Job Ready
+Sundar Rajagopal,Full-Stack Developer,47,6.63,5.5,8.89,"JavaScript, Java",6.97,10.0,77.77,Job Ready
+Amritha Nandini K L,Software Intern,29,6.13,6.0,9.23,"C++, Jupyter Notebook, JavaScript",7.02,8.43,71.76,Almost Ready
+Sarfraj Ahmad Raza,Full-Stack Developer,25,3.98,10.0,5.87,JavaScript,6.35,7.83,60.82999999999999,Almost Ready
+Pargat Singh Dhanjal,Data Analyst,32,6.18,10.0,10.0,"Python, C, PHP",8.47,8.88,79.06,Job Ready
+Abhinav Gupta,Data Analyst,27,7.82,5.5,9.58,"Python, Apex, TypeScript",7.65,8.13,78.45,Job Ready
+Riddhi Dutta,Full-Stack Developer,26,6.32,5.5,6.54,"Java, JavaScript, TypeScript",6.14,7.98,67.46,Almost Ready
+Ayush Singh,Full-Stack Developer,44,5.37,8.5,9.89,TypeScript,7.66,10.0,76.75,Job Ready
+Md. Nawaz Rahaman,Full-Stack Developer,23,5.87,7.0,8.18,"Python, MATLAB, TypeScript",6.9,7.52,67.77,Almost Ready
+Wajahat Ali Mir,Full-Stack Developer,30,5.16,10.0,9.7,"Python, JavaScript",7.97,8.57,73.07000000000001,Almost Ready
+Lokesh Vyavhare,Frontend Engineer,10,4.88,5.5,5.53,"HTML, JavaScript, TypeScript",5.26,5.57,52.39000000000001,Almost Ready
+Ayush Pandey,Full-Stack Developer,25,10.0,10.0,8.28,"HTML, JavaScript",9.48,7.82,91.38,Job Ready
+Mayank Patel,Frontend Engineer,13,9.05,5.5,10.0,"CSS, JavaScript",8.27,6.02,78.29,Job Ready
+Chirag Jain,Full-Stack Developer,49,7.51,10.0,8.48,"Python, JavaScript, TypeScript",8.55,10.0,86.73,Job Ready
+Sarwan Singh,Full-Stack Developer,17,6.6,10.0,10.0,"Python, Jupyter Notebook",8.64,6.62,74.22,Almost Ready
+Sanchith Hegde,Software Intern,17,5.06,3.0,6.35,"Python, Kotlin, Rust",4.83,6.62,54.36,Almost Ready
+Satinder Singh,Full-Stack Developer,44,8.59,10.0,9.89,"Python, HTML",9.41,10.0,93.41000000000001,Job Ready
+Prayag Patel,Backend Engineer,25,5.76,10.0,10.0,"Markdown, Java",8.31,7.82,73.97999999999999,Almost Ready
+Abhinav.,Frontend Engineer,11,4.5,8.5,4.86,"PHP, HTML, Java",5.81,5.72,53.9,Almost Ready
+Nithu Lakshmi,Data Analyst,20,3.98,5.5,8.76,"Python, JavaScript",5.87,7.07,56.63,Almost Ready
+Developers India,Full-Stack Developer,39,5.75,10.0,10.0,"Python, HTML",8.3,9.92,80.21000000000001,Job Ready
+Abhey Rana,Full-Stack Developer,30,6.09,10.0,10.0,"Jupyter Notebook, Java",8.43,8.57,77.69999999999999,Job Ready
+Avinash Nethala,Software Intern,49,8.87,7.0,8.1,"PHP, Vue, TypeScript",8.08,10.0,88.93,Job Ready
+Intent,Frontend Engineer,9,8.63,5.5,9.41,TypeScript,7.93,5.42,73.87,Almost Ready
+Snehil Kumar,Full-Stack Developer,50,6.58,10.0,10.0,TypeScript,8.63,10.0,84.26,Job Ready
+QuantInsti,Full-Stack Developer,30,8.4,5.5,10.0,"Python, JavaScript",8.01,8.57,82.95,Job Ready
+Abhishek kagale,Full-Stack Developer,17,4.35,7.0,5.04,"JavaScript, Java",5.35,6.62,54.31,Almost Ready
+Ritesh Koushik,Full-Stack Developer,48,5.49,1.5,5.7,"CSS, Go, Java",4.35,10.0,63.870000000000005,Almost Ready
+Tushar Rajpoot,Full-Stack Developer,49,6.35,10.0,4.62,JavaScript,6.93,10.0,76.77,Job Ready
+Kritika Srivastava,Backend Engineer,49,6.9,10.0,4.03,"TypeScript, Java",6.97,10.0,78.58000000000001,Job Ready
+Manoj Satishkumar,Frontend Engineer,12,4.74,10.0,8.96,"HTML, CSS, JavaScript",7.58,5.87,62.15,Almost Ready
+Pranay Dnyaneshwar Khadse,Full-Stack Developer,21,4.85,7.0,7.34,"CSS, JavaScript, TypeScript",6.24,7.22,61.17000000000001,Almost Ready
+Sharvin Shah,Full-Stack Developer,31,8.08,5.5,10.0,TypeScript,7.88,8.72,81.92,Job Ready
+Drishty Ganatra,Full-Stack Developer,20,5.87,4.5,7.18,"Shell, Jupyter Notebook, JavaScript",5.85,7.07,62.220000000000006,Almost Ready
+Devarshi Shimpi,Full-Stack Developer,38,7.42,5.5,10.0,"MDX, Vue, TypeScript",7.62,9.77,82.04999999999998,Job Ready
+Tirth,Backend Engineer,40,7.84,10.0,10.0,"Dart, C++, JavaScript, TypeScript",9.14,10.0,90.08000000000001,Job Ready
+Dipanshu Singh ,Frontend Engineer,11,4.54,4.5,8.53,"HTML, JavaScript",5.73,5.72,53.7,Almost Ready
+Kartik Choudhary,Backend Engineer,40,7.15,10.0,9.75,Go,8.78,10.0,86.57,Job Ready
+SHIV,Software Intern,25,5.5,7.5,5.66,Rust,6.15,7.82,64.56000000000002,Almost Ready
+M Nithish,Software Intern,12,5.16,5.5,9.86,"Shell, Python",6.67,5.87,59.77,Almost Ready
+Vishnu Sivadas,Full-Stack Developer,19,8.03,8.5,8.7,"PHP, HTML, JavaScript",8.37,6.91,78.3,Job Ready
+Rahul Badade,Full-Stack Developer,28,3.73,7.0,10.0,JavaScript,6.59,8.26,62.33,Almost Ready
+Gautam J,Full-Stack Developer,42,8.48,7.0,9.63,"Jupyter Notebook, JavaScript",8.38,10.0,88.96000000000001,Job Ready
+Sumit Raghav,Full-Stack Developer,22,4.91,10.0,7.22,Java,7.13,7.36,65.33,Almost Ready
+Rishabh,Full-Stack Developer,18,7.96,8.5,10.0,Python,8.74,6.76,79.12,Job Ready
+Rishabh Mishra,Full-Stack Developer,19,3.73,7.0,6.18,Java,5.45,6.91,53.72,Almost Ready
+vinaykumar🍁,Backend Engineer,40,7.36,4.5,9.08,"Rust, Go",7.02,10.0,80.16,Job Ready
+Rahul Mula,Frontend Engineer,14,10.0,6.0,6.02,"Python, Dart, TypeScript",7.61,6.16,78.92,Job Ready
+Devkode.io,Frontend Engineer,5,10.0,5.5,9.15,"HTML, JavaScript",8.39,4.81,77.99000000000001,Job Ready
+D󠁩ivyanshu Singh,Full-Stack Developer,21,4.91,3.0,3.43,Python,3.89,7.21,51.92,Almost Ready
+Monalika Patnaik,Full-Stack Developer,46,8.03,10.0,7.22,"JavaScript, TypeScript",8.38,10.0,87.60999999999999,Job Ready
+Madhukesh Kumar Thakur,Full-Stack Developer,28,3.98,7.0,7.06,HTML,5.81,8.26,59.959999999999994,Almost Ready
+Pradyumna Krishna,Software Intern,37,9.82,10.0,10.0,"C, Objective-C, Dockerfile, Go",9.93,9.61,98.01,Job Ready
+Hardik Singh Behl,Full-Stack Developer,39,8.63,1.5,8.81,Java,6.55,9.91,81.82000000000001,Job Ready
+Kunal Jain,Full-Stack Developer,45,6.27,6.0,6.0,"HTML, JavaScript, TypeScript",6.11,10.0,73.25000000000001,Almost Ready
+Nitin Mehra ,Full-Stack Developer,28,3.73,10.0,4.47,Java,5.83,8.26,59.290000000000006,Almost Ready
+Arpit Vasani,Software Intern,50,9.62,1.5,8.91,"Python, Dockerfile, JavaScript, TypeScript",6.97,10.0,86.74,Job Ready
+Bhaswati Roy ,Data Analyst,20,6.03,7.0,7.57,"Python, C++, Jupyter Notebook",6.78,7.06,66.39,Almost Ready
+Arun M,Full-Stack Developer,45,7.07,10.0,2.11,"HTML, JavaScript, TypeScript",6.46,10.0,77.05,Job Ready
+ROSHAN JHA,Full-Stack Developer,42,4.3,10.0,6.36,"HTML, JavaScript, TypeScript",6.62,10.0,69.38,Almost Ready
+Tanvi Manchanda,Backend Engineer,11,1.76,1.5,10.0,"C++, CMake, JavaScript, TypeScript",4.15,5.71,39.010000000000005,Needs Improvement
+Ansh Gupta,Software Intern,23,5.61,7.0,5.22,"Python, Verilog, Jupyter Notebook, TypeScript",5.91,7.5,62.970000000000006,Almost Ready
+Gurpreet Singh,Backend Engineer,45,5.47,5.5,5.71,"Dart, Java",5.55,10.0,68.61000000000001,Almost Ready
+Atanu Karmakar,Full-Stack Developer,35,5.54,8.5,7.48,"JavaScript, TypeScript",7.01,9.3,72.56,Almost Ready
+shaaran Lakshminarayanan,Data Analyst,47,6.28,7.0,10.0,"Python, JavaScript",7.61,10.0,79.28,Job Ready
+Bhuvnesh,Data Analyst,42,5.9,3.0,9.0,Python,5.96,10.0,71.53999999999999,Almost Ready
+Ray,Frontend Engineer,12,3.98,5.5,9.67,"Python, HTML",6.14,5.85,54.050000000000004,Almost Ready
+Radhika Goswami,Software Intern,12,6.87,5.5,8.25,Dart,6.87,5.85,65.64,Almost Ready
+Dipen Patel,Full-Stack Developer,30,6.78,10.0,9.71,"Jupyter Notebook, JavaScript",8.62,8.55,80.47,Job Ready
+Archit,Full-Stack Developer,44,7.04,3.0,8.24,"Python, JavaScript",6.19,10.0,75.88000000000001,Job Ready
+Gaurav Das,Backend Engineer,49,5.28,7.0,10.0,"Python, Go, TypeScript",7.21,10.0,74.68,Almost Ready
+Sanjana Chakravarty,Software Intern,22,5.16,5.5,7.89,"C, HTML, Jupyter Notebook",6.08,7.35,61.85000000000001,Almost Ready
+Sapan Zaveri,Full-Stack Developer,24,8.86,5.5,10.0,"Python, CSS, Jupyter Notebook",8.19,7.65,82.28999999999999,Job Ready
+PRINCE KUMAR ,Backend Engineer,39,8.29,3.0,5.91,Go,5.99,9.9,78.53,Job Ready
+Mukul Jatav,Full-Stack Developer,19,5.93,7.0,8.16,"JavaScript, TypeScript",6.92,6.9,66.17,Almost Ready
+Durgashankar Pal,Full-Stack Developer,32,5.03,8.5,10.0,JavaScript,7.56,8.85,71.88000000000001,Almost Ready
+Abhinav Kumar,Software Intern,46,5.86,7.0,6.19,"Shell, TypeScript",6.3,10.0,72.78,Almost Ready
+DevsInTech,Software Intern,12,7.37,10.0,6.59,"Markdown, CSS",7.93,5.85,71.38,Almost Ready
+Pulkit Mehndiratta,Frontend Engineer,13,5.41,3.0,7.73,"Jupyter Notebook, JavaScript",5.38,6.0,55.75,Almost Ready
+Shirso Bhattacharyya,Full-Stack Developer,41,4.88,7.0,6.85,"JavaScript, TypeScript",6.11,10.0,69.08000000000001,Almost Ready
+Neeraj,Software Intern,34,5.59,1.5,10.0,"Dart, Kotlin",5.69,9.15,66.98,Almost Ready
+Shivang Kakkar,Full-Stack Developer,47,9.87,10.0,8.65,"JavaScript, TypeScript",9.54,10.0,97.77,Job Ready
+Ripan Baidya,Full-Stack Developer,40,3.9,1.5,6.99,TypeScript,4.11,10.0,58.14,Almost Ready
+Mindfire,Full-Stack Developer,43,8.73,10.0,10.0,"Python, TypeScript",9.49,10.0,94.15,Job Ready
+Darshan Bagade,Full-Stack Developer,25,4.78,4.5,4.98,"Python, JavaScript",4.76,7.8,56.78,Almost Ready
+Muthu Kumar,Full-Stack Developer,32,6.28,7.0,6.81,"HTML, TypeScript",6.65,8.85,71.99,Almost Ready
+Mohit Kumar,Frontend Engineer,10,5.95,5.5,9.96,TypeScript,7.02,5.55,62.58,Almost Ready
+Sukhmani,Full-Stack Developer,16,4.12,7.0,9.07,"HTML, JavaScript",6.47,6.45,57.589999999999996,Almost Ready
+Poruri Sai Rahul,Full-Stack Developer,48,5.66,10.0,9.57,HTML,8.13,10.0,79.50000000000001,Job Ready
+Pranshu Tople,Full-Stack Developer,31,6.86,3.0,8.38,C++,6.16,8.69,71.28999999999999,Almost Ready
+Amagi Media,Full-Stack Developer,31,5.67,10.0,10.0,"Python, C++, Ruby",8.27,8.69,76.15999999999998,Job Ready
+Yasmin devaragattu,Data Analyst,9,4.24,6.0,7.37,"Python, Kotlin, HTML",5.71,5.39,51.730000000000004,Almost Ready
+xanthium enterprises,Full-Stack Developer,37,7.69,5.5,8.61,"Python, C",7.31,9.59,81.08000000000001,Job Ready
+Ankur Chavda,Full-Stack Developer,18,9.47,3.0,9.47,"Scala, Jupyter Notebook, JavaScript, Python, Dockerfile",7.53,6.74,78.75000000000001,Job Ready
+Md Ali,Full-Stack Developer,33,5.24,7.0,9.29,JavaScript,6.98,8.99,70.61000000000001,Almost Ready
+Karthikey Saxena,Backend Engineer,32,5.24,7.0,6.28,"JavaScript, Java",6.08,8.84,66.56,Almost Ready
+Sriram Kumar,Data Analyst,32,3.64,3.0,6.22,"Python, Go, TypeScript",4.22,8.84,54.32000000000001,Almost Ready
+Priyank Gada,Backend Engineer,41,8.64,7.0,10.0,C++,8.56,10.0,90.16,Job Ready
+Deva Srirama Sai Ganesh B,Full-Stack Developer,19,3.53,6.0,5.4,"Python, JavaScript, Java",4.83,6.89,50.58,Almost Ready
+Ajat Prabha,Full-Stack Developer,28,4.05,8.5,10.0,"Python, TypeScript",7.17,8.24,65.55,Almost Ready
+Saikat Basak,Data Analyst,27,8.36,7.0,10.0,"Python, Jupyter Notebook, JavaScript",8.45,8.09,83.14999999999999,Job Ready
+Jay Khatri,Backend Engineer,39,6.56,8.5,10.0,"Dart, C++, Vue, Java",8.17,9.89,82.03,Job Ready
+Rakesh Potnuru,Full-Stack Developer,27,7.69,5.5,9.59,"Makefile, TypeScript",7.6,8.09,77.74000000000001,Job Ready
+Sumit Mishra,Software Intern,35,6.04,1.5,10.0,Kotlin,5.87,9.29,69.47,Almost Ready
+Mayank Badola,Full-Stack Developer,49,7.28,4.5,7.35,"PHP, JavaScript",6.47,10.0,77.72,Job Ready
+DevAnaZ,Data Analyst,47,10.0,10.0,7.06,"Python, HTML, CSS",9.12,10.0,96.47999999999999,Job Ready
+Ajay Garg,Frontend Engineer,12,1.0,3.0,5.31,"HTML, CSS",2.89,5.84,32.08,Needs Improvement
+Pavan Jadhaw,Full-Stack Developer,40,8.15,5.5,10.0,"C, TypeScript",7.91,10.0,86.09,Job Ready
+Priyobrato Banik,Backend Engineer,41,3.98,5.5,10.0,Java,6.24,10.0,66.9,Almost Ready
+VIKASH LAL,Full-Stack Developer,42,5.28,7.0,9.88,JavaScript,7.18,10.0,74.56,Almost Ready
+Sachin,Full-Stack Developer,44,5.78,10.0,10.0,"C++, Go",8.31,10.0,80.58,Job Ready
+DIVYA LALWANI,Data Analyst,22,6.02,7.0,9.33,"Python, JavaScript, TypeScript",7.31,7.34,69.32,Almost Ready
+Ravi Ranjan,Backend Engineer,16,3.82,1.5,9.72,"C++, Ruby, JavaScript",4.89,6.44,50.339999999999996,Almost Ready
+Astro,Frontend Engineer,5,10.0,4.5,6.87,"Shell, JavaScript",7.41,4.79,74.01,Almost Ready
+Sonu Kumar ,Data Analyst,25,2.52,1.5,9.11,"Python, GDScript, JavaScript, Shell",4.19,7.79,47.69,Needs Improvement
+Satwik Prabhu,Full-Stack Developer,18,5.95,3.0,10.0,"JavaScript, TypeScript",6.28,6.74,63.19000000000001,Almost Ready
+Ashwini Kumar,Frontend Engineer,8,7.97,8.5,6.56,"Kotlin, Java",7.71,5.24,70.47,Almost Ready
+Yatharth Lakhate,Full-Stack Developer,44,3.42,6.0,7.5,TypeScript,5.42,10.0,61.94,Almost Ready
+Varun,Software Intern,22,9.43,7.0,8.01,"Kotlin, HTML",8.28,7.34,83.43,Job Ready
+Anindya Kundu,Software Intern,46,5.41,10.0,10.0,"Vue, Jupyter Notebook, TypeScript",8.16,10.0,78.87,Job Ready
+Sujit Kumar,Software Intern,20,7.87,5.5,9.85,"TypeScript, JavaScript, Svelte",7.75,7.04,75.72999999999999,Job Ready
+ankit,Full-Stack Developer,50,3.73,7.0,10.0,TypeScript,6.59,10.0,67.55,Almost Ready
+Thangaraj K,Full-Stack Developer,20,7.77,7.0,10.0,"Python, Java",8.21,7.04,77.27000000000001,Job Ready
+Aditya Mandal ,Software Intern,45,6.5,7.0,7.1,Rust,6.83,10.0,76.82000000000001,Job Ready
+codewithmukesh,Software Intern,5,8.97,5.5,8.32,"HCL, C#",7.74,4.78,72.21000000000001,Almost Ready
+Karthik Raman,Software Intern,31,6.83,10.0,10.0,"XSLT, JavaScript, TeX",8.73,8.68,81.44999999999999,Job Ready
+Amareswaran,Backend Engineer,50,8.59,5.5,2.98,Java,5.98,10.0,79.69,Job Ready
+M.vikram,Full-Stack Developer,16,2.97,7.0,5.46,"HTML, JavaScript, Java",4.92,6.43,47.88,Needs Improvement
+Pranjal Joshi,Full-Stack Developer,35,8.9,8.5,10.0,"Python, TypeScript",9.11,9.28,90.97999999999999,Job Ready
+Aman Vats,Full-Stack Developer,46,5.16,7.0,8.39,"Python, TypeScript",6.68,10.0,72.2,Almost Ready
+PixelExtended ROM,Full-Stack Developer,24,7.55,8.5,10.0,"SCSS, Java",8.57,7.63,79.82000000000001,Job Ready
+Sairudra More,Full-Stack Developer,37,4.81,10.0,10.0,"Python, C++, LLVM, TypeScript",7.92,9.58,74.85,Almost Ready
+Devansh Shah,Full-Stack Developer,48,4.81,3.0,5.52,"Python, HCL",4.48,10.0,62.349999999999994,Almost Ready
+Falguni Sarkar,Full-Stack Developer,27,6.01,6.0,5.65,"CSS, TypeScript",5.9,8.08,65.87,Almost Ready
+Archit Verma,Full-Stack Developer,50,9.52,10.0,7.93,Python,9.19,10.0,95.32,Job Ready
+Chetan,Backend Engineer,32,3.82,8.5,5.64,"HTML, Java",5.77,8.83,61.03,Almost Ready
+Shasank Prasad,Backend Engineer,39,7.35,3.0,9.49,"Python, C, Java",6.69,9.88,78.45,Job Ready
+Abhinav Raut,Software Intern,28,9.8,4.5,7.35,"Go, C#",7.48,8.23,84.00999999999999,Job Ready
+Hardip Solanki,Full-Stack Developer,25,3.73,1.5,6.07,"PHP, C++, Go, TypeScript",3.76,7.78,49.57,Needs Improvement
+Arpit kumar sahu,Full-Stack Developer,23,4.18,7.0,6.32,JavaScript,5.67,7.48,57.66,Almost Ready
+Neha Duggirala,Full-Stack Developer,50,6.51,10.0,10.0,"Python, Jupyter Notebook, JavaScript, TypeScript",8.6,10.0,83.92999999999999,Job Ready
+Ajay Prabhakar,Full-Stack Developer,29,9.18,10.0,10.0,"Dart, Svelte",9.67,8.38,91.36000000000001,Job Ready
+Achint Chaudhary,Software Intern,42,5.86,4.5,10.0,"Shell, Python, HTML",6.69,10.0,74.34,Almost Ready
+Pavan Kalyan,Full-Stack Developer,20,4.94,6.0,6.95,TypeScript,5.86,7.03,59.35000000000001,Almost Ready
+Suchi Maheshwari,Frontend Engineer,11,7.57,5.5,5.7,"HTML, JavaScript",6.39,5.68,65.31,Almost Ready
+Ratan Kumar,Backend Engineer,32,3.9,1.5,6.83,"TypeScript, JavaScript, Java",4.06,8.83,54.42999999999999,Almost Ready
+Ajay,Software Intern,7,7.88,5.5,10.0,"Python, AutoIt, Kotlin",7.8,5.08,70.08,Almost Ready
+Vikas,Full-Stack Developer,39,8.57,7.0,10.0,"Python, Dockerfile",8.53,9.88,89.47,Job Ready
+Indic Digital Archive Foundation,Software Intern,13,4.94,7.0,10.0,"PHP, Markdown, Python",7.08,5.98,61.080000000000005,Almost Ready
+panchajanya.,Software Intern,38,8.11,7.0,10.0,"Shell, Python",8.34,9.73,86.88000000000001,Job Ready
+Ojasvi Khurana,Full-Stack Developer,38,5.03,6.0,6.74,"Dart, JavaScript",5.83,9.73,67.60000000000001,Almost Ready
+Susmith Krishnan,Full-Stack Developer,23,9.18,3.0,6.79,"Python, Go, JavaScript",6.61,7.48,76.41999999999999,Job Ready
+Umesh Palai,Software Intern,31,8.15,1.5,5.38,Jupyter Notebook,5.32,8.68,71.77,Almost Ready
+Sachin Srivastava,Full-Stack Developer,46,8.99,1.5,7.03,"Python, JavaScript",6.15,10.0,81.57,Job Ready
+Gaurav Mishra,Full-Stack Developer,47,3.14,10.0,9.66,Shell,7.15,10.0,68.02000000000001,Almost Ready
+Prabhjot Singh,Data Analyst,42,7.21,10.0,10.0,"Python, Jupyter Notebook",8.88,10.0,87.15,Job Ready
+bitspace,Software Intern,25,5.99,5.5,9.73,"C, Makefile, Rust",6.96,7.78,69.15,Almost Ready
+Mehul Bagga,Frontend Engineer,13,1.0,5.5,6.32,Java,3.95,5.97,36.71,Needs Improvement
+Kiran Naragund,Full-Stack Developer,44,8.61,8.5,8.18,"PHP, TypeScript",8.45,10.0,89.63,Job Ready
+Vivek Kaushik,Backend Engineer,45,9.02,8.5,9.98,"Python, C++, Java",9.15,10.0,93.66,Job Ready
+PARTHIB KUMAR DEB,Full-Stack Developer,43,5.52,5.5,8.02,JavaScript,6.27,10.0,71.64,Almost Ready
+Tanaya Wankar,Backend Engineer,26,4.05,1.5,10.0,"C++, Java",5.07,7.92,56.19,Almost Ready
+Anshul Wadhwa,Full-Stack Developer,40,5.87,6.0,10.0,"HTML, TypeScript",7.15,10.0,76.21000000000001,Job Ready
+Rohit Singh,Software Intern,18,6.56,8.5,10.0,"Python, Jupyter Notebook",8.17,6.72,72.52000000000001,Almost Ready
+Apoorv Saxena,Full-Stack Developer,38,10.0,10.0,9.9,"HTML, CSS, JavaScript, TypeScript",9.97,9.72,99.03999999999999,Job Ready
+Vishesh Bansal,Software Intern,25,5.81,3.0,6.31,"Python, Swift, TypeScript",5.11,7.77,61.18000000000001,Almost Ready
+GPTContribX,Full-Stack Developer,22,2.97,7.0,6.82,"JavaScript, Go, TypeScript",5.33,7.32,52.190000000000005,Almost Ready
+Yug,Full-Stack Developer,26,5.61,10.0,10.0,"HTML, JavaScript",8.24,7.92,73.55000000000001,Almost Ready
+Amit Roy,Full-Stack Developer,22,4.24,7.0,10.0,"JavaScript, Java",6.8,7.32,61.88000000000001,Almost Ready
+Praveen Bisht,Full-Stack Developer,38,6.58,5.5,5.32,TypeScript,5.88,9.72,72.42,Almost Ready
+Priyadarshan,Full-Stack Developer,24,2.77,10.0,8.44,"HTML, JavaScript",6.64,7.62,57.73,Almost Ready
+Abhijeet Pal,Data Analyst,32,8.41,5.5,10.0,"Python, TypeScript",8.01,8.81,83.70000000000002,Job Ready
+Shriharsh,Frontend Engineer,11,5.3,3.0,8.73,"HTML, Jupyter Notebook, TypeScript",5.64,5.66,55.44,Almost Ready
+Android Knowledge,Backend Engineer,6,6.25,5.5,6.15,Java,5.99,4.91,57.440000000000005,Almost Ready
+Jitendra sharma,Full-Stack Developer,37,4.12,8.5,7.24,TypeScript,6.37,9.56,66.52,Almost Ready
+Ankita Puri,Backend Engineer,35,8.13,10.0,9.73,"Dart, Python, Jupyter Notebook, Java",9.17,9.26,88.85,Job Ready
+Azhar Khan,Software Intern,38,7.44,5.5,10.0,"PHP, Go, JavaScript",7.63,9.71,81.97,Job Ready
+Himanshu Rana,Full-Stack Developer,33,5.06,10.0,9.46,JavaScript,7.86,8.96,73.5,Almost Ready
+Manikumar Reddy,Full-Stack Developer,40,7.64,1.5,8.99,Smarty,6.2,10.0,77.72,Job Ready
+Point Blank,Data Analyst,26,8.58,5.5,10.0,"Python, C++, C, TypeScript",8.08,7.91,81.79,Job Ready
+Rohit ojha,Full-Stack Developer,46,2.52,5.5,10.0,"JavaScript, TypeScript",5.66,10.0,60.2,Almost Ready
+Raj Mandloi,Software Intern,50,4.67,3.0,6.52,"PHP, JavaScript, TypeScript",4.72,10.0,62.89,Almost Ready
+Pranotosh Mandal,Full-Stack Developer,23,1.76,1.5,7.52,"Python, HTML, Jupyter Notebook",3.41,7.46,41.30000000000001,Needs Improvement
+Ghazi,Full-Stack Developer,32,9.4,10.0,10.0,"JavaScript, TypeScript",9.76,8.81,93.67000000000002,Job Ready
+Surya Cheedella,Data Analyst,25,6.59,5.5,7.03,Python,6.39,7.76,68.61000000000001,Almost Ready
+Abhijeet Kumar,Data Analyst,31,8.93,5.5,9.16,"Python, Jupyter Notebook",7.97,8.66,84.65,Job Ready
+Aman Verasia,Full-Stack Developer,35,6.78,7.0,9.0,"Shell, Go, TypeScript",7.51,9.26,78.16,Job Ready
+Hashira,Frontend Engineer,15,6.66,7.0,9.51,"MDX, Rust, TypeScript",7.62,6.26,69.24000000000001,Almost Ready
+Rachit sharma,Full-Stack Developer,31,6.04,7.0,9.89,"JavaScript, Java",7.49,8.66,74.06,Almost Ready
+vipin barode,Backend Engineer,48,3.64,3.0,4.0,"JavaScript, Java",3.55,10.0,55.120000000000005,Almost Ready
+Abheesht,Full-Stack Developer,36,5.45,3.0,9.0,"Python, HTML",5.78,9.41,67.69999999999999,Almost Ready
+Jyoti kumari,Frontend Engineer,14,3.53,8.5,6.95,JavaScript,6.05,6.11,53.120000000000005,Almost Ready
+Sparsh Temani,Frontend Engineer,11,4.54,3.0,7.4,"Go, JavaScript",4.94,5.66,50.36000000000001,Almost Ready
+Bhavesh Mali,Full-Stack Developer,27,6.19,1.5,8.75,"HTML, Jupyter Notebook, Java",5.55,8.06,64.95,Almost Ready
+Shivansh Tiwari,Full-Stack Developer,40,5.26,5.5,9.82,"Python, JavaScript",6.7,10.0,72.57999999999998,Almost Ready
+KeizerWorks,Frontend Engineer,5,6.5,5.5,8.4,TypeScript,6.77,4.76,60.86,Almost Ready
+Abhishek Kumar,Software Intern,34,5.72,3.0,9.07,"Dart, Kotlin",5.91,9.11,68.13,Almost Ready
+Soham Biren Katlariwala,Frontend Engineer,10,2.97,1.5,4.72,Jupyter Notebook,3.05,5.51,37.64,Needs Improvement
+Thiru,Full-Stack Developer,31,4.58,1.5,3.2,"HTML, JavaScript",3.25,8.66,52.71999999999999,Almost Ready
+Amit Manchanda,Data Analyst,49,6.97,3.0,5.25,"Python, JavaScript, TypeScript",5.26,10.0,71.95,Almost Ready
+Ruby Narwal,Data Analyst,12,4.24,7.0,2.65,"Python, JavaScript",4.59,5.81,48.51,Needs Improvement
+Vik,Frontend Engineer,9,4.74,10.0,9.57,"Vim Script, HTML, JavaScript, TypeScript",7.77,5.36,61.379999999999995,Almost Ready
+Vashishth Patel,Full-Stack Developer,35,8.03,10.0,9.7,"CSS, JavaScript, TypeScript",9.12,9.26,88.35000000000001,Job Ready
+Vikrant Negi,Full-Stack Developer,50,9.22,4.5,9.22,TypeScript,7.8,10.0,88.85999999999999,Job Ready
+Mounish Sai,Full-Stack Developer,17,5.5,5.5,7.94,"HTML, JavaScript",6.23,6.56,61.099999999999994,Almost Ready
+CP Variyani,Full-Stack Developer,44,8.3,8.5,9.52,"JavaScript, TypeScript",8.73,10.0,89.82000000000001,Job Ready
+Manavalan,Full-Stack Developer,25,5.66,1.5,5.5,"JavaScript, TypeScript",4.36,7.75,57.669999999999995,Almost Ready
+Hitansh Thakur,Full-Stack Developer,22,5.14,3.0,7.89,"Shell, Java, TypeScript",5.32,7.3,58.599999999999994,Almost Ready
+Akshen,Data Analyst,27,4.88,1.5,8.63,"Python, R, SAS",4.99,8.05,58.75,Almost Ready
+Logesh Paul,Full-Stack Developer,26,9.41,10.0,10.0,"Shell, HTML, JavaScript",9.76,7.9,90.97,Job Ready
+Anish Shobith P S,Full-Stack Developer,22,5.85,7.0,5.96,TypeScript,6.23,7.3,64.37,Almost Ready
+Bipul Jaiswal,Full-Stack Developer,34,9.08,5.5,10.0,JavaScript,8.28,9.1,87.66,Job Ready
+Umair,Backend Engineer,33,8.16,7.0,8.45,"Python, Go, JavaScript",7.9,8.95,82.92999999999999,Job Ready
+Samiran Ghosh,Full-Stack Developer,35,5.72,7.5,7.47,"JavaScript, TypeScript",6.78,9.25,72.03,Almost Ready
+Priyanshu Kaushik,Full-Stack Developer,21,4.88,8.5,6.73,JavaScript,6.52,7.15,62.17,Almost Ready
+PANKAJ DASBHAYA,Frontend Engineer,13,2.21,3.0,10.0,"C, CSS",4.78,5.95,43.6,Needs Improvement
+Jay Gajera,Full-Stack Developer,26,9.97,10.0,9.67,"C++, HTML, TypeScript",9.89,7.9,93.17,Job Ready
+Ankita Ghosh,Software Intern,39,2.97,1.5,7.47,"Python, Jupyter Notebook",3.88,9.85,53.98,Almost Ready
+Fusion Automate,Backend Engineer,39,6.55,5.5,5.88,C++,6.03,9.85,73.32,Almost Ready
+Askitloud,Data Analyst,6,7.32,5.5,6.7,Python,6.59,4.9,63.019999999999996,Almost Ready
+Kiran Kumar,Software Intern,19,8.09,8.5,10.0,"Kotlin, JavaScript, TypeScript",8.79,6.85,79.97999999999999,Job Ready
+AKASH SHARMA,Backend Engineer,17,5.28,10.0,8.83,"Python, C++, Java",7.76,6.55,66.53,Almost Ready
+U. Kiranvas Reddy,Full-Stack Developer,16,7.13,7.0,9.48,"HTML, Jupyter Notebook",7.79,6.4,71.74999999999999,Almost Ready
+Ravindra Kumar,Full-Stack Developer,23,3.42,7.0,3.85,JavaScript,4.62,7.45,51.09,Almost Ready
+Harshit Bansal,Backend Engineer,29,5.0,3.0,3.22,Java,3.87,8.35,55.53,Almost Ready
+Vishal Telangre,Software Intern,31,8.85,7.0,10.0,"Kotlin, JavaScript, TypeScript",8.64,8.65,87.06,Job Ready
+Arun,Full-Stack Developer,32,5.14,7.0,10.0,"JavaScript, TypeScript",7.15,8.8,70.42,Almost Ready
+Able k Saju,Full-Stack Developer,34,5.08,7.5,8.7,"JavaScript, TypeScript",6.89,9.1,70.10000000000001,Almost Ready
+Praveen Kumar,Frontend Engineer,15,7.24,5.5,6.31,"Python, Tcl",6.44,6.25,66.23000000000002,Almost Ready
+Uvdesk ,Software Intern,29,10.0,7.0,10.0,Dart,9.1,8.35,91.44999999999999,Job Ready
+Akash Pattnaik,Full-Stack Developer,43,8.03,10.0,10.0,"Java, TypeScript",9.21,10.0,90.93,Job Ready
+Arpit Chaudhary ,Full-Stack Developer,36,4.74,3.0,8.95,"HTML, TypeScript",5.48,9.4,64.34,Almost Ready
+Ajay Kumar Yadav,Backend Engineer,20,3.64,7.0,6.28,"Jupyter Notebook, JavaScript, Java",5.44,7.0,53.68000000000001,Almost Ready
+Dev Singh Rajput (Magneto),Frontend Engineer,15,7.23,1.5,5.81,"Python, JavaScript",5.08,6.25,60.760000000000005,Almost Ready
+YogeshDharya,Full-Stack Developer,45,4.94,1.5,8.99,"HTML, JavaScript",5.12,10.0,65.3,Almost Ready
+Raunak,Data Analyst,11,8.74,4.5,8.05,"Python, HTML, CSS",7.26,5.65,72.21000000000001,Almost Ready
+Simran Gouri,Frontend Engineer,14,3.9,1.5,10.0,JavaScript,5.01,6.1,50.03999999999999,Almost Ready
+abhinav,Frontend Engineer,10,3.73,1.5,7.08,Java,4.07,5.5,43.97,Needs Improvement
+Akash Singha,Full-Stack Developer,24,2.97,10.0,10.0,"C++, Vue, JavaScript",7.19,7.6,60.470000000000006,Almost Ready
+Hemakshi Sachdev,Backend Engineer,37,8.47,10.0,10.0,"Go, Smarty",9.39,9.55,91.62,Job Ready
+OpenStreetMap US,Software Intern,22,7.33,10.0,10.0,"Shell, HTML, JavaScript, TypeScript",8.93,7.07,78.91999999999999,Job Ready
+Andrew Bernas,Data Analyst,12,7.21,7.0,10.0,"Python, Jupyter Notebook, Shell",7.98,5.33,69.54,Almost Ready
+@unitedstates,Data Analyst,40,10.0,10.0,10.0,"Python, JavaScript",10.0,10.0,100.0,Job Ready
+StateSpeed Solutions,Full-Stack Developer,18,4.05,7.0,4.89,"Python, HTML, JavaScript",5.19,5.14,48.33,Needs Improvement
+Jen DeGrazia,Full-Stack Developer,23,3.14,10.0,8.89,JavaScript,6.92,6.23,55.790000000000006,Almost Ready
+Sarah Zaccagni,Full-Stack Developer,26,2.77,10.0,7.35,"JavaScript, TypeScript",6.31,7.26,55.33,Almost Ready
+"MENTIS Laboratory - Northeastern University, United States",Data Analyst,30,3.73,5.5,10.0,Python,6.14,7.56,58.43,Almost Ready
+Owais Ahmed,Full-Stack Developer,16,1.0,7.0,10.0,"Jupyter Notebook, JavaScript",5.5,5.46,41.379999999999995,Needs Improvement
+Nick,Full-Stack Developer,26,4.78,7.0,10.0,"JavaScript, Objective-C, Go, TypeScript",7.01,7.01,63.410000000000004,Almost Ready
+Rupan Prasai,Frontend Engineer,11,2.97,5.5,8.77,"Astro, TypeScript",5.47,4.98,45.730000000000004,Needs Improvement
+United States Holocaust Memorial Museum,Frontend Engineer,8,2.21,8.5,10.0,JavaScript,6.43,3.98,44.290000000000006,Needs Improvement
+United States PostgreSQL Association,Data Analyst,7,4.78,5.5,10.0,"Python, HTML",6.56,3.88,52.220000000000006,Almost Ready
+Médecins Sans Frontières United States,Frontend Engineer,6,3.14,5.5,10.0,"PHP, Python, TypeScript, Java",5.91,3.68,44.1,Needs Improvement
+United States of America,Frontend Engineer,6,3.9,5.5,1.5,JavaScript,3.66,3.62,37.2,Needs Improvement
+Onur Koçak,Full-Stack Developer,17,2.77,1.5,8.25,Python,4.03,5.1,39.73,Needs Improvement
+Jacob,Backend Engineer,12,3.29,5.5,10.0,"Python, C++, C, JavaScript",5.96,4.58,47.45,Needs Improvement
+Misa_Hagi,Backend Engineer,18,1.76,1.5,6.15,"CSS, Ruby, JavaScript",3.0,5.86,34.86,Needs Improvement
+Pacific States Marine Fisheries - Streamnet - RMPC,Frontend Engineer,6,2.21,3.0,7.22,"Python, TypeScript",3.95,3.82,33.89,Needs Improvement
+Mike Kuykendall,Software Intern,29,10.0,5.5,10.0,"HTML, Rust",8.65,8.36,89.68,Job Ready
+Rolan Marat,Full-Stack Developer,17,3.29,7.0,5.89,"Swift, HTML",5.18,5.71,47.72,Needs Improvement
+Kane Chew,Frontend Engineer,14,6.54,5.5,7.33,"Shell, Python, Jupyter Notebook, Matlab",6.47,5.57,62.21,Almost Ready
+Abhay Arora,Full-Stack Developer,16,3.64,7.0,6.48,"JavaScript, TypeScript",5.5,5.04,48.040000000000006,Needs Improvement
+MSD  Inventing for Life,Data Analyst,48,7.88,10.0,9.45,"Python, PLpgSQL, Jupyter Notebook",8.99,10.0,89.60000000000001,Job Ready
+Hydemary,Frontend Engineer,10,3.53,5.5,8.93,TypeScript,5.74,4.61,47.38,Needs Improvement
+Samuel Olagunju,Software Intern,35,5.08,10.0,7.99,"C++, HTML, Rust, C#",7.43,8.24,69.68,Almost Ready
+Jeremy Meltingtallow,Software Intern,22,6.44,6.0,6.72,"Haxe, JavaScript",6.39,6.55,64.53,Almost Ready
+GDG On Campus | Farmingdale State College,Software Intern,26,3.98,3.0,5.36,"Shell, Python, JavaScript, TypeScript",4.1,7.03,49.42999999999999,Needs Improvement
+Pratik Chaudhari,Full-Stack Developer,39,2.21,3.0,6.32,"JavaScript, C#",3.68,8.49,46.82000000000001,Needs Improvement
+Learn To Be,Backend Engineer,19,2.21,7.0,10.0,"Ruby, JavaScript",5.98,5.68,47.59,Needs Improvement
+IVAO US,Software Intern,6,4.35,5.5,10.0,"Blade, GLSL, C#",6.39,3.54,49.230000000000004,Needs Improvement
+Jiashu Hu,Full-Stack Developer,21,1.0,1.5,9.6,"HTML, Java, TypeScript",3.73,5.79,35.29,Needs Improvement
+Luke Wyatt,Frontend Engineer,6,4.12,1.5,3.99,"Shell, Dockerfile, C#",3.29,3.98,37.459999999999994,Needs Improvement
+AJAY PUNIA,Full-Stack Developer,24,2.77,5.5,10.0,"Python, Jupyter Notebook",5.76,6.24,50.06999999999999,Almost Ready
+Rep My Block,Full-Stack Developer,17,3.64,5.5,10.0,JavaScript,6.11,5.27,51.17000000000001,Almost Ready
+Cortez McCrary,Data Analyst,20,1.0,5.5,9.42,"Python, Rust, JavaScript",4.88,5.64,39.44,Needs Improvement
+Zyfurr,Software Intern,8,3.64,7.0,4.3,"AutoHotkey, HTML, CSS, JavaScript",4.84,4.08,42.52000000000001,Needs Improvement
+KMS Pico,Full-Stack Developer,24,1.76,1.5,1.37,JavaScript,1.57,6.04,29.68,Needs Improvement
+Meghana H,Frontend Engineer,5,1.0,1.5,2.82,"HTML, CSS",1.7,3.19,19.37,Needs Improvement
+Klasma Labs,Software Intern,6,1.0,5.5,8.75,"Solidity, Rust, JavaScript, TypeScript",4.67,3.68,32.72,Needs Improvement
+Srinivasa Rao Potnuru,Frontend Engineer,13,1.0,7.0,10.0,"Python, Scala, CSS",5.5,4.5,38.5,Needs Improvement
+Ankur Yadav,Data Analyst,21,2.52,7.0,7.56,Python,5.38,5.7,46.18000000000001,Needs Improvement
+Himanshu Gupta,Data Analyst,19,4.67,3.0,8.67,"Python, Jupyter Notebook",5.37,5.57,52.199999999999996,Almost Ready
+Sagar Prabhu,Full-Stack Developer,42,3.53,4.5,7.55,"Python, C#, JavaScript, TypeScript",5.03,8.85,57.26,Almost Ready
+ET Toolbox,Frontend Engineer,8,4.97,1.5,6.08,"Python, Jupyter Notebook",4.26,3.92,43.709999999999994,Needs Improvement
+Matthew Reusswig,Frontend Engineer,15,1.0,7.0,10.0,R,5.5,4.8,39.4,Needs Improvement
+Jenn,Data Analyst,29,3.53,1.5,10.0,Python,4.86,6.63,49.92,Needs Improvement
+RGBsec,Frontend Engineer,5,4.3,8.5,10.0,"Rust, JavaScript, Java",7.27,3.3,51.879999999999995,Almost Ready
+Hardik Hariyani,Full-Stack Developer,41,2.21,10.0,5.36,"HTML, Java",5.49,8.59,54.36,Almost Ready
+WRCE TSD,Data Analyst,28,3.53,5.5,8.71,Python,5.68,6.64,53.23,Almost Ready
+Skyler Ingber,Frontend Engineer,12,2.21,7.0,7.37,"HTML, CSS",5.19,4.58,41.13,Needs Improvement
+Arfan Arshad,Data Analyst,7,1.76,5.5,8.3,"Python, R",4.84,3.69,35.71,Needs Improvement
+Eli,Frontend Engineer,12,3.82,8.5,10.0,"HTML, JavaScript",7.08,4.35,52.830000000000005,Almost Ready
+BHANUKOWSHIK BATHINA,Frontend Engineer,13,1.76,1.5,1.58,"HTML, JavaScript",1.63,4.23,24.490000000000002,Needs Improvement
+Damian,Full-Stack Developer,18,3.64,7.0,8.17,"HTML, JavaScript",6.01,5.42,51.22,Almost Ready
+Brown Julie,Frontend Engineer,8,1.0,10.0,9.04,"HTML, CSS",6.11,3.48,37.88,Needs Improvement
+Columbia Cloudworks,Software Intern,9,1.76,5.5,6.54,"PHP, TypeScript, PowerShell, Shell",4.32,3.79,33.93,Needs Improvement
+Kiriative,Full-Stack Developer,16,1.0,10.0,1.67,HTML,3.9,4.68,32.64,Needs Improvement
+Ashwath Sridhar,Frontend Engineer,11,1.0,3.0,7.88,"Swift, HTML, Java",3.66,3.65,28.59,Needs Improvement
+Dhiraj Vullanki,Frontend Engineer,11,1.0,1.5,3.63,"HTML, Java",1.94,4.09,23.03,Needs Improvement
+Zachary Harrell,Frontend Engineer,6,1.0,3.0,5.96,"Python, HTML, JavaScript",3.09,3.34,25.38,Needs Improvement
+Social Demure,Frontend Engineer,15,1.0,5.5,8.61,"Dart, TypeScript",4.63,4.53,35.11,Needs Improvement
+ William Gerlach,Frontend Engineer,5,1.76,5.5,1.5,JavaScript,2.8,3.19,26.05,Needs Improvement
+Connor Hayden,Frontend Engineer,13,1.76,10.0,9.57,"Python, HTML, JavaScript",6.57,4.23,44.25000000000001,Needs Improvement
+Dahlia Hart,Frontend Engineer,6,1.0,8.5,10.0,"Python, Ruby, SCSS",5.95,3.34,36.82000000000001,Needs Improvement
+National Academy of Sciences,Data Analyst,6,3.42,5.5,10.0,"Python, Pug, Pascal, JavaScript",6.02,3.34,44.36,Needs Improvement
+Avi Jani,Frontend Engineer,10,1.76,7.0,8.51,"CSS, Jupyter Notebook",5.36,3.78,38.06,Needs Improvement
+Ayomide Oshilaja,Frontend Engineer,15,1.0,10.0,3.43,JavaScript,4.43,4.53,34.31,Needs Improvement
+Jessica Singh Syal,Software Intern,16,2.52,1.5,9.64,"Python, Jupyter Notebook, TypeScript",4.35,4.68,39.0,Needs Improvement
+SameThing.AI,Frontend Engineer,5,1.76,7.0,5.04,"Python, HTML",4.32,3.19,32.13,Needs Improvement
+Pencil,Frontend Engineer,15,3.29,5.5,8.59,"Vue, JavaScript, TypeScript",5.54,4.25,44.78,Needs Improvement
+Benjamin Igweze,Frontend Engineer,7,2.21,1.5,7.02,HTML,3.44,3.33,30.38,Needs Improvement
+Kundana Angelina Govada,Frontend Engineer,12,1.0,7.0,10.0,Java,5.5,3.8,36.4,Needs Improvement
+Chip Hill,Frontend Engineer,15,2.21,10.0,9.1,JavaScript,6.61,4.25,45.82,Needs Improvement
+Retail Forever,Frontend Engineer,5,1.0,7.0,8.83,HTML,5.15,2.75,31.849999999999994,Needs Improvement
+Grandas-Recycling,Frontend Engineer,9,1.0,5.5,10.0,JavaScript,5.05,3.63,34.089999999999996,Needs Improvement
+Karla Medina,Software Intern,6,1.0,1.5,6.74,Jupyter Notebook,2.87,3.18,24.020000000000003,Needs Improvement
+Gabe,Frontend Engineer,5,1.0,3.0,6.18,CSS,3.15,2.75,23.849999999999998,Needs Improvement
+Vidit Meghwal,Frontend Engineer,6,1.0,5.5,10.0,"HTML, JavaScript",5.05,2.9,31.9,Needs Improvement
+Greenville Associates Consulting,Frontend Engineer,7,2.52,7.0,10.0,"PHP, HTML, TypeScript",6.11,3.33,41.99000000000001,Needs Improvement
+Hassan Jatoi ,Frontend Engineer,5,1.0,10.0,5.49,"HTML, JavaScript",5.05,3.03,32.29,Needs Improvement
+SlayerInc,Software Intern,7,3.73,1.5,6.97,"TypeScript, HTML, C#",4.04,3.33,37.34,Needs Improvement
+william scott,Frontend Engineer,8,1.0,5.5,8.12,"Astro, TypeScript",4.49,3.2,30.560000000000002,Needs Improvement
+AVSOPS,Frontend Engineer,5,1.0,5.5,6.5,HTML,4.0,2.75,27.249999999999996,Needs Improvement
+American Veterans Service Organizations & Patriotic Societies,Frontend Engineer,5,1.0,5.5,9.23,"HTML, CSS",4.82,3.03,31.37,Needs Improvement
+VATSIM United Kingdom,Full-Stack Developer,24,8.5,10.0,10.0,"PHP, C++, Go",9.4,7.16,84.58,Job Ready
+Callum,Frontend Engineer,9,5.76,5.5,7.13,"HTML, JavaScript, TypeScript",6.09,4.84,56.16,Almost Ready
+Stan Jurabekov,Data Analyst,24,3.42,10.0,9.74,"Python, TypeScript",7.29,7.01,60.45,Almost Ready
+Charlie,Full-Stack Developer,34,6.23,5.5,10.0,"C++, Astro, JavaScript, TypeScript",7.14,8.34,72.27,Almost Ready
+Daniel A,Software Intern,16,9.22,3.0,9.61,"Python, Rust",7.47,5.84,75.06,Job Ready
+Dean Hope Robertson,Full-Stack Developer,19,3.42,1.5,4.78,"Python, JavaScript",3.25,5.96,41.14,Needs Improvement
+KingdomVision,Frontend Engineer,13,1.0,5.5,9.95,"CSS, JavaScript",5.03,4.67,37.13,Needs Improvement
+Alex Tennant,Full-Stack Developer,25,6.58,1.5,10.0,"JavaScript, TypeScript",6.08,7.07,65.27000000000001,Almost Ready
+양배추,Software Intern,9,4.12,5.5,5.85,"PHP, C++, C#",5.05,4.91,47.29,Needs Improvement
+S M Mahamudul Hasan,Full-Stack Developer,23,5.5,7.0,9.14,"HTML, Jupyter Notebook, Java",7.04,6.78,65.0,Almost Ready
+Blobanium,Data Analyst,50,5.97,1.5,8.78,"Python, Java",5.47,10.0,69.79,Almost Ready
+Aaron,Full-Stack Developer,35,2.21,10.0,9.23,"Lua, JavaScript",6.65,7.8,56.63,Almost Ready
+Martin Riis,Frontend Engineer,10,5.45,3.0,4.66,"C++, SystemVerilog",4.48,4.63,48.16,Needs Improvement
+Fernando Passaia,Full-Stack Developer,25,6.91,5.5,1.5,JavaScript,4.87,7.41,62.44,Almost Ready
+David Havl,Full-Stack Developer,32,5.95,5.5,9.19,"Vue, TypeScript",6.79,8.04,69.13,Almost Ready
+Twinkal Sikri,Frontend Engineer,9,2.52,1.5,8.39,C#,3.98,3.99,35.45,Needs Improvement
+IVAO United Kingdom and Ireland MCD,Software Intern,9,6.32,5.5,8.59,"PHP, GLSL, TypeScript",6.75,4.57,59.669999999999995,Almost Ready
+Reece Corkhill,Full-Stack Developer,21,2.77,10.0,7.7,"JavaScript, TypeScript",6.42,5.79,51.35999999999999,Almost Ready
+Jamie Johnstone,Full-Stack Developer,18,2.52,5.5,8.5,JavaScript,5.21,5.94,46.22,Needs Improvement
+Shuokang Huang,Software Intern,8,6.51,1.5,9.89,"Python, Jupyter Notebook",6.02,4.19,56.18000000000001,Almost Ready
+Alex Thomson,Frontend Engineer,12,5.03,8.5,8.03,"HTML, JavaScript, TypeScript",6.97,4.68,57.010000000000005,Almost Ready
+Isaar Ahmad,Full-Stack Developer,20,2.21,8.5,3.42,Python,4.46,5.92,42.23,Needs Improvement
+Benjamin Shepherd,Frontend Engineer,10,1.0,8.5,7.64,"PHP, TypeScript",5.24,4.58,37.699999999999996,Needs Improvement
+Hiranya Induwara,Data Analyst,22,1.0,5.5,6.73,"Python, JavaScript",4.07,5.94,37.1,Needs Improvement
+PROCHETA SEN,Data Analyst,34,4.4,10.0,2.91,Python,5.63,8.26,60.50000000000001,Almost Ready
+Suresh Kumar,Frontend Engineer,10,1.0,1.5,4.46,Java,2.19,4.14,24.179999999999996,Needs Improvement
+Gihani Gamage,Frontend Engineer,11,1.0,3.0,8.09,"HTML, Java",3.73,4.48,31.36,Needs Improvement
+José Verdú-Díaz,Full-Stack Developer,16,2.52,8.5,10.0,Python,6.56,5.56,50.480000000000004,Almost Ready
+Mario Vasilev,Data Analyst,14,3.14,7.0,10.0,"Python, Jupyter Notebook",6.36,4.98,49.800000000000004,Needs Improvement
+Kingdom One,Software Intern,15,3.29,10.0,9.28,"PHP, Astro, TypeScript",7.1,4.53,51.86,Almost Ready
+Joseph Barker,Data Analyst,23,4.94,5.5,10.0,Python,6.63,6.51,60.870000000000005,Almost Ready
+CreatED - Hardware Hackathon,Frontend Engineer,6,5.63,10.0,10.0,"Python, HTML, JavaScript",8.25,3.68,60.93,Almost Ready
+Code for United Kingdom,Frontend Engineer,15,3.29,5.5,10.0,"JavaScript, Java",5.96,4.69,47.779999999999994,Needs Improvement
+Kingdom First Solutions,Software Intern,12,6.34,5.5,9.91,C#,7.16,4.08,59.900000000000006,Almost Ready
+Sam Rook,Backend Engineer,24,1.0,7.0,8.82,"PHP, Go, TypeScript",5.15,6.15,42.05,Needs Improvement
+Massimiliano Tamborrino,Data Analyst,5,3.14,5.5,7.5,"R, C++",5.16,3.53,40.650000000000006,Needs Improvement
+Dr. Hussein Bakri,Software Intern,21,7.32,8.5,9.09,"Python, C",8.21,6.71,74.93,Almost Ready
+James McNee,Full-Stack Developer,27,2.77,5.5,10.0,TypeScript,5.76,6.93,52.139999999999986,Almost Ready
+Sandeep Singh Sengar,Full-Stack Developer,32,2.21,8.5,7.78,HTML,5.77,7.58,52.45,Almost Ready
+Shahid Latif,Software Intern,11,4.78,5.5,6.86,Jupyter Notebook,5.62,4.09,49.089999999999996,Needs Improvement
+Vlad Madejczyk,Software Intern,5,1.76,1.5,4.48,"PHP, JavaScript",2.5,3.19,24.849999999999998,Needs Improvement
+Ehsan Nowroozi,Software Intern,19,5.0,7.0,9.44,Jupyter Notebook,6.93,5.81,60.150000000000006,Almost Ready
+Karolis Abramovicius,Frontend Engineer,9,1.0,5.5,10.0,"PHP, JavaScript, TypeScript",5.05,4.07,35.41,Needs Improvement
+Eathan Page,Frontend Engineer,5,2.52,1.5,3.51,"JavaScript, Java",2.51,3.3,27.5,Needs Improvement
+Melan Freak,Full-Stack Developer,23,3.14,3.0,7.56,"Python, HTML",4.42,5.45,43.449999999999996,Needs Improvement
+Chris,Full-Stack Developer,27,3.64,10.0,8.83,"JavaScript, TypeScript",7.1,6.49,58.78999999999999,Almost Ready
+Chatngift,Software Intern,5,1.0,5.5,8.72,"Dockerfile, TypeScript",4.66,3.19,31.21,Needs Improvement
+EdgeeTech Software Technologies,Software Intern,12,3.82,10.0,8.94,"Python, TypeScript, C#",7.21,4.35,53.35,Almost Ready
+Wilson Lim,Frontend Engineer,5,1.0,5.5,10.0,"HTML, JavaScript",5.05,3.58,33.94,Needs Improvement
+Sayed Munshi,Full-Stack Developer,35,1.0,10.0,9.2,"HTML, JavaScript",6.16,7.25,49.39,Needs Improvement
+Naosekpam,Frontend Engineer,11,2.77,5.5,10.0,HTML,5.76,4.09,43.620000000000005,Needs Improvement
+Kingdom Tech,Frontend Engineer,5,1.0,1.5,2.87,Shell,1.71,3.03,18.93,Needs Improvement
+Joshua Lucas,Frontend Engineer,6,1.0,5.5,6.53,Lua,4.01,3.78,30.38,Needs Improvement
+Vmlweb,Software Intern,15,5.7,5.5,5.66,"JavaScript, Vue, Go, TypeScript",5.63,4.69,53.69,Almost Ready
+Abdullah Mehmood,Full-Stack Developer,42,3.82,5.5,3.08,Java,4.1,8.74,54.08,Almost Ready
+Syed Shair Ali,Frontend Engineer,12,1.0,1.5,7.53,"Python, JavaScript",3.11,4.44,28.759999999999998,Needs Improvement
+Stephen,Software Intern,5,2.21,1.5,7.51,"PHP, HTML, C#",3.59,3.19,30.559999999999995,Needs Improvement
+Tom Croft,Frontend Engineer,11,1.0,7.0,10.0,"MDX, JavaScript",5.5,3.65,35.949999999999996,Needs Improvement
+Ibrahim Kesici,Backend Engineer,19,2.97,7.0,4.68,Java,4.69,5.49,44.14000000000001,Needs Improvement
+James Wilson,Full-Stack Developer,24,3.9,8.5,5.46,"Vue, JavaScript, TypeScript",5.75,6.15,53.150000000000006,Almost Ready
+James Timms,Frontend Engineer,14,2.77,5.5,7.03,"PHP, Python, Liquid, TypeScript",4.87,4.82,42.25,Needs Improvement
+Andy Bolton,Frontend Engineer,8,3.42,5.5,8.97,"PHP, JavaScript",5.71,3.92,44.86,Needs Improvement
+Some1fromthedark,Frontend Engineer,12,3.98,5.5,6.87,Python,5.3,4.52,46.7,Needs Improvement
+Callum Garven,Software Intern,6,1.0,1.5,10.0,"PHP, Vue",3.85,2.9,27.1,Needs Improvement
+Callum,Frontend Engineer,8,1.0,5.5,5.17,TypeScript,3.6,3.48,27.839999999999996,Needs Improvement
+Ibrar Yunus,Backend Engineer,29,2.52,1.5,7.51,"Rust, Ruby, Java",3.71,6.63,42.29,Needs Improvement
+Chimdia Abara Obasi,Frontend Engineer,8,2.21,1.5,2.46,"Python, Linker Script",2.07,3.64,25.83,Needs Improvement
+Sarah Eme,Frontend Engineer,8,1.0,3.0,6.26,"HTML, Jupyter Notebook",3.18,3.48,26.16,Needs Improvement
+cosmic.horse,Software Intern,6,4.18,5.5,8.04,Dart,5.73,3.18,45.0,Needs Improvement
+Nethra Viswanathan,Software Intern,5,5.63,5.5,9.23,"Jupyter Notebook, C#",6.67,3.3,53.47,Almost Ready
+Md Ashikur Rahman,Frontend Engineer,10,2.97,5.5,9.35,"CSS, JavaScript",5.64,3.78,42.809999999999995,Needs Improvement
+Elliot Sandell,Frontend Engineer,14,1.0,7.0,6.39,"Python, Nunjucks, HTML, Astro",4.42,4.1,32.98,Needs Improvement
+Atharva Kulkarni,Frontend Engineer,14,2.77,1.5,7.24,"Python, HTML",3.73,4.38,36.37,Needs Improvement
+Ernest Braimoh,Data Analyst,9,1.0,1.5,6.36,"Python, Jupyter Notebook",2.76,3.79,25.409999999999997,Needs Improvement
+Shruti Patel,Frontend Engineer,9,1.0,1.5,4.99,"HTML, CSS",2.35,3.35,22.449999999999996,Needs Improvement
+Anmar Al-Adly,Frontend Engineer,6,3.82,1.5,7.08,JavaScript,4.1,2.9,36.559999999999995,Needs Improvement
+Aaron Warner,Software Intern,6,1.0,5.5,9.86,"PHP, HTML, CSS",5.01,2.9,31.74,Needs Improvement
+Md Marufur Rahman,Frontend Engineer,5,1.0,3.0,10.0,"HTML, TeX",4.3,2.75,28.449999999999996,Needs Improvement
+Vivek Shravan Tate,Software Intern,12,2.21,1.5,8.56,"Python, Cuda, Jupyter Notebook",3.9,4.08,34.47,Needs Improvement
+antonlethanh,Frontend Engineer,5,1.0,1.5,10.0,JavaScript,3.85,3.03,27.489999999999995,Needs Improvement
+Muhidinmo,Frontend Engineer,5,2.77,4.5,10.0,"HTML, Java",5.46,3.03,39.24,Needs Improvement
+Beryl Ann,Full-Stack Developer,17,1.76,10.0,9.27,"HTML, CSS, JavaScript",6.49,4.83,45.730000000000004,Needs Improvement
+Olubunmi ADENEKAN,Software Intern,13,1.0,1.5,7.17,MATLAB,3.0,3.95,26.85,Needs Improvement
+Matthew (Cheuk Hei) Tam,Frontend Engineer,10,2.77,6.0,10.0,"Python, TeX",5.91,3.5,42.45000000000001,Needs Improvement
+Xamtasia™,Frontend Engineer,6,1.0,1.5,9.43,"C, HTML",3.68,2.9,26.419999999999998,Needs Improvement
+Abdulsalam Al-Mayahi,Frontend Engineer,5,1.0,1.5,2.65,Python,1.64,3.03,18.65,Needs Improvement
+Harmony,Data Analyst,8,1.0,7.0,8.9,"Python, HTML, Pug",5.17,3.2,33.28,Needs Improvement
+Mudassir Raza,Frontend Engineer,7,1.0,1.5,5.61,"HTML, CSS",2.53,3.05,22.27,Needs Improvement
+Vamshi Thella,Backend Engineer,6,1.0,1.5,5.18,"HTML, Java",2.41,2.9,21.34,Needs Improvement
+Christopher Oakes,Software Intern,6,1.0,5.5,9.34,C#,4.85,2.9,31.099999999999998,Needs Improvement
+LegitOpinaldo Marina ,Frontend Engineer,5,1.76,5.5,10.0,JavaScript,5.35,2.75,34.93,Needs Improvement
+Sebastián Ramírez,Data Analyst,50,10.0,5.5,9.5,Python,8.5,10.0,94.0,Job Ready
+n8n - Workflow Automation,Backend Engineer,42,10.0,10.0,7.0,"Shell, Go",9.1,10.0,96.4,Job Ready
+Christian Lempa,Full-Stack Developer,16,10.0,8.5,8.13,"Shell, Dockerfile, Go, JavaScript",8.99,8.14,90.38,Job Ready
+Maximilian Schwarzmüller,Frontend Engineer,9,7.09,5.5,9.39,"CSS, JavaScript",7.3,6.98,71.41,Almost Ready
+Nerijus Jasinskas,Full-Stack Developer,16,8.08,10.0,10.0,"Dockerfile, Jupyter Notebook",9.23,7.92,84.91999999999999,Job Ready
+Jerzy,Frontend Engineer,7,7.99,1.5,4.6,"Shell, Markdown, JavaScript, Smalltalk",5.03,6.56,63.76999999999999,Almost Ready
+Joscha Neske,Full-Stack Developer,39,10.0,1.5,8.26,TypeScript,6.93,10.0,87.72,Job Ready
+Sebastian Ruder,Full-Stack Developer,32,10.0,10.0,10.0,JavaScript,10.0,10.0,100.0,Job Ready
+Philip Salmony,Full-Stack Developer,28,10.0,7.0,9.25,"C, HTML",8.87,9.64,94.39999999999999,Job Ready
+Viet Nguyen,Full-Stack Developer,34,10.0,1.5,8.75,"Python, JavaScript",7.08,10.0,88.32000000000001,Job Ready
+Muhammad Khan Lodhi,Backend Engineer,38,7.35,3.0,6.15,"C++, C, Java",5.68,10.0,74.77000000000001,Almost Ready
+Stefan,Backend Engineer,22,10.0,5.5,7.93,"Python, C++",8.03,8.64,88.04,Job Ready
+Wolfgang,Software Intern,33,10.0,5.5,5.78,"Python, Kotlin, Shell",7.38,10.0,89.52,Job Ready
+Ines Montani,Data Analyst,19,10.0,8.5,7.75,"Python, R",8.88,8.17,90.03,Job Ready
+Ben Weiss,Frontend Engineer,8,10.0,4.5,7.33,"Ruby, JavaScript",7.55,6.47,79.61,Job Ready
+Mastodon,Full-Stack Developer,49,10.0,10.0,5.69,"HCL, Swift, TypeScript",8.71,10.0,94.84,Job Ready
+Niels Lohmann,Full-Stack Developer,45,10.0,10.0,10.0,"SCSS, C++",10.0,10.0,100.0,Job Ready
+Richard McElreath,Data Analyst,37,10.0,5.5,10.0,R,8.65,10.0,94.60000000000001,Job Ready
+Thorsten Lünborg,Full-Stack Developer,29,10.0,1.5,7.68,"Vue, TypeScript",6.75,9.49,85.47,Job Ready
+Vadim Makeev,Full-Stack Developer,49,8.94,10.0,10.0,"Shell, JavaScript",9.58,10.0,95.14000000000001,Job Ready
+Vincent Mühler,Full-Stack Developer,41,10.0,8.5,9.84,"Python, TypeScript",9.5,10.0,98.0,Job Ready
+Tim Großmann,Full-Stack Developer,38,8.06,8.5,10.0,CSS,8.78,10.0,89.3,Job Ready
+Philip Rebohle,Full-Stack Developer,24,10.0,1.5,5.91,"C++, Rust",6.22,8.66,80.86,Job Ready
+Vasily Zubarev,Data Analyst,32,10.0,8.5,10.0,"Python, JavaScript, TypeScript",9.55,9.85,97.75,Job Ready
+Nicole Wolf,Software Intern,26,7.19,7.0,9.63,"GDScript, Go",7.86,8.94,79.83000000000001,Job Ready
+Alireza Ahmadi,Software Intern,13,10.0,3.0,8.25,"Vue, HTML, Go, C#",7.37,6.99,80.45,Job Ready
+Roaa,Software Intern,31,10.0,1.5,9.56,"Dart, C++",7.32,9.69,88.35000000000001,Job Ready
+Cornelius Denninger,Data Analyst,39,6.03,5.5,10.0,"Python, TypeScript",7.06,10.0,76.33,Job Ready
+Lennart Poettering,Full-Stack Developer,21,7.95,5.5,10.0,Shell,7.83,8.15,79.62,Job Ready
+Morteza Bashsiz,Full-Stack Developer,18,9.99,7.0,8.24,"Python, Shell",8.57,7.69,87.32,Job Ready
+Jonas Staudenmeir,Full-Stack Developer,35,10.0,1.5,7.12,Shell,6.59,10.0,86.35999999999999,Job Ready
+Evgenii Shishkin,Backend Engineer,41,10.0,10.0,8.49,"Go, Java",9.55,10.0,98.2,Job Ready
+Jonathan Müller,Backend Engineer,17,10.0,10.0,10.0,"C++, JavaScript",10.0,7.51,92.53,Job Ready
+LocalSend,Frontend Engineer,9,10.0,5.5,5.19,"C++, Ruby, JavaScript, TypeScript",7.21,6.3,77.74,Job Ready
+Rashedul Alam Shakil,Full-Stack Developer,43,9.92,5.5,7.85,"Python, Jupyter Notebook",7.97,10.0,91.64000000000001,Job Ready
+Christian Schwinne,Full-Stack Developer,33,9.32,10.0,6.56,"C++, CSS, TypeScript",8.7,9.9,92.46000000000001,Job Ready
+Linus Henze,Software Intern,12,10.0,3.0,7.79,"Shell, Swift, C",7.24,6.74,79.18,Job Ready
+Arctic Ice Studio,Frontend Engineer,7,7.44,3.0,7.52,"Shell, JavaScript",6.13,5.99,64.81,Almost Ready
+DeepL,Full-Stack Developer,35,9.96,7.0,10.0,"Go, JavaScript, TypeScript",9.09,10.0,96.24000000000001,Job Ready
+Mehdi Hasan Khan,Full-Stack Developer,39,9.37,7.0,9.61,"Ruby, Pascal",8.73,10.0,93.03,Job Ready
+Cryptomator,Full-Stack Developer,50,10.0,10.0,10.0,"Python, Vue, HTML, Java",10.0,10.0,100.0,Job Ready
+Clas Onnebrink,Backend Engineer,10,5.21,1.5,2.85,C++,3.39,6.41,48.419999999999995,Needs Improvement
+Loran Yousef,Frontend Engineer,14,6.04,4.5,7.3,"HTML, CSS",5.96,7.01,62.989999999999995,Almost Ready
+Soledad Galli,Software Intern,29,10.0,5.5,10.0,Jupyter Notebook,8.65,9.25,92.35,Job Ready
+Jonas,Full-Stack Developer,35,6.5,5.5,5.46,"Dockerfile, JavaScript, TypeScript",5.89,10.0,73.06,Almost Ready
+David Heckhoff,Frontend Engineer,6,8.57,5.5,10.0,"JavaScript, TypeScript",8.08,5.78,75.37,Job Ready
+ Kevin Jahns,Full-Stack Developer,43,8.88,10.0,6.29,JavaScript,8.44,10.0,90.39999999999999,Job Ready
+Dominick Baier,Full-Stack Developer,30,8.74,5.5,9.65,JavaScript,8.04,9.37,86.49,Job Ready
+Tom Schimansky,Frontend Engineer,7,10.0,7.0,10.0,"Python, HTML",9.1,5.92,84.16,Job Ready
+Stefan Hritcu,Full-Stack Developer,41,6.4,10.0,8.11,"Python, JavaScript",7.99,10.0,81.16,Job Ready
+Gerd,Frontend Engineer,7,10.0,3.0,6.77,HTML,6.93,5.92,75.48,Job Ready
+Simon Choi,Full-Stack Developer,23,10.0,3.0,8.2,"Dart, Rust",7.36,8.31,84.37,Job Ready
+Martin Fischer,Full-Stack Developer,17,10.0,5.5,10.0,"C++, C#",8.65,7.38,86.74,Job Ready
+Guilherme Samora,Full-Stack Developer,41,10.0,7.5,7.8,Jupyter Notebook,8.59,10.0,94.36,Job Ready
+arn,Data Analyst,21,7.25,6.0,6.85,"Python, JavaScript, Shell",6.75,7.98,72.69,Almost Ready
+Piotr Hajdas,Frontend Engineer,12,5.11,5.5,9.55,JavaScript,6.56,6.63,61.46,Almost Ready
+Dr.-Ing. Sebastian Hahner,Software Intern,17,8.24,5.5,7.66,"Shell, TeX, AutoHotkey, TypeScript",7.24,7.37,75.79,Job Ready
+Lukas Taegert-Atkinson,Full-Stack Developer,45,7.18,10.0,10.0,"Vue, JavaScript, TypeScript",8.87,10.0,87.02,Job Ready
+Ole Zorn,Frontend Engineer,14,10.0,5.5,10.0,"Python, Swift, JavaScript",8.65,6.92,85.36000000000001,Job Ready
+Stefan Esser,Data Analyst,13,10.0,5.5,7.29,"Python, Objective-C",7.84,6.77,81.67,Job Ready
+Safe Labs GmbH,Full-Stack Developer,45,10.0,10.0,10.0,"Python, CSS, TypeScript",10.0,10.0,100.0,Job Ready
+Iliass Alami Qammouri,Software Intern,25,8.07,10.0,8.4,"PHP, HTML, SCSS",8.75,8.56,84.88999999999999,Job Ready
+Stephan Raabe,Software Intern,32,10.0,10.0,7.09,"Shell, QML, Vim Script",9.13,9.61,95.35,Job Ready
+Ben,Backend Engineer,36,6.14,5.5,9.83,"C++, C#",7.05,10.0,76.62,Job Ready
+Bosch Sensortec,Data Analyst,11,5.83,7.0,10.0,"Python, C, CSS",7.43,6.45,66.56,Almost Ready
+Lilith Wittmann,Data Analyst,47,7.43,10.0,8.49,"Python, HTML, JavaScript",8.52,10.0,86.36999999999999,Job Ready
+libimobiledevice,Software Intern,13,10.0,7.0,8.68,"C, Twig",8.7,6.73,84.99000000000001,Job Ready
+Alexander Jung,Software Intern,24,10.0,1.5,9.59,"Python, C, Jupyter Notebook",7.33,8.38,84.46000000000001,Job Ready
+Shaoshuai Shi,Data Analyst,13,10.0,7.0,8.35,Python,8.6,6.73,84.59,Job Ready
+Felix Kratz,Backend Engineer,18,10.0,6.0,6.32,"C++, C, Jupyter Notebook",7.7,7.48,83.24,Job Ready
+Vitor Alencar,Full-Stack Developer,50,7.39,10.0,10.0,"MDX, TypeScript",8.95,10.0,87.97,Job Ready
+Oghenemano Omogha,Full-Stack Developer,37,6.08,4.5,9.04,Jupyter Notebook,6.49,10.0,74.2,Almost Ready
+Jan Oberhauser,Full-Stack Developer,26,5.91,3.0,8.63,"Shell, Dockerfile, TypeScript",5.85,8.67,67.14,Almost Ready
+NeverSink,Full-Stack Developer,18,10.0,6.0,9.25,HTML,8.58,7.46,86.7,Job Ready
+Gurupreet Singh,Full-Stack Developer,24,10.0,1.5,10.0,Kotlin,7.45,8.36,84.88,Job Ready
+Marvin W,Full-Stack Developer,45,8.89,3.0,6.17,"Vala, C",6.31,10.0,81.91000000000001,Job Ready
+Lars Jung,Full-Stack Developer,22,10.0,5.5,6.51,JavaScript,7.6,8.05,84.55,Job Ready
+Jakhongir,Software Intern,48,8.32,7.0,9.85,"Python, Rust",8.38,10.0,88.48,Job Ready
+Dominik Liebler,Software Intern,20,6.64,5.5,6.46,"Python, Go, Jupyter Notebook",6.25,7.73,68.11,Almost Ready
+jdhao,Full-Stack Developer,43,10.0,7.0,9.75,TeX,9.02,10.0,96.08000000000001,Job Ready
+Zahra Teymouri,Full-Stack Developer,30,7.01,1.5,4.8,"HTML, TypeScript",4.69,9.22,67.45,Almost Ready
+liv,Software Intern,30,4.35,6.0,10.0,"Python, Rust, Emacs Lisp",6.54,9.22,66.86999999999999,Almost Ready
+Haris Muneer ⚡️,Full-Stack Developer,41,10.0,1.5,8.49,"Python, Tcl",7.0,10.0,88.0,Job Ready
+Dominik Bamberger,Full-Stack Developer,35,6.44,3.0,8.73,JavaScript,6.09,9.96,73.56,Almost Ready
+darken development,Full-Stack Developer,20,10.0,10.0,10.0,"Kotlin, TypeScript",10.0,7.71,93.13,Job Ready
+Elif Gazioğlu,Full-Stack Developer,23,8.75,1.5,7.13,"HTML, CSS, JavaScript, C#",6.09,8.15,75.06,Job Ready
+Novusvetus / Marcel Rudolf,Data Analyst,12,5.56,7.0,7.96,"Python, TypeScript",6.71,6.5,63.02,Almost Ready
+Lina Aloqayli,Full-Stack Developer,42,6.34,10.0,6.79,"PHP, HTML, JavaScript",7.57,10.0,79.30000000000001,Job Ready
+Busra Kugler,Software Intern,7,9.04,5.5,4.77,"Python, C, HCL",6.7,5.75,71.17,Almost Ready
+Chris,Software Intern,27,10.0,1.5,8.76,"PHP, Lua, TypeScript",7.08,8.75,84.57000000000001,Job Ready
+Monica Lent,Full-Stack Developer,42,7.74,7.0,8.66,"JavaScript, TypeScript",7.79,10.0,84.38,Job Ready
+Izzy,Full-Stack Developer,48,8.08,5.5,10.0,"Shell, Python",7.88,10.0,85.76,Job Ready
+jㄐ,Data Analyst,31,7.83,8.5,10.0,"Python, Crystal, Go",8.68,9.34,86.22999999999999,Job Ready
+Hani Shaif,Data Analyst,20,4.18,10.0,1.1,Python,5.0,7.68,55.58,Almost Ready
+Harshil,Software Intern,48,6.84,10.0,10.0,"Python, Jupyter Notebook, TeX",8.74,10.0,85.48,Job Ready
+Daniel,Frontend Engineer,6,4.05,5.5,10.0,"Svelte, Ruby, TypeScript",6.27,5.58,53.97,Almost Ready
+zotroneneis,Frontend Engineer,12,10.0,7.0,8.44,"Python, Jupyter Notebook",8.63,6.48,83.96000000000001,Job Ready
+Leopold Lemmermann,Data Analyst,12,5.73,10.0,10.0,"Python, Swift, TypeScript",8.29,6.48,69.79,Almost Ready
+Sara Steiert,Frontend Engineer,11,10.0,9.0,6.38,"Vue, HTML, JavaScript",8.62,6.33,83.47,Job Ready
+Filen Cloud Dienste,Software Intern,26,9.23,10.0,8.13,"Swift, Kotlin, Rust, TypeScript",9.13,8.57,89.92000000000002,Job Ready
+Dr. Moritz Lehmann,Backend Engineer,6,10.0,1.5,7.63,"C++, C",6.74,5.57,73.67,Almost Ready
+Ömer Berat Sezer,Data Analyst,32,10.0,5.5,10.0,"Python, CSS",8.65,9.47,93.01,Job Ready
+Hetzner Cloud,Backend Engineer,33,10.0,7.0,9.54,"Python, Go, HCL",8.96,9.62,94.7,Job Ready
+Bastian Allgeier,Full-Stack Developer,35,9.2,5.5,8.51,JavaScript,7.88,9.92,88.88,Job Ready
+Zitao,Software Intern,30,10.0,1.5,8.68,C,7.05,9.17,85.71,Job Ready
+Daniel,Full-Stack Developer,27,9.5,10.0,10.0,JavaScript,9.8,8.72,93.86000000000001,Job Ready
+Michael Straßburger,Software Intern,48,10.0,3.0,7.34,"C, Java, TypeScript",7.1,10.0,88.4,Job Ready
+Marwan Al-Soltany,Backend Engineer,21,6.99,10.0,7.66,"PHP, Go",8.09,7.81,76.76,Job Ready
+Maksudur Rahman Maateen,Data Analyst,24,8.38,10.0,4.33,"Python, Vim Script, Dockerfile",7.65,8.26,80.52,Job Ready
+Katharine,Full-Stack Developer,50,9.79,5.5,10.0,"Jupyter Notebook, TypeScript",8.57,10.0,93.65,Job Ready
+MarieUS5ft,Frontend Engineer,10,4.91,5.5,8.31,JavaScript,6.11,6.16,57.65,Almost Ready
+Gylan Salih,Full-Stack Developer,22,6.62,6.0,8.48,"SCSS, CSS, JavaScript, TypeScript",6.99,7.95,71.67,Almost Ready
+Uwe,Full-Stack Developer,38,10.0,7.0,7.38,"Kotlin, Java",8.31,10.0,93.24,Job Ready
+Aregtech,Backend Engineer,15,8.25,7.0,10.0,"C++, CMake",8.4,6.9,79.05,Job Ready
+Henning Dodenhof,Software Intern,43,10.0,5.5,10.0,"Shell, Kotlin, Rust",8.65,10.0,94.60000000000001,Job Ready
+Tagir Valeev,Full-Stack Developer,36,9.94,7.0,10.0,Java,9.08,10.0,96.13999999999999,Job Ready
+Tutao GmbH,Software Intern,23,10.0,7.0,9.37,"Handlebars, Rust, JavaScript, TypeScript",8.91,8.09,89.91,Job Ready
+Khalil Hasan,Data Analyst,19,4.63,10.0,6.04,"Python, EJS, TypeScript",6.66,7.48,62.970000000000006,Almost Ready
+Daniel Winzen,Full-Stack Developer,30,9.08,5.5,9.34,PHP,8.08,9.13,86.95,Job Ready
+Christoph Rieke,Data Analyst,42,10.0,8.5,7.99,"Python, HTML",8.95,10.0,95.8,Job Ready
+oneMarcFifty,Full-Stack Developer,49,9.49,7.0,5.02,"Python, Jupyter Notebook, Shell",7.4,10.0,88.07000000000001,Job Ready
+Praneeth Peiris,Full-Stack Developer,34,6.44,5.5,8.76,"Python, Dart, C",6.85,9.72,75.88000000000001,Job Ready
+Miguel Beltran,Software Intern,19,7.59,5.5,7.28,"Kotlin, TypeScript",6.87,7.47,72.66,Almost Ready
+Mish Ushakov,Full-Stack Developer,39,10.0,10.0,8.69,"Python, Less, Go, TypeScript",9.61,10.0,98.44,Job Ready
+Michael Plöd,Backend Engineer,25,9.65,5.5,8.24,"HTML, Java",7.98,8.36,85.94999999999999,Job Ready
+Gus Gadirov,Data Analyst,32,7.91,7.0,9.45,"Python, TypeScript",8.1,9.41,84.36,Job Ready
+Arman Malekzadeh,Full-Stack Developer,19,6.73,3.0,9.35,"HTML, Jupyter Notebook",6.4,7.46,68.17,Almost Ready
+Dominic Rampas,Software Intern,26,10.0,5.5,10.0,"Python, Jupyter Notebook",8.65,8.5,90.1,Job Ready
+Ableton,Full-Stack Developer,29,10.0,10.0,8.88,"Python, C++, Jinja, TypeScript",9.66,8.95,95.49,Job Ready
+Simon Dankelmann,Frontend Engineer,12,10.0,4.5,9.94,"Kotlin, HTML",8.33,6.4,82.52000000000001,Job Ready
+Ham Vocke,Full-Stack Developer,22,10.0,8.5,10.0,"Nix, Shell, HTML, TypeScript",9.55,7.9,91.9,Job Ready
+Tiptap,Full-Stack Developer,40,10.0,5.5,6.98,"PHP, JavaScript, TypeScript",7.74,10.0,90.96000000000001,Job Ready
+Sebastian,Full-Stack Developer,42,10.0,7.0,8.47,"Shell, Go, Perl",8.64,10.0,94.56,Job Ready
+PyG,Data Analyst,5,10.0,7.0,9.55,"Python, C++, CSS",8.97,5.35,81.93,Job Ready
+Murhaf Sousli,Full-Stack Developer,37,10.0,10.0,10.0,"JavaScript, TypeScript",10.0,10.0,100.0,Job Ready
+Akhror,Full-Stack Developer,19,7.47,7.0,7.59,TypeScript,7.37,7.44,74.21000000000001,Almost Ready
+Sebastian Riedel,Full-Stack Developer,33,7.27,5.5,9.58,Python,7.43,9.54,80.14999999999999,Job Ready
+Marcel Bischoff,Full-Stack Developer,38,10.0,7.0,10.0,"Python, Tcl, Go",9.1,10.0,96.4,Job Ready
+Jonas Platte,Full-Stack Developer,33,8.95,7.0,8.19,JavaScript,8.14,9.54,88.03,Job Ready
+Jörg Singer,Software Intern,41,7.47,7.0,5.67,"Python, Pascal, Rust, C#",6.79,10.0,79.57,Job Ready
+Tobias,Frontend Engineer,14,9.38,7.0,9.59,"Java, JavaScript, C#",8.73,6.67,83.07000000000001,Job Ready
+David,Full-Stack Developer,18,10.0,8.5,9.88,"Python, JavaScript",9.51,7.26,89.82,Job Ready
+PhotoPrism,Full-Stack Developer,23,10.0,10.0,10.0,"Go, JavaScript",10.0,8.01,94.03,Job Ready
+Florian Scholz,Frontend Engineer,14,5.16,10.0,5.92,JavaScript,6.84,6.66,62.82,Almost Ready
+Niklas Henning,Data Analyst,18,7.88,1.5,9.67,"Python, JavaScript",6.5,7.26,71.42,Almost Ready
+Michael Haggerty,Backend Engineer,18,10.0,5.5,10.0,Go,8.65,7.25,86.35,Job Ready
+Ebru Gulec,Full-Stack Developer,32,6.03,6.0,6.46,TypeScript,6.15,9.35,70.74000000000001,Almost Ready
+Fritzing,Full-Stack Developer,17,10.0,10.0,7.29,"Python, JavaScript",9.19,7.1,88.06,Job Ready
+David S. Batista,Full-Stack Developer,42,9.86,7.0,9.19,"Python, HTML",8.8,10.0,94.78,Job Ready
+Andreas Köpf,Full-Stack Developer,29,7.34,5.5,9.84,Python,7.54,8.9,78.88,Job Ready
+Iván Ovejero,Full-Stack Developer,43,9.22,8.5,10.0,"Rust, JavaScript",9.24,10.0,94.62,Job Ready
+Dominik Schiener,Full-Stack Developer,35,8.45,7.0,5.03,"HTML, JavaScript, TypeScript",6.99,9.79,82.68,Job Ready
+The foxBMS Team,Data Analyst,29,8.95,7.0,10.0,"Python, C",8.68,8.89,88.24,Job Ready
+Deta,Full-Stack Developer,34,10.0,7.0,10.0,TypeScript,9.1,9.64,95.32,Job Ready
+Thorben Janssen,Backend Engineer,45,8.24,5.5,7.76,"Kotlin, Java",7.27,10.0,83.79999999999998,Job Ready
+Thomas Patzke,Full-Stack Developer,44,9.01,7.0,10.0,"HTML, JavaScript",8.7,10.0,91.83,Job Ready
+Isla,Backend Engineer,23,9.08,6.0,10.0,"C++, JavaScript, TypeScript",8.43,7.98,84.9,Job Ready
+Amr Hesham,Software Intern,46,10.0,10.0,10.0,"LLVM, Rust",10.0,10.0,100.0,Job Ready
+Mirco Wittrien,Frontend Engineer,8,10.0,4.5,6.58,JavaScript,7.32,5.72,76.44,Job Ready
+Marc Toussaint,Full-Stack Developer,28,8.64,10.0,4.93,"Python, C++, GAP",7.94,8.72,83.84,Job Ready
+prefix.dev,Full-Stack Developer,40,10.0,10.0,9.31,"Rust, TypeScript",9.79,10.0,99.16,Job Ready
+Nord,Full-Stack Developer,37,10.0,5.5,10.0,JavaScript,8.65,10.0,94.60000000000001,Job Ready
+Lukas Blecher,Data Analyst,9,10.0,3.0,9.19,Python,7.66,5.86,78.22,Job Ready
+Manjaro Linux,Software Intern,31,8.83,7.0,5.94,Shell,7.41,9.16,83.61000000000001,Job Ready
+BMW TechOffice MUNICH,Full-Stack Developer,21,10.0,1.5,8.81,"Python, Jupyter Notebook",7.09,7.66,81.34,Job Ready
+Jayanam,Frontend Engineer,13,9.68,5.5,9.48,"Python, C++",8.37,6.45,81.86999999999999,Job Ready
+Kizito Nwose,Full-Stack Developer,45,10.0,5.5,10.0,"Kotlin, Dockerfile, Java",8.65,10.0,94.60000000000001,Job Ready
+Norbert Nopper,Frontend Engineer,14,10.0,5.5,9.58,"Python, HTML, TeX",8.52,6.59,83.85,Job Ready
+Ikrum Hossain,Full-Stack Developer,31,7.84,7.0,8.19,"Python, JavaScript",7.69,9.14,81.7,Job Ready
+Deutsche Telekom Security GmbH,Backend Engineer,25,10.0,8.5,9.89,"Shell, Python, Java",9.52,8.24,92.8,Job Ready
+Debski Patrick,Full-Stack Developer,28,5.16,7.0,10.0,"HCL, Liquid, HTML, TypeScript",7.17,8.69,70.22999999999999,Almost Ready
+Yjs,Full-Stack Developer,32,10.0,7.0,7.13,"HTML, JavaScript, TypeScript",8.24,9.28,90.8,Job Ready
+mailcow,Frontend Engineer,12,10.0,10.0,10.0,"PHP, Python, Vue, HTML",10.0,6.28,88.84,Job Ready
+Tara,Frontend Engineer,12,4.81,1.5,8.44,JavaScript,4.91,6.28,52.91,Almost Ready
+Ziad Bari,Software Intern,40,6.15,10.0,10.0,"Python, Jupyter Notebook",8.46,10.0,82.29,Job Ready
+A. Murat Eren (Meren),Data Analyst,31,5.41,8.5,10.0,"Python, HTML, Shell",7.71,9.12,74.43,Almost Ready
+Airtower,Full-Stack Developer,45,7.31,5.5,8.84,"Python, Rust",7.23,10.0,80.85000000000001,Job Ready
+TUM Computer Vision Group,Data Analyst,43,10.0,7.0,10.0,"Python, C++, CSS, Jupyter Notebook",9.1,10.0,96.4,Job Ready
+Nafi Müftüoglu,Data Analyst,29,3.82,1.5,8.15,"Python, TypeScript",4.42,8.81,55.57000000000001,Almost Ready
+ObjectBox,Backend Engineer,42,10.0,5.5,10.0,"C++, CSS, Jupyter Notebook",8.65,10.0,94.60000000000001,Job Ready
+HiWebDev,Full-Stack Developer,27,6.11,1.5,8.33,"CSS, TypeScript",5.39,8.51,65.42,Almost Ready
+Marcel,Backend Engineer,36,9.23,5.5,6.34,"C++, C",7.24,9.86,86.23000000000002,Job Ready
+Eugene W Myers Jr,Software Intern,19,8.77,5.5,10.0,C,8.16,7.31,80.88,Job Ready
+Jonas Plum,Backend Engineer,8,10.0,4.5,8.27,"CSS, Go",7.83,5.66,78.3,Job Ready
+Daniel Köhn,Software Intern,17,8.69,5.5,9.1,Jupyter Notebook,7.85,7.01,78.5,Job Ready
+Gerhard Klostermeier,Software Intern,23,10.0,5.5,10.0,"Python, C",8.65,7.91,88.33,Job Ready
+Kian,Software Intern,24,9.56,1.5,5.02,"Go, Rust, JavaScript",5.78,8.06,75.98,Job Ready
+Tim Ermilov,Full-Stack Developer,33,8.5,10.0,9.37,"JavaScript, TypeScript",9.21,9.4,90.54,Job Ready
+Dirk Wetter,Full-Stack Developer,43,6.51,7.0,10.0,JavaScript,7.7,10.0,80.33,Job Ready
+GEIST,Full-Stack Developer,17,10.0,5.5,8.1,C,8.08,7.0,83.32000000000001,Job Ready
+Golo Roden,Frontend Engineer,7,3.98,5.5,7.43,JavaScript,5.47,5.5,50.32,Almost Ready
+Jens Maus,Full-Stack Developer,49,8.9,7.0,10.0,"Shell, JavaScript",8.66,10.0,91.34,Job Ready
+Tobias Hermann,Full-Stack Developer,24,10.0,7.0,10.0,Python,9.1,8.04,90.52,Job Ready
+GitButler,Software Intern,34,10.0,8.5,7.49,"Python, Rust",8.8,9.54,93.82,Job Ready
+Max K.,Full-Stack Developer,21,8.98,10.0,9.48,"Python, Kotlin, HTML, TypeScript",9.43,7.59,87.42999999999998,Job Ready
+RedTeam Pentesting GmbH,Data Analyst,15,10.0,5.5,5.1,"Python, PHP, Go",7.18,6.69,78.78999999999999,Job Ready
+Bootstrap Academy,Software Intern,13,7.8,5.5,7.97,"Nix, Python, Rust",7.16,6.38,71.18,Almost Ready
+Sarah Boyce,Full-Stack Developer,27,4.4,1.5,7.99,Python,4.61,8.48,57.08,Almost Ready
+Daniel Walz,Full-Stack Developer,31,9.42,10.0,9.19,"C++, C",9.53,9.08,93.62,Job Ready
+Jan Käberich,Data Analyst,23,9.85,1.5,9.01,"Python, C++, C, SCSS",7.09,7.88,81.55,Job Ready
+Nico Kaupenjoe,Backend Engineer,20,7.99,5.5,9.1,Java,7.58,7.43,76.58,Job Ready
+Harald Welte,Software Intern,39,7.0,5.5,8.32,"Erlang, C",6.95,10.0,78.80000000000001,Job Ready
+Daniel Kleine,Software Intern,25,6.03,3.0,9.08,"Python, Jupyter Notebook",6.04,8.18,66.79,Almost Ready
+Lucas Michot,Software Intern,10,3.98,3.0,8.92,PHP,5.17,5.93,50.410000000000004,Almost Ready
+Martin Szulecki,Software Intern,16,5.26,5.5,10.0,PHP,6.75,6.83,63.269999999999996,Almost Ready
+Matthias Vallentin,Full-Stack Developer,35,10.0,10.0,9.28,TypeScript,9.78,9.68,98.16,Job Ready
+Dan Wilcox,Software Intern,38,9.23,5.5,10.0,"Python, C++, C, CSS",8.34,10.0,91.05000000000001,Job Ready
+amirbahador,Full-Stack Developer,24,7.02,5.5,10.0,"Python, HTML, TypeScript",7.46,8.03,74.99,Almost Ready
+Wolfgang Hönig,Full-Stack Developer,42,9.76,8.5,10.0,"Python, TeX, JavaScript, Shell",9.45,10.0,97.07999999999998,Job Ready
+Simon,Frontend Engineer,15,7.67,1.5,10.0,"Nix, C++, Python",6.52,6.67,69.1,Almost Ready
+Shirin Elsinghorst,Full-Stack Developer,29,7.38,7.0,9.38,HTML,7.87,8.77,79.93,Job Ready
+Andrey Kuzmin,Software Intern,50,9.44,10.0,8.03,"Elm, Rust",9.19,10.0,95.07999999999998,Job Ready
+Mohamed Ameen,Data Analyst,21,9.04,10.0,10.0,"Python, PostScript, Jupyter Notebook, JavaScript",9.62,7.57,88.31,Job Ready
+Tim Pritlove,Backend Engineer,30,6.35,5.5,9.46,"C++, Swift, Lua, Elixir",7.03,8.91,73.9,Almost Ready
+Daniela,Full-Stack Developer,44,7.94,10.0,6.84,"Vue, CSS, JavaScript, TypeScript",8.23,10.0,86.74,Job Ready
+Graham Pugh,Data Analyst,50,9.58,7.0,7.65,"Python, Swift, Shell",8.23,10.0,91.66,Job Ready
+David P.,Full-Stack Developer,22,10.0,4.5,8.6,"JavaScript, TypeScript",7.93,7.71,84.85,Job Ready
+Odin Holmes,Backend Engineer,27,6.88,1.5,8.22,C++,5.67,8.46,68.70000000000002,Almost Ready
+Antonia Engfors,Full-Stack Developer,23,4.12,7.0,7.2,JavaScript,5.91,7.85,59.55,Almost Ready
+Sandro Gauci,Full-Stack Developer,19,4.18,5.5,10.0,JavaScript,6.32,7.25,59.57,Almost Ready
+Deena Gergis,Software Intern,5,7.37,5.5,9.39,Jupyter Notebook,7.41,5.15,67.2,Almost Ready
+Anselm Hannemann,Full-Stack Developer,29,9.05,10.0,9.24,"PHP, Vue, HTML",9.39,8.75,90.96000000000001,Job Ready
+tjado mäcke,Full-Stack Developer,37,10.0,1.5,10.0,TypeScript,7.45,9.95,89.65,Job Ready
+Kirby,Software Intern,30,10.0,5.5,10.0,PHP,8.65,8.9,91.30000000000001,Job Ready
+Simon Reinisch,Software Intern,38,10.0,10.0,5.41,"Shell, Rust, Go, C#",8.62,10.0,94.48,Job Ready
+Andrei Maiboroda,Data Analyst,50,6.05,3.0,5.93,"Python, TypeScript",5.1,10.0,68.55000000000001,Almost Ready
+Zalando Research,Data Analyst,26,10.0,10.0,10.0,"Python, JavaScript",10.0,8.29,94.87,Job Ready
+Sven Tiigi,Frontend Engineer,14,10.0,10.0,10.0,"Swift, Ruby, TypeScript",10.0,6.49,89.47,Job Ready
+Aaron Iker,Full-Stack Developer,21,7.77,5.5,10.0,TypeScript,7.76,7.54,76.97,Job Ready
+Johannes Plunien,Full-Stack Developer,45,8.95,7.0,10.0,Swift,8.68,10.0,91.57,Job Ready
+openmediavault,Data Analyst,7,10.0,7.0,10.0,Python,9.1,5.44,82.72,Job Ready
+Mathias,Full-Stack Developer,48,10.0,9.0,7.23,Lua,8.87,10.0,95.48,Job Ready
+Can Güney Aksakalli,Full-Stack Developer,49,10.0,10.0,10.0,Python,10.0,10.0,100.0,Job Ready
+David Montero Loaiza,Full-Stack Developer,28,8.3,3.0,7.96,Jupyter Notebook,6.61,8.59,77.11,Job Ready
+Benjamin Rosseaux,Software Intern,49,9.46,5.5,9.88,"C, Pascal",8.4,10.0,91.98,Job Ready
+Klaus Hartl,Full-Stack Developer,50,10.0,1.5,9.04,"Go, TypeScript",7.16,10.0,88.64000000000001,Job Ready
+Matthias Koch,Full-Stack Developer,32,8.12,3.0,5.7,"PowerShell, C#",5.86,9.19,75.36999999999999,Job Ready
+Thassia Devilart,Frontend Engineer,5,4.12,3.0,7.22,"Vue, HTML, TypeScript",4.71,5.13,46.589999999999996,Needs Improvement
+Anna Geller,Full-Stack Developer,50,8.6,5.5,10.0,"Python, Jupyter Notebook, TypeScript",8.09,10.0,88.16000000000001,Job Ready
+Lisa Charlotte Muth,Frontend Engineer,11,6.96,7.0,10.0,"CSS, VimL",7.88,6.03,70.49000000000001,Almost Ready
+Ravan Scafi,Frontend Engineer,15,6.47,7.0,7.15,"Go, TypeScript",6.83,6.63,66.62,Almost Ready
+Di,Software Intern,32,3.53,5.5,10.0,"PHP, Swift",6.06,9.18,62.370000000000005,Almost Ready
+Romel Torres,Full-Stack Developer,29,10.0,5.5,10.0,"Shell, PureBasic, Dockerfile",8.65,8.73,90.79,Job Ready
+Jannis Mattheis,Full-Stack Developer,22,8.77,7.0,8.78,"Go, JavaScript",8.24,7.68,82.31,Job Ready
+Tom Herrmann,Full-Stack Developer,50,5.57,10.0,8.03,PHP,7.64,10.0,77.27000000000001,Job Ready
+Dennis Koch,Full-Stack Developer,51,10.0,5.5,9.88,"PHP, JavaScript",8.61,10.0,94.44,Job Ready
+Mathias,Frontend Engineer,9,9.08,7.0,10.0,"Python, CSS, Lua",8.73,5.73,79.35000000000001,Job Ready
+Khanh Ngo,Data Analyst,35,10.0,5.5,10.0,"Python, Go",8.65,9.63,93.49000000000001,Job Ready
+Jendrik Johannes,Full-Stack Developer,30,9.05,10.0,10.0,Java,9.62,8.88,92.27000000000001,Job Ready
+Hewad,Frontend Engineer,13,9.28,5.5,8.36,"Swift, TypeScript",7.87,6.33,78.31,Job Ready
+Taner TEMEL,Full-Stack Developer,42,6.71,8.5,9.88,"SCSS, Java",8.2,10.0,82.92999999999999,Job Ready
+Moritz Bechler,Frontend Engineer,5,10.0,7.0,6.13,"SCSS, HTML, Java",7.94,5.13,77.15,Job Ready
+Loghman Samani,Data Analyst,28,6.47,10.0,10.0,"Python, Jupyter Notebook",8.59,8.58,79.50999999999999,Job Ready
+Christian Schabesberger,Backend Engineer,17,6.15,3.0,7.47,"Dart, C++, Python, LLVM",5.6,6.93,61.639999999999986,Almost Ready
+André Müller,Software Intern,24,9.29,7.0,8.39,"C++, Vim Script",8.33,7.98,85.13,Job Ready
+Qin,Full-Stack Developer,39,4.91,1.5,6.66,"C#, TypeScript",4.41,10.0,62.370000000000005,Almost Ready
+Vinzent,Software Intern,31,10.0,3.0,8.59,"Dart, Rust",7.48,9.02,86.98,Job Ready
+Frederik Schweiger,Frontend Engineer,14,9.88,7.0,10.0,"Dart, JavaScript",9.05,6.47,85.25,Job Ready
+Tom Schmelzer,Frontend Engineer,5,5.97,3.0,7.8,"HTML, TypeScript",5.63,5.12,55.790000000000006,Almost Ready
+Hanko,Full-Stack Developer,33,10.0,7.0,8.66,"JavaScript, TypeScript",8.7,9.32,92.75999999999999,Job Ready
+Vassilis Choutas,Data Analyst,11,10.0,5.5,8.37,"Python, Cuda",8.16,6.02,80.7,Job Ready
+Johannes Gäßler,Data Analyst,15,5.83,3.0,8.51,Python,5.79,6.62,60.510000000000005,Almost Ready
+Kersten,Full-Stack Developer,22,8.92,7.0,9.04,Jupyter Notebook,8.38,7.67,83.29,Job Ready
+Zakria,Data Analyst,10,4.18,4.5,7.32,"Python, HTML, JavaScript",5.22,5.87,51.03,Almost Ready
+Klaus Iglberger,Backend Engineer,13,8.48,1.5,8.62,C++,6.43,6.32,70.12,Almost Ready
+Sven Peter,Full-Stack Developer,32,5.89,5.5,9.85,"Rust, JavaScript",6.96,9.17,73.02,Almost Ready
+Mike Fährmann,Data Analyst,11,10.0,3.0,9.04,Python,7.61,6.02,78.5,Job Ready
+Johannes Huebner,Backend Engineer,38,8.92,5.5,8.35,"C++, JavaScript",7.72,10.0,87.63999999999999,Job Ready
+Daniel Hochleitner,Full-Stack Developer,35,9.03,7.0,10.0,"Shell, PLSQL",8.71,9.61,90.76,Job Ready
+AWS Fundamentals,Full-Stack Developer,21,7.02,5.5,4.55,"Shell, TypeScript, JavaScript, HCL",5.82,7.51,66.86999999999999,Almost Ready
+Interactive Computer Graphics ,Data Analyst,27,10.0,10.0,10.0,"Python, C++",10.0,8.41,95.22999999999999,Job Ready
+Ui.Vision,Data Analyst,24,10.0,5.5,9.0,"Python, Go, Java",8.35,7.96,87.28,Job Ready
+Macro Deck,Frontend Engineer,11,9.26,5.5,8.39,"C#, TypeScript",7.87,6.01,77.29,Job Ready
+SAP Documentation,Full-Stack Developer,40,9.43,8.5,8.78,CSS,8.95,10.0,94.08999999999999,Job Ready
+Andreas Linde,Backend Engineer,14,5.49,5.5,10.0,Go,6.84,6.46,63.21000000000001,Almost Ready
+Mark Essien,Software Intern,28,7.19,5.5,8.85,"Dart, C++, HTML, Rust",7.18,8.56,75.97,Job Ready
+Matthew Honnibal,Data Analyst,19,8.06,7.0,8.02,"Python, C",7.73,7.21,76.73,Job Ready
+PreMiD,Frontend Engineer,12,10.0,7.0,7.66,TypeScript,8.4,6.15,82.05,Job Ready
+Markus Waas,Full-Stack Developer,43,6.35,5.5,10.0,"Solidity, Rust, JavaScript",7.19,10.0,77.81,Job Ready
+#xoxor4d,Backend Engineer,38,9.23,7.0,10.0,C++,8.79,10.0,92.85,Job Ready
+Jens Behley,Data Analyst,21,9.76,8.5,10.0,"Python, C++",9.45,7.5,89.57999999999998,Job Ready
+Samir Jouni,Full-Stack Developer,44,5.28,10.0,9.89,"Shell, HTML",8.08,10.0,78.16000000000001,Job Ready
+Helge Heß,Software Intern,46,8.87,10.0,8.71,Swift,9.16,10.0,93.25,Job Ready
+Payam Zahedi,Full-Stack Developer,41,8.9,6.0,8.35,Dart,7.86,10.0,88.14,Job Ready
+Ramy Hakam,Software Intern,38,7.9,10.0,9.48,PHP,9.0,10.0,89.69999999999999,Job Ready
+rivo,Backend Engineer,13,10.0,5.5,10.0,"HTML, Ruby, Go",8.65,6.3,83.50000000000001,Job Ready
+Fabian-Lars,Software Intern,25,7.79,3.0,6.29,"Shell, Rust",5.9,8.1,71.27,Almost Ready
+Christian,Full-Stack Developer,27,8.96,4.5,8.94,C++,7.62,8.4,82.56,Job Ready
+SV,Data Analyst,19,5.64,4.5,7.04,Python,5.72,7.19,61.370000000000005,Almost Ready
+Kay Hayen,Data Analyst,5,2.97,5.5,8.62,"Python, C, HTML",5.42,5.09,45.86,Needs Improvement
+bitsCrunch,Frontend Engineer,8,3.29,5.5,10.0,JavaScript,5.96,5.54,50.33,Almost Ready
+Chris Figge,Full-Stack Developer,16,6.79,5.5,9.17,"C++, HTML, JavaScript",7.12,6.74,69.07,Almost Ready
+Artur,Software Intern,34,7.33,7.0,7.77,"Shell, C, JavaScript, PHP, Vue",7.36,9.44,79.75,Job Ready
+Andreas Dieckmann,Frontend Engineer,6,8.13,1.5,8.83,"Python, C#",6.35,5.23,65.48,Almost Ready
+sp,Backend Engineer,25,9.14,10.0,8.41,Java,9.18,8.08,88.38000000000001,Job Ready
+Simon Schubert,Software Intern,39,9.97,10.0,10.0,Kotlin,9.99,10.0,99.87,Job Ready
+Daniel Palme,Software Intern,27,10.0,10.0,8.24,"TypeScript, C#",9.47,8.38,93.02,Job Ready
+Thomas Boerger,Full-Stack Developer,21,5.33,1.5,10.0,JavaScript,5.58,7.48,60.750000000000014,Almost Ready
+Sümeyye Çevik,Full-Stack Developer,41,2.77,3.0,5.72,Java,3.72,10.0,53.19000000000001,Almost Ready
+Birk Blechschmidt,Backend Engineer,28,10.0,7.0,9.36,Go,8.91,8.52,91.19999999999999,Job Ready
+Helmut Neemann,Backend Engineer,26,10.0,3.0,6.46,Go,6.84,8.22,82.02,Job Ready
+Konstantin Ruge,Full-Stack Developer,35,10.0,8.5,10.0,TypeScript,9.55,9.57,96.91000000000001,Job Ready
+Damon Kohler,Full-Stack Developer,21,10.0,5.5,7.6,"Python, C++, JavaScript",7.93,7.47,84.13,Job Ready
+hextree.io,Software Intern,10,7.23,5.5,10.0,"C, HTML, Jupyter Notebook, Java",7.54,5.82,69.31,Almost Ready
+Dean McNamee,Full-Stack Developer,44,9.6,10.0,10.0,"Python, Go, JavaScript",9.84,10.0,98.16,Job Ready
+Joel Höner,Full-Stack Developer,23,8.83,1.5,9.44,JavaScript,6.81,7.77,77.03999999999999,Job Ready
+Steinberg Media Technologies GmbH,Backend Engineer,24,10.0,10.0,9.57,"Shell, C++, CSS, JavaScript",9.87,7.92,93.24,Job Ready
+Ernst Bablick,Data Analyst,5,3.64,5.5,9.45,"Python, R, Lua",5.94,5.06,49.86000000000001,Needs Improvement
+Timo Schick,Frontend Engineer,10,9.79,5.5,10.0,Python,8.56,5.81,81.03999999999999,Job Ready
+Sarah Hoffmann,Full-Stack Developer,48,4.85,4.5,10.0,JavaScript,6.29,10.0,69.71000000000001,Almost Ready
+Celonis,Frontend Engineer,6,6.34,5.5,9.47,"Python, TypeScript, Jupyter Notebook, C#",7.02,5.21,62.73,Almost Ready
+Robert Sösemann,Full-Stack Developer,39,9.04,4.5,9.68,"Shell, HTML",7.87,10.0,88.6,Job Ready
+Vladimir Haltakov,Full-Stack Developer,36,9.83,5.5,9.11,"Shell, TypeScript",8.32,9.71,91.9,Job Ready
+Benjamin Kramer,Frontend Engineer,10,5.78,1.5,10.0,"C++, C, C#",5.76,5.81,57.809999999999995,Almost Ready
+Studio 42,Backend Engineer,10,5.16,10.0,8.84,Java,7.72,5.81,63.78999999999999,Almost Ready
+André Michelle,Full-Stack Developer,47,9.48,10.0,10.0,"C++, TypeScript",9.79,10.0,97.6,Job Ready
+Jürgen Moßgraber,Backend Engineer,23,9.34,5.5,7.83,"C, HTML, Java",7.74,7.76,82.25999999999999,Job Ready
+Felipe Cruz,Full-Stack Developer,35,7.92,1.5,6.93,"Python, C, HTML, Jupyter Notebook",5.7,9.56,75.24,Job Ready
+André Perez,Backend Engineer,45,6.19,7.0,5.5,"Jupyter Notebook, Go, HCL",6.23,10.0,73.49000000000001,Almost Ready
+Michael Niemeyer,Full-Stack Developer,25,6.98,10.0,10.0,HTML,8.79,8.05,80.25,Job Ready
+Marcos V. Conde,Full-Stack Developer,20,9.69,10.0,10.0,"Python, HTML, Jupyter Notebook",9.87,7.3,90.45,Job Ready
+Axel Wagner,Full-Stack Developer,48,8.19,7.0,7.16,Go,7.52,10.0,84.65,Job Ready
+Please Prompto!,Data Analyst,7,10.0,5.5,8.9,"Python, TypeScript",8.32,5.35,79.33,Job Ready
+Daniel Dietrich,Full-Stack Developer,48,6.4,10.0,6.16,"Shell, HTML, JavaScript",7.41,10.0,78.84,Job Ready
+Geoffrey J. Teale,Full-Stack Developer,40,10.0,7.0,10.0,"Shell, Scheme, Go",9.1,10.0,96.4,Job Ready
+Jonas Geiping ,Data Analyst,23,9.84,7.0,9.14,"Python, HTML",8.77,7.75,87.85,Job Ready
+Philipp Hennig,Data Analyst,9,8.26,5.5,9.1,"Python, Jupyter Notebook, TeX",7.68,5.65,72.45,Almost Ready
+Braks,Full-Stack Developer,28,10.0,5.5,10.0,JavaScript,8.65,8.5,90.1,Job Ready
+Kevin Chromik,Full-Stack Developer,31,6.11,7.0,7.24,"Python, Dart, Ruby",6.71,8.95,72.02,Almost Ready
+Angular Architects,Full-Stack Developer,18,9.69,8.5,8.44,"CSS, TypeScript",8.96,7.0,85.91000000000001,Job Ready
+Hans Riehm,Software Intern,11,6.13,1.5,8.45,"C, JavaScript, C#",5.44,5.95,58.00000000000001,Almost Ready
+Marcos Bajo,Backend Engineer,25,9.73,5.5,10.0,"C, Java",8.54,8.05,87.5,Job Ready
+Shiyu,Software Intern,12,8.53,8.5,8.69,"Astro, Rust, TypeScript",8.57,6.09,78.14,Job Ready
+Jens Mönig,Frontend Engineer,8,10.0,8.5,10.0,JavaScript,9.55,5.49,84.67,Job Ready
+Johannes Schiel,Software Intern,12,7.1,7.0,7.55,Vue,7.21,6.09,68.41,Almost Ready
+Sumit Kumar,Frontend Engineer,9,3.42,5.5,10.0,JavaScript,6.02,5.64,51.25999999999999,Almost Ready
+Karl Lorey,Full-Stack Developer,37,9.77,10.0,6.28,Python,8.79,9.84,93.99,Job Ready
+Mehmet Arda Anket,Frontend Engineer,12,4.12,1.5,5.02,"Go, Jupyter Notebook, Smarty",3.6,6.09,45.03,Needs Improvement
+Holger Frydrych,Backend Engineer,27,10.0,10.0,10.0,"Python, C++",10.0,8.34,95.01999999999998,Job Ready
+Kim Wuestkamp,Software Intern,42,8.06,5.5,10.0,"Shell, Dockerfile",7.87,10.0,85.66,Job Ready
+Niklas Ravnsborg,Software Intern,38,8.82,5.5,10.0,"Nix, TypeScript",8.18,9.99,89.14999999999999,Job Ready
+Fabian Hueske,Backend Engineer,23,7.55,7.0,10.0,Java,8.12,7.74,78.35,Job Ready
+Matthias Richter,Backend Engineer,35,10.0,10.0,9.43,"C++, Go, JavaScript",9.83,9.54,97.94,Job Ready
+bugzy,Frontend Engineer,5,9.52,7.0,8.14,"Python, HTML, JavaScript, Java",8.35,5.04,77.08,Job Ready
+Christian Heinemann,Software Intern,7,10.0,5.5,10.0,"C++, PowerShell",8.65,5.34,80.62,Job Ready
+Stephan Rumswinkel,Full-Stack Developer,31,10.0,4.5,8.27,"C, Rust",7.83,8.94,88.14,Job Ready
+Pascal Gilcher,Frontend Engineer,9,9.17,5.5,10.0,"HLSL, C++, JavaScript",8.32,5.64,77.71000000000001,Job Ready
+Sepehr Taghdisian,Full-Stack Developer,45,10.0,1.5,9.34,C,7.25,10.0,89.0,Job Ready
+Isaque Hollanda Gonçalves,Backend Engineer,36,4.45,1.5,9.74,"Jupyter Notebook, Swift, Python, HTML, Java",5.15,9.68,62.99,Almost Ready
+Peter Kröner,Software Intern,12,6.09,7.0,7.39,"Vue, HTML, JavaScript, TypeScript",6.75,6.08,63.51,Almost Ready
+Yichuan Shen,Full-Stack Developer,46,9.77,10.0,10.0,"Rust, TypeScript",9.91,10.0,98.94999999999999,Job Ready
+sabine,Software Intern,50,6.87,3.0,9.49,"Dune, JavaScript, TypeScript",6.49,10.0,76.57,Job Ready
+Kshitij Saraogi,Software Intern,35,7.2,8.5,10.0,"Python, Lua",8.43,9.53,83.91,Job Ready
+Martin Robertz,Frontend Engineer,5,5.83,5.5,10.0,JavaScript,6.98,5.03,60.5,Almost Ready
+Philipp Schaefer,Full-Stack Developer,19,10.0,6.0,8.21,"Python, Jupyter Notebook, HTML, JavaScript",8.26,7.13,84.42999999999999,Job Ready
+Frank Boldewin,Frontend Engineer,15,8.76,5.5,10.0,Python,8.16,6.53,78.51,Job Ready
+Libre Solar Project,Software Intern,44,9.71,10.0,9.98,"HTML, C, AMPL, KiCad Layout",9.88,10.0,98.65,Job Ready
+Raffael Herrmann,Data Analyst,38,6.8,5.5,10.0,"Python, PHP, C, JavaScript",7.37,9.98,79.82000000000001,Job Ready
+Franco Fichtner,Full-Stack Developer,25,6.74,5.5,7.24,JavaScript,6.52,8.03,70.39,Almost Ready
+David Whiting,Full-Stack Developer,23,9.3,8.5,7.91,"Shell, C++, HTML",8.65,7.73,85.69,Job Ready
+Lars George,Backend Engineer,30,9.53,5.5,5.37,"Shell, C++, Swift, Java",7.07,8.78,83.21,Job Ready
+Zehao Yu,Full-Stack Developer,16,4.63,7.0,10.0,"Python, Cuda, JavaScript",6.95,6.68,61.73000000000001,Almost Ready
+Teemu R.,Full-Stack Developer,44,10.0,1.5,3.22,"Python, Kotlin, Rust",5.42,10.0,81.67999999999999,Job Ready
+Alex Tselegidis,Full-Stack Developer,33,10.0,7.0,7.51,PHP,8.35,9.23,91.09,Job Ready
+Zettlr,Software Intern,7,10.0,5.5,10.0,"TypeScript, HTML, TeX",8.65,5.33,80.59,Job Ready
+Christian Diller,Data Analyst,19,9.19,5.5,10.0,"Python, Cuda",8.33,7.13,82.28,Job Ready
+Lars Brünjes,Full-Stack Developer,44,7.15,1.5,7.98,"Python, Haskell, JavaScript, TypeScript",5.71,10.0,74.29,Almost Ready
+Andreas Nedbal,Software Intern,23,7.65,5.5,10.0,"PHP, TypeScript, Vento, C#",7.71,7.73,76.98,Job Ready
+Jan Fabel,Frontend Engineer,8,8.81,5.5,8.72,"Swift, C",7.79,5.47,74.0,Almost Ready
+Danny Preussler,Full-Stack Developer,41,8.4,8.5,8.73,"Kotlin, Java",8.53,10.0,89.32000000000001,Job Ready
+Peter M. Stahl,Software Intern,15,10.0,7.0,10.0,"Kotlin, JavaScript",9.1,6.52,85.96000000000001,Job Ready
+Luke,Data Analyst,44,8.99,1.5,5.04,Python,5.56,10.0,79.21000000000001,Job Ready
+Markus Siemens,Full-Stack Developer,24,10.0,5.5,10.0,"Python, Kotlin, TypeScript",8.65,7.87,88.21,Job Ready
+Hanzla Sibghat,Full-Stack Developer,41,5.14,10.0,7.89,"JavaScript, TypeScript",7.42,10.0,75.1,Job Ready
+OpenScan,Frontend Engineer,11,8.82,8.5,7.31,"Shell, Python, JavaScript, TypeScript",8.27,5.92,77.3,Job Ready
+Tim Molter,Full-Stack Developer,33,6.15,5.5,10.0,JavaScript,7.11,9.22,74.55,Almost Ready
+Max Ritter,Data Analyst,47,10.0,5.5,10.0,"Python, TypeScript",8.65,10.0,94.60000000000001,Job Ready
+Oliver Kieselbach,Full-Stack Developer,17,9.04,7.0,10.0,"Python, PowerShell, C#, TypeScript",8.72,6.82,82.46000000000001,Job Ready
+Christian Busch,Full-Stack Developer,35,6.58,1.5,4.81,TypeScript,4.52,9.52,66.38,Almost Ready
+Stephan Zerhusen,Backend Engineer,21,10.0,5.5,5.25,"Makefile, Go",7.23,7.42,81.18,Job Ready
+Fabian Yamaguchi,Full-Stack Developer,21,7.38,5.5,10.0,"Kotlin, Scala, C",7.6,7.42,74.80000000000001,Almost Ready
+Klaus Aehlig,Full-Stack Developer,22,1.76,5.5,8.1,"Starlark, Java",4.78,7.56,47.08,Needs Improvement
+nomi,Full-Stack Developer,46,3.29,1.5,3.01,JavaScript,2.67,10.0,50.55,Almost Ready
+Jacale,Full-Stack Developer,35,8.66,1.5,5.63,"HTML, JavaScript, C#",5.6,9.51,76.91,Job Ready
+Armin Biere,Software Intern,37,9.6,5.5,9.91,"C, JavaScript",8.46,9.81,92.07000000000001,Job Ready
+Tobias Sterbak,Full-Stack Developer,50,7.97,8.5,10.0,"Python, HTML",8.74,10.0,88.87,Job Ready
+Baseult - Discord Tools,Backend Engineer,19,8.47,5.5,9.19,"C++, Visual Basic .NET, JavaScript, C#",7.8,7.11,77.94,Job Ready

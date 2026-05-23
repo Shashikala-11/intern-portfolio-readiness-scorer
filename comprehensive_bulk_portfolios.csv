@@ -1,0 +1,122 @@
+Username,Full_Name,Bio,Location,Company,Public_Repos_Count,Public_Gists_Count,Followers_Count,Following_Count,Account_Age_Days,Total_Stars,Total_Forks,Total_Watchers,Open_Issues_Count,Avg_Repo_Size_KB,Unique_Languages_Count,Primary_Language,Total_Topics_Count,Readme_Presence_Rate,Avg_Readme_Size_Bytes,License_Adoption_Rate,Has_Portfolio_Link,GitHub_Pages_Count
+torvalds,Linus Torvalds,,"Portland, OR",Linux Foundation,11,1,304100,0,5375,246073,63512,246073,73,594566.64,3,C,0,0.91,6188.7,0.82,0,0
+karpathy,Andrej,I like to train Deep Neural Nets on large datasets.,Stanford,,63,13,189195,8,5886,455878,67451,455878,2240,15999.48,11,Python,8,1.0,5762.54,0.4,1,1
+gustavoguanabara,Gustavo Guanabara,Nerd por natureza. Professor por vocação. Estou aqui para compartilhar conteúdos para iniciantes em Tecnologia.,"Rio de Janeiro, Brazil",Curso em Vídeo,8,0,112696,3,4275,29405,6652,29405,4077,44824.75,2,HTML,16,1.0,606.5,1.0,1,4
+yyx990803,Evan You,"Founder @voidzero-dev, author of @vuejs and @vitejs. Connoisseur of sushi.",Singapore,VoidZero,199,73,108102,100,5654,16297,1810,16297,199,18271.86,10,JavaScript,0,0.92,5146.65,0.48,1,3
+gaearon,dan,,,,296,82,90836,174,5476,44712,5295,44712,1062,94078.06,7,JavaScript,7,0.96,5898.4,0.68,1,6
+peng-zhihui,稚晖,野生钢铁侠本侠。,Shanghai,HUAWEI Research,60,0,86712,9,3987,85033,17653,85033,676,194449.13,9,C,0,0.95,7674.53,0.52,0,0
+ruanyf,Ruan YiFeng,,"Shanghai, China",,75,27,86324,0,5430,206555,37478,206555,7917,3143.08,8,JavaScript,1,0.96,4532.53,0.13,1,19
+sindresorhus,Sindre Sorhus,"Full-Time Open-Sourcerer. Focused on Swift & JavaScript. Makes macOS apps, CLI tools, npm packages.",,,1134,99,79477,31,5997,834666,61111,834666,1353,2512.39,6,JavaScript,381,1.0,11592.49,0.95,1,5
+bradtraversy,Brad Traversy,"Full stack web developer and online instructor, specializiing in mostly JS, but also write Python, PHP and some other stuff.",Massachusetts,Traversy Media,320,52,75890,9,4621,153687,48185,153687,898,3774.81,12,JavaScript,0,0.98,3982.79,0.16,1,1
+JakeWharton,Jake Wharton,,"Pittsburgh, PA, USA",@SkylightFamily,151,54,68321,9,6268,136018,22472,136018,1385,13858.24,9,Java,6,0.97,3601.89,0.89,1,18
+lucidrains,Phil Wang,Working with Attention. It's all we need,San Francisco,,394,33,59849,4,6145,144246,15057,144246,1783,8673.26,3,Python,460,1.0,9387.1,1.0,1,0
+rafaballerini,Rafaella Ballerini,"Desenvolvedora de software e criadora de conteúdo de programação e tecnologia!
+","Santa Catarina, Brasil",,59,6,59522,30,2467,21088,25390,21088,241,8808.85,7,CSS,49,0.58,4851.76,0.03,1,1
+hiteshchoudhary,Hitesh Choudhary,I make coding videos on youtube and for courses. My youtube channel explains my work more. Check that out,India,,123,6,57273,0,4078,49056,12040,49056,2005,4464.78,15,JavaScript,5,0.8,8941.35,0.08,1,0
+IDouble,Alp ₿📈🚀🌕,"🗽 Be greedy when others are fearful and be fearful when others are greedy ☕️ Full-Stack 🖥💻📱⌚️ Finance, Crypto ⛓ (Blockchain, Smart contracts etc.)","Zurich, Switzerland",NDA,61,2,53144,525316,3704,4279,682,4279,116,15778.79,13,Java,650,0.98,7409.15,0.93,0,11
+tj,TJ,,,Apex,296,551,51800,45,6455,130719,8875,130719,985,397.74,10,JavaScript,52,1.0,4304.47,0.43,0,7
+steipete,Peter Steinberger,"Came back from retirement to mess with AI. Clawdfather @OpenClaw
+
+Previously: Founder of @PSPDFKit.",London / San Francisco,OpenAI,171,297,50273,109,6293,55092,5841,55092,293,19954.32,11,TypeScript,126,1.0,8136.61,0.83,1,13
+ThePrimeagen,ThePrimeagen,,"9th Ring, Vim",CEO Of TheStartup,236,0,48936,5,4753,41766,5016,41766,713,7912.82,16,JavaScript,0,0.71,4002.93,0.18,1,10
+addyosmani,Addy Osmani,Director at Google working on Gemini and  Google Cloud,"Sunnyvale, California",Google,356,176,48726,266,6138,104180,10633,104180,578,10012.05,9,JavaScript,128,0.98,10429.64,0.55,1,10
+geohot,George Hotz,We will commoditize the petaflop.,"San Diego, CA",@commaai @tinygrad ,102,33,46501,0,6249,23617,2997,23617,298,58818.07,17,Python,1,0.87,4488.87,0.5,1,3
+getify,Kyle Simpson,Kyle Simpson is a Human-Centric Technologist. He's fighting for the people behind the pixels.,"Austin, TX",Getify Solutions,73,411,45139,3,6039,216116,37009,216116,254,1858.56,5,JavaScript,140,0.97,8209.48,0.42,1,6
+krishnaik06,Krish C Naik,Data Scientist with ML and Deep  Learning experience,Bangalore,Panasonic IIC,346,0,41538,0,3623,45786,30479,45786,387,10010.84,3,Jupyter Notebook,0,0.98,1114.04,0.71,1,0
+CodeWithHarry,,,,,41,3,40712,0,2621,20975,8100,20975,700,13976.68,7,JavaScript,0,0.61,2091.76,0.07,0,2
+3b1b,Grant Sanderson,I make videos about math.,,3Blue1Brown,9,0,40288,0,4079,99092,9793,99092,593,227684.22,5,Python,4,0.78,3558.0,0.67,1,2
+nilbuild,Kamran Ahmed,I love building things 🧑‍💻,United Kingdom,,114,26,40075,198,4707,454354,53130,454354,408,26277.27,11,JavaScript,110,1.0,9724.43,0.6,1,7
+filipedeschamps,Filipe Deschamps,Quer se sentir competente em programação? Confere isso: https://curso.dev,Brasil,,22,0,40013,8297,4776,14641,2302,14641,299,7727.45,6,JavaScript,7,0.91,5060.7,0.77,1,2
+antfu,Anthony Fu,"A ship in harbor is safe, but that is not what ships are built for.",undefined,@vercel team @nuxt,395,39,39337,408,4101,48852,3522,48852,472,65857.91,6,TypeScript,154,1.0,3420.73,0.88,1,0
+michaelliao,Crypto Michael,Crypto developer.,"Beijing, China",,116,0,38516,3,5676,22094,18839,22094,142,6939.31,13,Java,120,0.87,1037.61,0.86,1,30
+midudev,Miguel Ángel Durán,"Te enseño Programación, IA y Desarrollo Web. Creador de contenido en Twitch y YouTube.",Barcelona,,225,11,38101,2,5175,54686,9298,54686,518,18597.62,11,JavaScript,83,0.96,5660.93,0.36,1,1
+rasbt,Sebastian Raschka,AI Research Engineer working on LLMs.,,,149,15,38081,41,4612,179195,38614,179195,402,32687.81,8,Jupyter Notebook,163,0.98,8320.29,0.84,1,1
+JohnMwendwa,John Mwendwa,"Developer, mentor and problem-solver. I love turning complex challenges into simple, usable products. My drive: writing code that makes a difference.","Nairobi, Kenya",Uni AirFibre Networks,112,1,37442,44107,2050,3306,262,3306,33,555.01,5,JavaScript,64,0.8,3215.65,0.09,1,55
+kunal-kushwaha,Kunal Kushwaha,Teaching millions how to code and helping businesses scale.,"London, UK",Cast AI,48,1,37082,0,2827,29406,15965,29406,785,53702.04,9,JavaScript,35,0.83,7081.75,0.56,1,2
+adrianhajdin,Adrian Hajdin - JS Mastery,Next.js Enthusiast & Educator,Croatia,JavaScript Mastery,159,62,36875,0,3426,117373,35559,117373,2473,8660.99,4,JavaScript,377,0.99,11351.56,0.02,1,1
+llSourcell,Siraj Raval,"Senior AI/ML Engineer | Specializing in production-ready, trustworthy AI systems (GenAI, RAG, CV, MLOps).",,,491,212,36755,4,5265,49744,18762,49744,710,19436.61,10,Python,0,0.99,3120.13,0.26,1,1
+dmalan,David J. Malan,I teach @cs50.,"Cambridge, MA, USA",@harvard,21,3,36155,7,5486,717,202,717,2,97024.29,3,C,0,0.62,4304.46,0.57,1,0
+mouredev,Brais Moure,"📚 Te enseño programación desde cero
+💻 Software engineer | Freelance fullstack
+⭐️ GitHub Star | Microsoft MVP
+❤️ YouTube, Twitch, Discord & Elgato partner",Building software with  ♥ from Galicia (Spain) to the world.,MoureDev by Brais Moure,52,3,35675,2,3761,115105,22447,115105,1142,9887.35,11,Swift,296,0.98,8933.39,0.56,1,2
+taylorotwell,Taylor Otwell,Creator of @laravel.,"Little Rock, AR",Laravel,33,9,35532,3,5681,1097,207,1097,2,10729.27,5,PHP,0,1.0,4256.64,0.7,1,0
+wesbos,Wes Bos,I create courses that make learning things like JavaScript easy and fun 🔥,"Hamilton, Ontario",me,434,76,35506,30,5982,79071,62759,79071,871,19407.95,8,JavaScript,28,0.96,3569.91,0.13,1,5
+kentcdodds,Kent C. Dodds,"Improving 🌎 with quality software · Husband, 6x Dad, Latter-day Saint, Dev Educator, MVP
+
+⚡️ EpicAI.pro
+🌌 EpicWeb.dev
+🚀 EpicReact.dev","Salt Lake City, Utah, USA",@epicweb-dev ,750,261,34805,49,5192,46209,9703,46209,419,8020.96,6,JavaScript,114,0.97,10030.46,0.54,1,2
+ry,Ryan Dahl,,New York City,@denoland ,62,301,33185,40,6688,5713,1191,5713,88,24409.69,10,TypeScript,0,0.89,2333.2,0.5,1,0
+diego3g,Diego Fernandes,coding...,Brazil,,75,166,32670,89,5012,9452,1773,9452,361,1319.21,5,TypeScript,18,0.59,1355.66,0.09,0,1
+iamshaunjp,Shaun,Code Ninja 🥷 | Traveller 🗺️ | Musician 🥁 | Coffee Enthusiast ☕ | Gamer 👾 ,United Kingdom,Net Ninja,150,2,32467,1,4202,25777,22833,25777,1090,1218.59,7,HTML,0,0.88,476.3,0.01,1,0
+WebDevSimplified,,,Nebraska,WebDevSimplified,235,2,32356,0,2915,20508,14172,20508,585,2396.97,5,JavaScript,12,0.44,2332.89,0.45,1,2
+paulirish,Paul Irish,,,"Google Chrome, ♥z",383,120,31847,336,6374,28913,3224,28913,293,50770.74,9,JavaScript,20,0.93,5261.69,0.61,1,20
+iam-veeramalla,Abhishek Veeramalla,"Keep learning, sharing and growing || Principal Software Engineer at Red Hat || Open Source Enthusiast","Hyderabad, India",Red Hat,93,22,31425,1,2802,73523,141771,73523,1668,9258.77,12,Python,35,0.95,3283.64,0.44,1,2
+tiangolo,Sebastián Ramírez,"Creator of FastAPI, Typer, SQLModel, Asyncer, etc. 🚀
+From 🇨🇴 in 🇩🇪. 
+Open Source, Python, APIs, AI. 🤖 Building FastAPI Cloud. ⚡️","Berlin, Germany",FastAPI Cloud,50,1,31396,7,5244,16051,2892,16051,66,2791.7,5,Python,243,1.0,11964.26,0.82,1,0
+kennethreitz,Kenneth Reitz,I wrote Requests: HTTP for Humans and Pipenv. The only thing I really care about is user experience.,"Virginia, USA, Earth, Milky Way.",,77,262,29853,224,6113,21827,2107,21827,199,69298.34,9,Python,145,0.96,3072.72,0.58,1,5
+StephenGrider,Stephen Grider,,,,131,14,29173,14,4696,30640,24415,30640,1277,93105.95,12,JavaScript,0,0.86,2465.03,0.37,0,4
+benawad,Ben Awad,Voidpet cofounder • ex-youtuber,"San Francisco, CA",Voidpet,256,137,29012,4,4362,28551,5450,28551,1107,32409.42,9,TypeScript,69,0.73,1387.92,0.2,1,1
+jonasschmedtmann,Jonas Schmedtmann,Developer. Designer. Online teacher.,"Faro, Portugal",,7,1,28742,0,3676,33008,31809,33008,526,27012.43,5,JavaScript,14,1.0,3665.57,0.14,1,0
+gamemann,Christian Deacon,"DevOps Engineer into a bit of everything. Often working on my modding project, @modcommunity, and my other open source projects when I have the time!",,@modcommunity @tek-works,181,11,28733,90234,4499,2808,292,2808,50,6098.92,18,C,887,0.98,6459.61,0.22,1,0
+antirez,Salvatore Sanfilippo,"Computer programmer based in Sicily, Italy. I mostly write OSS software. Born 1977. Not a puritan.","Catania, Sicily, Italy",Redis Labs,108,218,28139,4,6271,72251,8721,72251,1045,7234.96,9,C,4,0.99,9349.36,0.74,1,0
+elyxdev,Elyx,Fullstack Developer.,"Medellín, Colombia.",,15,0,27078,1,915,167,4051,167,4,27917.73,4,Python,2,0.73,970.18,0.13,0,1
+buckyroberts,Bucky Roberts,,"New York, NY",thenewboston,45,23,27006,22,4288,8475,7048,8475,312,1889.87,7,Python,0,0.96,1012.47,0.04,1,0
+geerlingguy,Jeff Geerling,"Father, author, developer, maker. Sometimes called ""an inflammatory enigma"". #stl #drupal #ansible #k8s #raspberrypi #crohns","St. Louis, MO","Midwestern Mac, LLC",313,57,26959,66,5667,64146,19316,64146,1202,13906.34,13,Jinja,595,1.0,5689.33,0.83,1,5
+hadley,Hadley Wickham,Chief Scientist at @posit-pbc,"Houston, TX",@posit-pbc,246,183,26636,0,6625,18449,9801,18449,751,39425.54,13,R,19,0.86,5060.86,0.45,1,22
+jwasham,John Washam,Software Development Engineer at Amazon,United States,,30,1,26534,6,4826,362203,87049,362203,127,2616.07,11,Python,12,1.0,7925.93,0.3,1,0
+gvanrossum,Guido van Rossum,,San Francisco Bay Area,Microsoft,28,12,26224,5,4925,2547,248,2547,98,27828.07,6,Python,0,0.86,3465.96,0.5,1,1
+ProgrammingHero1,Programming Hero,,,,1029,0,25419,0,2482,4063,1923,4063,144,8548.0,3,JavaScript,14,0.64,2200.69,0.0,1,1
+BEPb,Andrej Marinchenko,I make simple things with neural networks.,Belarus,prohibited by employment contract,43,0,25245,15047,2392,5588,1191,5588,33,74980.09,7,Python,42,0.93,9991.48,0.67,1,0
+mrdoob,,,,,57,73,25130,199,6181,130955,39063,130955,537,67070.89,6,JavaScript,30,0.81,2201.8,0.68,1,27
+techwithtim,Tim Ruscica,"I am Tech With Tim :) Most of the code I post here is showed/created in my youtube videos on the channel Tech With Tim! 
+tim@techwithtim.net",Dubai,@Tech-With-Tim ,223,0,25075,2,3053,15518,9411,15518,452,1861.64,7,Python,0,0.91,1198.24,0.01,1,0
+dhh,David Heinemeier Hansson,,,37signals,6,56,24958,0,6647,245,41,245,3,2870.0,1,Ruby,0,1.0,1089.33,0.5,1,0
+daimajia,代码家,Coder | Investor | Tech Enthusiast,"Beijing, China",,96,10,24924,272,4975,46970,10782,46970,991,7239.54,16,Java,16,0.93,4633.65,0.61,1,2
+sdras,Sarah Drasner,comprehension over configuration,All over the place,Google,103,5,24917,149,5008,57549,5932,57549,1101,21847.2,8,JavaScript,263,0.97,5992.99,0.55,1,9
+mitsuhiko,Armin Ronacher,Software developer and Open Source nut. Creator of the Flask framework. Founder of @earendil-works. Other things of interest: @pallets and @getsentry,Austria,Earendil,340,272,24842,25,6611,23723,2070,23723,507,8864.85,11,Python,13,0.93,3949.44,0.73,1,12
+mojombo,Tom Preston-Werner,,San Francisco,"@chatterbugapp, @redwoodjs, @preston-werner-ventures ",66,62,24605,11,6789,14154,3974,14154,548,5920.91,12,Ruby,0,0.85,2891.02,0.53,1,4
+hkirat,Kirat,,Earth,,159,6,24299,124,4338,11608,4391,11608,899,12282.75,8,TypeScript,0,0.68,4287.76,0.23,0,5
+kelseyhightower,Kelsey Hightower,,Washington,,196,241,24066,13,5336,141952,25357,141952,5261,1979.94,7,Go,17,0.96,3032.28,0.71,0,1
+SebLague,Sebastian Lague,,Denmark,,92,0,23986,0,4774,34836,8282,34836,728,34195.09,6,C#,2,0.66,572.9,0.54,0,3
+donnemartin,Donne Martin,Tech Lead @facebook,"Washington, D.C.",@facebook,27,0,23848,2,4633,449682,73544,449682,961,8624.52,7,Python,138,0.93,25098.84,0.93,1,6
+mdo,Mark Otto,"Designer, developer, and advisor. Building Pierre. Creator of Bootstrap (@twbs). Previously @github and @twitter. Huge nerd.","San Francisco, CA",@pierredotco ,33,11,23653,1,6176,21528,2269,21528,90,9288.33,5,CSS,5,0.97,2585.12,0.7,1,16
+keijiro,Keijiro Takahashi,,Japan,Unity Technologies Japan,920,215,23629,0,5780,51107,5384,51107,223,9002.7,14,C#,162,0.92,1474.72,0.49,1,10
+mli,Mu Li,,"Palo Alto, CA",Boson AI,20,1,23591,1,5713,42623,3901,42623,85,42816.15,9,Jupyter Notebook,3,1.0,5801.6,0.85,0,2
+jadijadi,Jadi,Into freedom,,,111,9,23498,66,5259,9431,2757,9431,305,81344.2,21,Python,4,0.94,11254.11,0.8,1,13
+mbostock,Mike Bostock,Building a better computational medium. Co-founder @observablehq. Creator @d3. Former @nytgraphics. Pronounced BOSS-tock.,"San Francisco, CA",@observablehq ,88,1043,23379,0,5902,5014,742,5014,106,13100.19,6,JavaScript,0,0.88,3333.34,0.75,1,6
+liyupi,程序员鱼皮,speak less do more！前腾讯全栈开发，现科技公司创始人,China Shanghai,编程学习公众号【程序员鱼皮】,102,0,23271,30,3372,64633,13340,64633,556,15564.45,10,Java,499,0.84,7542.64,0.25,1,6
+tpope,Tim Pope,Vim plugin artist,"Brooklyn, NY",,85,56,23252,20,6668,107885,6108,107885,1041,5163.27,8,Vim Script,3,0.91,2483.65,0.4,1,2
+codediodeio,Jeff Delaney,GDE. Creator of @fireship-io,"Phoenix, AZ",Fireship LLC,65,39,23121,89,4179,6889,2343,6889,880,16121.72,9,TypeScript,8,0.98,3268.16,0.34,1,0
+chiphuyen,Chip Huyen,AI x stuff,San Francisco,,30,1,23050,7,4053,56480,11483,56480,188,34427.17,4,Python,47,1.0,6807.9,0.57,1,2
+Visualize-ML,Iris Series 鸢尾花书,"Iris Series: Math Made Easy and Visual. Code, See, Learn. Visualize math using Python. ~8,000 vector graphics. Cover Topics from arithmetic to machine learning.",,,10,0,23050,0,1465,40811,7283,40811,44,255613.3,1,Jupyter Notebook,34,0.7,338.86,0.0,0,0
+octocat,The Octocat,,San Francisco,@github,8,8,22730,9,5596,21419,164785,21419,26902,4199.0,3,HTML,0,0.75,1296.17,0.25,1,1
+defunkt,Chris Wanstrath,🍔,,,107,274,22699,215,6789,37150,5508,37150,583,2919.33,11,Ruby,0,0.87,3410.44,0.59,1,12
+mitchellh,Mitchell Hashimoto,,"Los Angeles, CA",,118,107,22677,0,6659,45298,4662,45298,959,5116.05,13,Go,28,1.0,4826.28,0.8,1,4
+xiaolai,xiaolai,A lifelong student.,beijing,inblockchain,208,51,21952,40,6034,21936,8515,21936,312,33906.74,11,Shell,25,0.99,15443.9,0.69,1,6
+douglascrockford,Douglas Crockford,"I was born in Frostbite Falls, Minnesota. I left when I was 6 months old because it was too damn cold.
+
+My latest book is _A Million And One Random Digits_.",Anaheim,Virgule-Solidus,20,0,21924,2,5864,12569,5013,12569,7,591.2,4,JavaScript,0,1.0,3178.55,0.1,1,0
+brunosimon,Bruno Simon,,Paris,Creative Journey,85,5,21900,0,4636,16036,2810,16036,369,99981.59,4,JavaScript,0,0.81,1747.04,0.16,1,3
+MorvanZhou,Morvan,Deep Learning Research & Development at Tencent ,,,57,1,21633,3,3657,41451,18025,41451,169,785176.72,9,Python,185,0.89,5508.16,0.72,1,1
+cloudwu,云风,"coder ( c , lua , open source )",China,ejoy.com,139,67,21620,2,5517,30086,8877,30086,219,1699.36,5,C,0,0.73,1907.9,0.41,1,3
+AlexTheAnalyst,Alex The Analyst,Helping you become a Data Analyst one code at a time. All code for Youtube Channel Alex The Analyst. ,,,19,0,21568,0,2306,6219,4250,6219,108,4283.47,4,Jupyter Notebook,0,0.42,761.75,0.11,1,2
+standardgalactic,Cogito Ergo Sum,𝘏𝘰𝘮𝘦 𝘰𝘧 𝘵𝘩𝘦 𝚂𝚝𝚊𝚗𝚍𝚊𝚛𝚍 𝙶𝚊𝚕𝚊𝚌𝚝𝚒𝚌 𝙰𝚕𝚙𝚑𝚊𝚋𝚎𝚝,Canada,Xanadu,23845,113,21533,1087698,2798,409,62,409,1,185871.34,4,TeX,0,0.94,4948.36,0.61,0,9
+kenjinote,kenji,"I like Win32API and assembly language.
+Microsoft MVP Since 2017 - 2026🐳.
+",Japan,,678,55,21451,56788,4962,1226,92,1226,78,4976.06,6,C++,39,0.41,1063.71,0.88,1,7
+JacksonTian,Jackson Tian,,"Hangzhou, China",Alibaba Cloud,273,77,21360,208,5796,25383,6071,25383,322,35703.72,9,JavaScript,5,0.95,4645.19,0.61,0,12
+Asabeneh,Asabeneh," 🌐 Fullstack Engineer🌱 Educator 📘 Content creator 📈 Data Analyst |
+I create jargon-free, easy to read and understand educational material","Helsinki, Finland",,191,26,21291,21,4249,144665,31666,144665,932,7821.68,8,JavaScript,114,0.6,14067.17,0.01,1,21
+lllyasviel,,"Lvmin Zhang (Lyumin Zhang)
+
+",,,38,0,21221,2,3634,166948,19165,166948,2998,57144.92,5,Python,0,0.92,10291.2,0.68,0,10
+lucast1574,Lucas Santillan,Software Developer,,,38,0,21067,10,1114,310,720,310,5,55160.24,11,Python,2,0.68,4551.92,0.24,0,1
+phodal,Fengda Huang,I'm digging holes.,Hangzhou,ex-@Thoughtworks @qoderai,384,16,20732,8,5674,86293,13572,86293,330,12727.57,15,JavaScript,234,1.0,11804.38,0.62,1,64
+john-smilga,John Smilga,Creator of Coding Addict,"Sarasota, FL",Coding Addict,262,0,20707,0,2846,21897,18868,21897,448,3679.22,5,JavaScript,0,0.74,11170.11,0.11,1,0
+angelabauer,Angela Yu,"Medical doctor. Developer. Founder of the App Brewery. Teaching 2,000,000+ students how to code.","London, UK",@appbrewery,47,26,20462,0,4266,1177,1299,1177,385,5468.62,6,Swift,0,0.57,1795.3,0.19,1,12
+Rich-Harris,Rich Harris,,NYC,,396,109,20450,0,5317,28575,1353,28575,658,23312.35,6,JavaScript,6,1.0,2568.79,0.45,0,5
+developedbyed,Simo Edwin,"Founder of developedbyed.com 🔥
+I also run a wee Youtube channel https://www.youtube.com/@developedbyed 🙌",Scotland,developedbyed,21,0,20429,4,3200,3397,2410,3397,82,13507.57,5,TypeScript,0,0.71,2326.47,0.05,1,2
