@@ -96,8 +96,11 @@ To run the production Flask application on a local server network, execute the c
 
 bash
 git clone [https://github.com/Shashikala-11/intern-portfolio-readiness-scorer.git](https://github.com/Shashikala-11/intern-portfolio-readiness-scorer.git)
+
 cd intern-portfolio-readiness-scorer
+
 pip install -r requirements.txt
+
 python app.py
 
 ---
