@@ -1,0 +1,469 @@
+{% extends "base.html" %}
+{% block title %}Score Intern{% endblock %}
+
+{% block head %}
+<style>
+.predict-layout {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 1.5rem;
+  align-items: start;
+}
+@media (max-width: 1000px) { .predict-layout { grid-template-columns: 1fr; } }
+
+/* ── Form Card ─────────────────────────────────────────────── */
+.form-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+}
+.form-card h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  display: flex; align-items: center; gap: .5rem;
+  color: var(--text);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.form-group { display: flex; flex-direction: column; gap: .4rem; }
+.form-group.full { grid-column: 1 / -1; }
+
+label {
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
+.hint { font-weight: 400; color: var(--text-dim); text-transform: none; letter-spacing: 0; }
+
+input, select {
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: .88rem;
+  padding: .65rem .9rem;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+  width: 100%;
+}
+input::placeholder { color: var(--text-dim); }
+input:focus, select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(79,142,247,.15);
+}
+select option { background: var(--surface2); }
+
+.slider-group { grid-column: 1 / -1; }
+.slider-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.slider-item { display: flex; flex-direction: column; gap: .4rem; }
+.slider-header { display: flex; justify-content: space-between; align-items: center; }
+.slider-val {
+  font-size: .85rem;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 28px;
+  text-align: right;
+}
+input[type=range] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: var(--surface3);
+  border-radius: 2px;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(79,142,247,.5);
+}
+input[type=range]:focus { box-shadow: none; border: none; }
+
+.btn-predict {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: .85rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: 'Inter', sans-serif;
+  font-size: .95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity .2s, transform .15s;
+  display: flex; align-items: center; justify-content: center; gap: .5rem;
+}
+.btn-predict:hover { opacity: .9; transform: translateY(-1px); }
+.btn-predict:active { transform: translateY(0); }
+
+/* ── Result Panel ──────────────────────────────────────────── */
+.result-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.8rem;
+  position: sticky;
+  top: 80px;
+}
+
+.placeholder-wrap {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.placeholder-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+.placeholder-wrap p {
+  color: var(--text-muted);
+  font-size: .88rem;
+  line-height: 1.6;
+}
+
+.model-info-box {
+  margin-top: 1.5rem;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+}
+.model-info-box h4 {
+  font-size: .78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: .7rem;
+}
+.model-info-box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.model-info-box li {
+  font-size: .82rem;
+  color: var(--text-muted);
+  display: flex; align-items: center; gap: .5rem;
+}
+.model-info-box li::before {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+/* ── Score display ─────────────────────────────────────────── */
+.result-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.result-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.score-ring-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.score-ring-wrap svg { width: 160px; height: 160px; }
+.score-center {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.score-big {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.score-sub { font-size: .75rem; color: var(--text-muted); }
+
+/* ── Probability bars ──────────────────────────────────────── */
+.prob-section h4 {
+  font-size: .78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: .8rem;
+}
+.prob-row {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin-bottom: .6rem;
+}
+.prob-label { font-size: .78rem; color: var(--text-muted); width: 120px; flex-shrink: 0; }
+.prob-track {
+  flex: 1;
+  height: 6px;
+  background: var(--surface3);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.prob-fill { height: 100%; border-radius: 3px; transition: width .8s ease; }
+.prob-fill-green  { background: linear-gradient(90deg, #22c55e, #16a34a); }
+.prob-fill-yellow { background: linear-gradient(90deg, #f59e0b, #d97706); }
+.prob-fill-red    { background: linear-gradient(90deg, #ef4444, #dc2626); }
+.prob-pct { font-size: .78rem; font-weight: 600; min-width: 36px; text-align: right; }
+
+/* ── Recommendation ────────────────────────────────────────── */
+.recommendation {
+  margin-top: 1.2rem;
+  padding: 1rem;
+  border-radius: var(--radius-sm);
+  font-size: .85rem;
+  line-height: 1.6;
+}
+.rec-green  { background: rgba(34,197,94,.08);  border: 1px solid rgba(34,197,94,.2); }
+.rec-yellow { background: rgba(245,158,11,.08); border: 1px solid rgba(245,158,11,.2); }
+.rec-red    { background: rgba(239,68,68,.08);  border: 1px solid rgba(239,68,68,.2); }
+
+.error-box {
+  background: rgba(239,68,68,.1);
+  border: 1px solid rgba(239,68,68,.3);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  color: var(--red);
+  font-size: .88rem;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Score an Intern</h1>
+  <p>Enter portfolio details to get an AI-powered readiness prediction using Logistic Regression</p>
+</div>
+
+<div class="predict-layout">
+
+  <!-- ── Form ── -->
+  <div class="form-card">
+    <h2>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      Portfolio Assessment
+    </h2>
+
+    <form method="POST" action="{{ url_for('predict') }}">
+      <div class="form-grid">
+
+        <div class="form-group full">
+          <label>Intern Name</label>
+          <input type="text" name="name" placeholder="e.g. Rahul Sharma"
+                 value="{{ form_data.get('name', '') }}" required/>
+        </div>
+
+        <div class="form-group">
+          <label>Domain / Role</label>
+          <select name="role" required>
+            {% for r in roles %}
+            <option value="{{ r }}" {{ 'selected' if form_data.get('role') == r else '' }}>{{ r }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Tools Used <span class="hint">(comma-separated)</span></label>
+          <input type="text" name="tools_used"
+                 placeholder="Python, React, SQL"
+                 value="{{ form_data.get('tools_used', '') }}" required/>
+        </div>
+
+        <div class="form-group">
+          <label>Number of Projects</label>
+          <input type="number" name="no_of_projects" min="1" max="50"
+                 placeholder="e.g. 8"
+                 value="{{ form_data.get('no_of_projects', '') }}" required/>
+        </div>
+
+        <!-- Sliders -->
+        <div class="slider-group">
+          <div class="slider-row">
+
+            <div class="slider-item">
+              <div class="slider-header">
+                <label>Project Quality <span class="hint">(0–10)</span></label>
+                <span class="slider-val" id="aps-val">{{ form_data.get('avg_project_score', '7') }}</span>
+              </div>
+              <input type="range" name="avg_project_score" min="0" max="10" step="0.1"
+                     value="{{ form_data.get('avg_project_score', '7') }}"
+                     oninput="document.getElementById('aps-val').textContent=this.value"/>
+            </div>
+
+            <div class="slider-item">
+              <div class="slider-header">
+                <label>Documentation Quality <span class="hint">(0–10)</span></label>
+                <span class="slider-val" id="dq-val">{{ form_data.get('documentation_quality', '7') }}</span>
+              </div>
+              <input type="range" name="documentation_quality" min="0" max="10" step="0.1"
+                     value="{{ form_data.get('documentation_quality', '7') }}"
+                     oninput="document.getElementById('dq-val').textContent=this.value"/>
+            </div>
+
+            <div class="slider-item">
+              <div class="slider-header">
+                <label>Business Relevance <span class="hint">(0–10)</span></label>
+                <span class="slider-val" id="br-val">{{ form_data.get('business_relevance', '7') }}</span>
+              </div>
+              <input type="range" name="business_relevance" min="0" max="10" step="0.1"
+                     value="{{ form_data.get('business_relevance', '7') }}"
+                     oninput="document.getElementById('br-val').textContent=this.value"/>
+            </div>
+
+            <div class="slider-item">
+              <div class="slider-header">
+                <label>Presentation Score <span class="hint">(0–10)</span></label>
+                <span class="slider-val" id="ps-val">{{ form_data.get('presentation_score', '7') }}</span>
+              </div>
+              <input type="range" name="presentation_score" min="0" max="10" step="0.1"
+                     value="{{ form_data.get('presentation_score', '7') }}"
+                     oninput="document.getElementById('ps-val').textContent=this.value"/>
+            </div>
+
+            <div class="slider-item">
+              <div class="slider-header">
+                <label>Task Consistency <span class="hint">(0–10)</span></label>
+                <span class="slider-val" id="tc-val">{{ form_data.get('task_consistency', '7') }}</span>
+              </div>
+              <input type="range" name="task_consistency" min="0" max="10" step="0.1"
+                     value="{{ form_data.get('task_consistency', '7') }}"
+                     oninput="document.getElementById('tc-val').textContent=this.value"/>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <button type="submit" class="btn-predict">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        Predict Readiness
+      </button>
+    </form>
+  </div>
+
+  <!-- ── Result Panel ── -->
+  <div class="result-panel">
+    {% if result %}
+      {% if result.error %}
+        <div class="error-box">⚠️ {{ result.error }}</div>
+      {% else %}
+
+        <div class="result-name-row">
+          <span class="result-name">{{ result.name }}</span>
+          {% if result.label == 'Job Ready' %}
+            <span class="badge badge-green">✅ Job Ready</span>
+          {% elif result.label == 'Almost Ready' %}
+            <span class="badge badge-yellow">⚡ Almost Ready</span>
+          {% else %}
+            <span class="badge badge-red">📈 Needs Improvement</span>
+          {% endif %}
+        </div>
+
+        <!-- Score ring -->
+        <div class="score-ring-wrap">
+          {% set stroke_color = '#22c55e' if result.label == 'Job Ready' else ('#f59e0b' if result.label == 'Almost Ready' else '#ef4444') %}
+          {% set dash = (result.score / 100 * 283) | round(1) %}
+          <svg viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="45" fill="none" stroke="#1a2235" stroke-width="8"/>
+            <circle cx="50" cy="50" r="45" fill="none"
+              stroke="{{ stroke_color }}"
+              stroke-width="8"
+              stroke-dasharray="{{ dash }} 283"
+              stroke-linecap="round"
+              transform="rotate(-90 50 50)"
+              style="transition: stroke-dasharray .8s ease;"/>
+          </svg>
+          <div class="score-center">
+            <div class="score-big" style="color:{{ stroke_color }}">{{ result.score }}</div>
+            <div class="score-sub">/ 100</div>
+          </div>
+        </div>
+
+        <!-- Probability bars -->
+        <div class="prob-section">
+          <h4>Class Probabilities</h4>
+          {% for cls, pct in result.class_probs.items() %}
+          <div class="prob-row">
+            <span class="prob-label">{{ cls }}</span>
+            <div class="prob-track">
+              <div class="prob-fill
+                {% if cls == 'Job Ready' %}prob-fill-green
+                {% elif cls == 'Almost Ready' %}prob-fill-yellow
+                {% else %}prob-fill-red{% endif %}"
+                style="width:{{ pct }}%"></div>
+            </div>
+            <span class="prob-pct">{{ pct }}%</span>
+          </div>
+          {% endfor %}
+        </div>
+
+        <!-- Recommendation -->
+        <div class="recommendation
+          {% if result.label == 'Job Ready' %}rec-green
+          {% elif result.label == 'Almost Ready' %}rec-yellow
+          {% else %}rec-red{% endif %}">
+          {% if result.label == 'Job Ready' %}
+            🎉 <strong>Excellent!</strong> Strong portfolio quality across all dimensions. This intern is placement-ready.
+          {% elif result.label == 'Almost Ready' %}
+            ⚡ <strong>Good progress!</strong> A few more projects and improved documentation will push this intern to Job Ready.
+          {% else %}
+            📚 <strong>Needs work.</strong> Focus on increasing project count, business relevance, and documentation quality.
+          {% endif %}
+        </div>
+
+      {% endif %}
+    {% else %}
+      <div class="placeholder-wrap">
+        <span class="placeholder-icon">🤖</span>
+        <p>Fill in the form and click <strong>Predict Readiness</strong> to get an AI-powered score.</p>
+        <div class="model-info-box">
+          <h4>Model Details</h4>
+          <ul>
+            <li>Algorithm: Logistic Regression (L2)</li>
+            <li>Test Accuracy: 96.14%</li>
+            <li>Balanced Accuracy: 96.32%</li>
+            <li>CV Balanced Accuracy: 96.91%</li>
+            <li>Classes: 3 (Job Ready, Almost Ready, Needs Improvement)</li>
+            <li>Features: 14 engineered</li>
+          </ul>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+{% block title %}Leaderboard{% endblock %}
+
+{% block head %}
+<style>
+/* ── Filter bar ────────────────────────────────────────────── */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.filter-group label {
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  white-space: nowrap;
+}
+.filter-group select {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: .85rem;
+  padding: .5rem .8rem;
+  outline: none;
+  cursor: pointer;
+  transition: border-color .2s;
+  min-width: 160px;
+}
+.filter-group select:focus { border-color: var(--accent); }
+
+.filter-count {
+  margin-left: auto;
+  font-size: .82rem;
+  color: var(--text-muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: .4rem .8rem;
+}
+
+/* ── Table card ────────────────────────────────────────────── */
+.table-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.rank-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  font-size: .75rem;
+  font-weight: 700;
+  background: var(--surface3);
+  color: var(--text-muted);
+}
+.rank-1 { background: linear-gradient(135deg, #f59e0b, #d97706); color: #fff; }
+.rank-2 { background: linear-gradient(135deg, #94a3b8, #64748b); color: #fff; }
+.rank-3 { background: linear-gradient(135deg, #cd7c3a, #a85c2a); color: #fff; }
+
+.role-chip {
+  display: inline-block;
+  padding: .2rem .6rem;
+  background: rgba(79,142,247,.1);
+  color: var(--accent);
+  border-radius: 20px;
+  font-size: .72rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+}
+.empty-state span { font-size: 2.5rem; display: block; margin-bottom: .8rem; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Intern Leaderboard</h1>
+  <p>Browse, filter, and rank all intern profiles by readiness score</p>
+</div>
+
+<form class="filter-bar" method="GET">
+  <div class="filter-group">
+    <label>Role</label>
+    <select name="role" onchange="this.form.submit()">
+      {% for r in roles %}
+      <option value="{{ r }}" {{ 'selected' if r == selected_role else '' }}>{{ r }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>Status</label>
+    <select name="label" onchange="this.form.submit()">
+      {% for l in labels %}
+      <option value="{{ l }}" {{ 'selected' if l == selected_label else '' }}>{{ l }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <span class="filter-count">
+    Showing <strong>{{ records | length }}</strong> results
+  </span>
+</form>
+
+<div class="table-card">
+  <div class="table-wrap">
+    {% if records %}
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Projects</th>
+          <th>Avg Score</th>
+          <th>Readiness</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in range(records | length) %}
+        {% set r = records[i] %}
+        <tr>
+          <td><span class="rank-num {% if i == 0 %}rank-1{% elif i == 1 %}rank-2{% elif i == 2 %}rank-3{% endif %}">{{ i+1 }}</span></td>
+          <td style="font-weight:600">{{ r.name }}</td>
+          <td><span class="role-chip">{{ r.role }}</span></td>
+          <td style="color:var(--text-muted)">{{ r.no_of_projects }}</td>
+          <td style="color:var(--text-muted)">{{ "%.1f"|format(r.avg_project_score) }}</td>
+          <td>
+            <div class="score-bar-wrap">
+              <div class="score-track" style="width:120px">
+                <div class="score-fill" style="width:{{ r.Readiness_Score }}%"></div>
+              </div>
+              <span class="score-val">{{ r.Readiness_Score }}</span>
+            </div>
+          </td>
+          <td>
+            {% if r.Employability_Label == 'Job Ready' %}
+              <span class="badge badge-green">Job Ready</span>
+            {% elif r.Employability_Label == 'Almost Ready' %}
+              <span class="badge badge-yellow">Almost Ready</span>
+            {% else %}
+              <span class="badge badge-red">Needs Improvement</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <div class="empty-state">
+      <span>🔍</span>
+      No results found for the selected filters.
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

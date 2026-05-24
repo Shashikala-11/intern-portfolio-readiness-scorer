@@ -1,0 +1,366 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block head %}
+<style>
+/* ── KPI Grid ──────────────────────────────────────────────── */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 1100px) { .kpi-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 700px)  { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+
+.kpi-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.2rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform .2s, box-shadow .2s;
+}
+.kpi-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--glow);
+}
+.kpi-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.kpi-total::after  { background: linear-gradient(90deg, var(--accent), var(--accent2)); }
+.kpi-ready::after  { background: linear-gradient(90deg, var(--green), #16a34a); }
+.kpi-almost::after { background: linear-gradient(90deg, var(--yellow), #d97706); }
+.kpi-needs::after  { background: linear-gradient(90deg, var(--red), #dc2626); }
+.kpi-avg::after    { background: linear-gradient(90deg, var(--cyan), #0891b2); }
+
+.kpi-icon {
+  font-size: 1.4rem;
+  margin-bottom: .6rem;
+  display: block;
+}
+.kpi-value {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.kpi-label {
+  font-size: .78rem;
+  color: var(--text-muted);
+  margin-top: .3rem;
+  font-weight: 500;
+}
+.kpi-pct {
+  font-size: .75rem;
+  color: var(--text-dim);
+  margin-top: .2rem;
+}
+
+/* ── Charts ────────────────────────────────────────────────── */
+.charts-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 1100px) { .charts-row { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 700px)  { .charts-row { grid-template-columns: 1fr; } }
+
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+}
+.chart-card h3 {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: 1rem;
+}
+.chart-wrap { position: relative; }
+
+/* ── Top Performers ────────────────────────────────────────── */
+.section-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+.section-title {
+  font-size: .95rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  display: flex; align-items: center; gap: .5rem;
+}
+
+.rank-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  font-size: .75rem;
+  font-weight: 700;
+  background: var(--surface3);
+  color: var(--text-muted);
+}
+.rank-1 { background: linear-gradient(135deg, #f59e0b, #d97706); color: #fff; }
+.rank-2 { background: linear-gradient(135deg, #94a3b8, #64748b); color: #fff; }
+.rank-3 { background: linear-gradient(135deg, #cd7c3a, #a85c2a); color: #fff; }
+
+.role-chip {
+  display: inline-block;
+  padding: .2rem .6rem;
+  background: rgba(79,142,247,.1);
+  color: var(--accent);
+  border-radius: 20px;
+  font-size: .72rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ── Model info strip ──────────────────────────────────────── */
+.model-strip {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.model-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: .7rem 1.2rem;
+  display: flex; align-items: center; gap: .6rem;
+  font-size: .82rem;
+}
+.model-stat-val {
+  font-weight: 700;
+  color: var(--accent);
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Intern Readiness Dashboard</h1>
+  <p>AI-powered portfolio evaluation · Logistic Regression · Graphura India 2025–26</p>
+</div>
+
+<!-- Model stats strip -->
+<div class="model-strip">
+  <div class="model-stat">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+    Algorithm: <span class="model-stat-val">Logistic Regression</span>
+  </div>
+  <div class="model-stat">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    Test Accuracy: <span class="model-stat-val" style="color:var(--green)">96.14%</span>
+  </div>
+  <div class="model-stat">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--cyan)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    Balanced Acc: <span class="model-stat-val" style="color:var(--cyan)">96.32%</span>
+  </div>
+  <div class="model-stat">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="2"><path d="M3 3v18h18"/><polyline points="18 9 12 15 9 12 3 18"/></svg>
+    CV Accuracy: <span class="model-stat-val" style="color:var(--yellow)">96.91%</span>
+  </div>
+  <div class="model-stat">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+    Features: <span class="model-stat-val">14</span>
+  </div>
+</div>
+
+<!-- KPI Cards -->
+<div class="kpi-grid">
+  <div class="kpi-card kpi-total">
+    <span class="kpi-icon">👥</span>
+    <div class="kpi-value">{{ total }}</div>
+    <div class="kpi-label">Total Interns</div>
+  </div>
+  <div class="kpi-card kpi-ready">
+    <span class="kpi-icon">✅</span>
+    <div class="kpi-value">{{ job_ready }}</div>
+    <div class="kpi-label">Job Ready</div>
+    <div class="kpi-pct">{{ "%.1f"|format(job_ready / total * 100) }}% of batch</div>
+  </div>
+  <div class="kpi-card kpi-almost">
+    <span class="kpi-icon">⚡</span>
+    <div class="kpi-value">{{ almost_ready }}</div>
+    <div class="kpi-label">Almost Ready</div>
+    <div class="kpi-pct">{{ "%.1f"|format(almost_ready / total * 100) }}% of batch</div>
+  </div>
+  <div class="kpi-card kpi-needs">
+    <span class="kpi-icon">📈</span>
+    <div class="kpi-value">{{ needs_improvement }}</div>
+    <div class="kpi-label">Needs Improvement</div>
+    <div class="kpi-pct">{{ "%.1f"|format(needs_improvement / total * 100) }}% of batch</div>
+  </div>
+  <div class="kpi-card kpi-avg">
+    <span class="kpi-icon">🏆</span>
+    <div class="kpi-value">{{ avg_score }}</div>
+    <div class="kpi-label">Avg Readiness Score</div>
+    <div class="kpi-pct">out of 100</div>
+  </div>
+</div>
+
+<!-- Charts Row -->
+<div class="charts-row">
+  <div class="chart-card">
+    <h3>Readiness Split</h3>
+    <div class="chart-wrap" style="height:220px">
+      <canvas id="donutChart"></canvas>
+    </div>
+  </div>
+  <div class="chart-card">
+    <h3>Interns by Role</h3>
+    <div class="chart-wrap" style="height:220px">
+      <canvas id="roleChart"></canvas>
+    </div>
+  </div>
+  <div class="chart-card">
+    <h3>Score Distribution</h3>
+    <div class="chart-wrap" style="height:220px">
+      <canvas id="distChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<!-- Top Performers -->
+<div class="section-card">
+  <div class="section-title">
+    🏅 Top 10 Performers
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Readiness Score</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in range(top10|length) %}
+        {% set intern = top10[i] %}
+        <tr>
+          <td><span class="rank-num rank-{{ i+1 }}">{{ i+1 }}</span></td>
+          <td style="font-weight:600">{{ intern.name }}</td>
+          <td><span class="role-chip">{{ intern.role }}</span></td>
+          <td>
+            <div class="score-bar-wrap">
+              <div class="score-track" style="width:140px">
+                <div class="score-fill" style="width:{{ intern.Readiness_Score }}%"></div>
+              </div>
+              <span class="score-val">{{ intern.Readiness_Score }}</span>
+            </div>
+          </td>
+          <td>
+            {% if intern.Employability_Label == 'Job Ready' %}
+              <span class="badge badge-green">Job Ready</span>
+            {% elif intern.Employability_Label == 'Almost Ready' %}
+              <span class="badge badge-yellow">Almost Ready</span>
+            {% else %}
+              <span class="badge badge-red">Needs Improvement</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const CHART_DEFAULTS = {
+  color: '#7a8ba8',
+  font: { family: 'Inter', size: 11 },
+};
+Chart.defaults.color = CHART_DEFAULTS.color;
+Chart.defaults.font  = CHART_DEFAULTS.font;
+
+// Donut
+new Chart(document.getElementById('donutChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Job Ready', 'Almost Ready', 'Needs Improvement'],
+    datasets: [{
+      data: [{{ job_ready }}, {{ almost_ready }}, {{ needs_improvement }}],
+      backgroundColor: ['#22c55e', '#f59e0b', '#ef4444'],
+      borderWidth: 0,
+      hoverOffset: 6,
+    }]
+  },
+  options: {
+    cutout: '68%',
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 16, boxWidth: 10 } }
+    },
+    maintainAspectRatio: false,
+  }
+});
+
+// Role bar
+const roleLabels = {{ role_counts.keys() | list | tojson }};
+const roleVals   = {{ role_counts.values() | list | tojson }};
+const roleColors = roleLabels.map((_, i) => `hsl(${210 + i * 18}, 70%, 55%)`);
+
+new Chart(document.getElementById('roleChart'), {
+  type: 'bar',
+  data: {
+    labels: roleLabels,
+    datasets: [{
+      label: 'Interns',
+      data: roleVals,
+      backgroundColor: roleColors,
+      borderRadius: 5,
+      borderSkipped: false,
+    }]
+  },
+  options: {
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { color: '#1e2d45' }, ticks: { maxRotation: 35, font: { size: 10 } } },
+      y: { grid: { color: '#1e2d45' }, beginAtZero: true },
+    },
+    maintainAspectRatio: false,
+  }
+});
+
+// Score distribution
+new Chart(document.getElementById('distChart'), {
+  type: 'bar',
+  data: {
+    labels: {{ score_dist.keys() | list | tojson }},
+    datasets: [{
+      label: 'Interns',
+      data: {{ score_dist.values() | list | tojson }},
+      backgroundColor: 'rgba(79,142,247,.7)',
+      borderColor: '#4f8ef7',
+      borderWidth: 1,
+      borderRadius: 5,
+    }]
+  },
+  options: {
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { color: '#1e2d45' } },
+      y: { grid: { color: '#1e2d45' }, beginAtZero: true },
+    },
+    maintainAspectRatio: false,
+  }
+});
+</script>
+{% endblock %}
