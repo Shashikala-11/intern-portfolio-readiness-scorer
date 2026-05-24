@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{% block title %}Intern Readiness Scorer{% endblock %} — Graphura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    /* ── Reset & Variables ─────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0a0f1e;
+      --bg2:       #0d1526;
+      --surface:   #111827;
+      --surface2:  #1a2235;
+      --surface3:  #1f2d42;
+      --border:    #1e2d45;
+      --border2:   #263550;
+      --text:      #e8edf5;
+      --text-muted:#7a8ba8;
+      --text-dim:  #4a5a72;
+      --accent:    #4f8ef7;
+      --accent2:   #7c5cfc;
+      --green:     #22c55e;
+      --yellow:    #f59e0b;
+      --red:       #ef4444;
+      --cyan:      #06b6d4;
+      --radius:    14px;
+      --radius-sm: 8px;
+      --shadow:    0 4px 24px rgba(0,0,0,.4);
+      --glow:      0 0 20px rgba(79,142,247,.15);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+    }
+
+    /* ── Scrollbar ─────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+
+    /* ── Navbar ────────────────────────────────────────────── */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 62px;
+      background: rgba(17,24,39,.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 200;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      text-decoration: none;
+    }
+    .brand-logo {
+      width: 36px; height: 36px;
+      display: flex; align-items: center; justify-content: center;
+      padding: 0; background: transparent; border-radius: 8px; overflow: hidden;
+    }
+    .brand-logo-img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .brand-name {
+      font-size: 1rem; font-weight: 700; color: var(--text);
+      letter-spacing: -.3px;
+    }
+    .brand-name span { color: var(--accent); }
+
+    .nav-links {
+      display: flex;
+      gap: .25rem;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: .85rem;
+      font-weight: 500;
+      padding: .45rem .9rem;
+      border-radius: var(--radius-sm);
+      transition: all .2s;
+      display: flex; align-items: center; gap: .4rem;
+    }
+    .nav-links a:hover { color: var(--text); background: var(--surface2); }
+    .nav-links a.active {
+      color: var(--accent);
+      background: rgba(79,142,247,.1);
+    }
+
+    .nav-badge {
+      font-size: .65rem;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+      padding: .1rem .4rem;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+
+    /* ── Main ──────────────────────────────────────────────── */
+    .main-content {
+      flex: 1;
+      padding: 2rem 2.5rem;
+      max-width: 1380px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* ── Page Header ───────────────────────────────────────── */
+    .page-header {
+      margin-bottom: 2rem;
+    }
+    .page-header h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      letter-spacing: -.5px;
+      background: linear-gradient(135deg, var(--text) 60%, var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .page-header p {
+      color: var(--text-muted);
+      margin-top: .35rem;
+      font-size: .9rem;
+    }
+
+    /* ── Cards ─────────────────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .card-title {
+      font-size: .95rem;
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+      display: flex; align-items: center; gap: .5rem;
+    }
+
+    /* ── Badges ────────────────────────────────────────────── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: .25rem .7rem;
+      border-radius: 20px;
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+    .badge-green  { background: rgba(34,197,94,.15);  color: var(--green); }
+    .badge-yellow { background: rgba(245,158,11,.15); color: var(--yellow); }
+    .badge-red    { background: rgba(239,68,68,.15);  color: var(--red); }
+    .badge-blue   { background: rgba(79,142,247,.15); color: var(--accent); }
+
+    /* ── Tables ────────────────────────────────────────────── */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    thead th {
+      text-align: left;
+      padding: .75rem 1rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      border-bottom: 1px solid var(--border);
+    }
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background .15s;
+    }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--surface2); }
+    tbody td { padding: .75rem 1rem; }
+
+    /* ── Score bar ─────────────────────────────────────────── */
+    .score-bar-wrap {
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .score-track {
+      flex: 1; height: 6px;
+      background: var(--surface3);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .score-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      border-radius: 3px;
+      transition: width .6s ease;
+    }
+    .score-val { font-size: .8rem; font-weight: 600; color: var(--text); min-width: 36px; }
+
+    /* ── Footer ────────────────────────────────────────────── */
+    .footer {
+      text-align: center;
+      padding: 1.2rem;
+      color: var(--text-dim);
+      font-size: .75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Utility ───────────────────────────────────────────── */
+    .flex { display: flex; }
+    .items-center { align-items: center; }
+    .gap-2 { gap: .5rem; }
+    .mt-1 { margin-top: .25rem; }
+    .mt-2 { margin-top: .5rem; }
+    .text-muted { color: var(--text-muted); }
+    .text-sm { font-size: .85rem; }
+    .font-bold { font-weight: 700; }
+  </style>
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="nav-brand" href="{{ url_for('index') }}">
+    <div class="brand-logo">
+      <img src="{{ url_for('static', filename='graphura-logo.png') }}" alt="Graphura logo" class="brand-logo-img"/>
+    </div>
+    <span class="brand-name">Graphura Intern Portfolio<span>Scorer</span></span>
+  </a>
+  <ul class="nav-links">
+    <li>
+      <a href="{{ url_for('index') }}" class="{{ 'active' if request.endpoint == 'index' else '' }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Dashboard
+      </a>
+    </li>
+    <li>
+      <a href="{{ url_for('predict') }}" class="{{ 'active' if request.endpoint == 'predict' else '' }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        Score Intern
+      </a>
+    </li>
+    <li>
+      <a href="{{ url_for('leaderboard') }}" class="{{ 'active' if request.endpoint == 'leaderboard' else '' }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Leaderboard
+        <span class="nav-badge">Live</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<main class="main-content">
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  Graphura India Private Limited &nbsp;·&nbsp; Intern Portfolio Readiness Scorer &nbsp;·&nbsp; Logistic Regression &nbsp;·&nbsp; 1,555 Interns · 14 Features
+</footer>
+
+</body>
+</html>
