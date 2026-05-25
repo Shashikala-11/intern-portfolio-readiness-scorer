@@ -85,7 +85,7 @@ The underlying data pipeline was trained on a dataset of 1,555 unique, real soft
 ## Media and Deployments
 
 ### Project Video Walkthrough
-[YouTube Link Here]
+Demo Link : https://youtu.be/Dxdwb1PUK5I?si=QaA-01Ei6Oi-gk-l
 
 
 ---
