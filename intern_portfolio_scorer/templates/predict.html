@@ -5,465 +5,741 @@
 <style>
 .predict-layout {
   display: grid;
-  grid-template-columns: 1fr 420px;
+  grid-template-columns: 1.3fr 0.9fr;
   gap: 1.5rem;
   align-items: start;
 }
-@media (max-width: 1000px) { .predict-layout { grid-template-columns: 1fr; } }
+@media (max-width: 1024px) { .predict-layout { grid-template-columns: 1fr; } }
 
-/* ── Form Card ─────────────────────────────────────────────── */
-.form-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 2rem;
-}
-.form-card h2 {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  display: flex; align-items: center; gap: .5rem;
-  color: var(--text);
-}
-
-.form-grid {
+.card {
+  background: rgba(10, 16, 30, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 26px;
+  padding: 1.6rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 1rem;
 }
-.form-group { display: flex; flex-direction: column; gap: .4rem; }
-.form-group.full { grid-column: 1 / -1; }
-
-label {
-  font-size: .78rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: .4px;
+.card-title h2 {
+  margin: 0;
+  font-size: 1.55rem;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  color: #f8fbff;
 }
-.hint { font-weight: 400; color: var(--text-dim); text-transform: none; letter-spacing: 0; }
-
-input, select {
-  background: var(--surface2);
-  border: 1px solid var(--border2);
-  border-radius: var(--radius-sm);
-  color: var(--text);
-  font-family: 'Inter', sans-serif;
-  font-size: .88rem;
-  padding: .65rem .9rem;
-  outline: none;
-  transition: border-color .2s, box-shadow .2s;
-  width: 100%;
-}
-input::placeholder { color: var(--text-dim); }
-input:focus, select:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(79,142,247,.15);
-}
-select option { background: var(--surface2); }
-
-.slider-group { grid-column: 1 / -1; }
-.slider-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-.slider-item { display: flex; flex-direction: column; gap: .4rem; }
-.slider-header { display: flex; justify-content: space-between; align-items: center; }
-.slider-val {
-  font-size: .85rem;
-  font-weight: 700;
-  color: var(--accent);
-  min-width: 28px;
-  text-align: right;
-}
-input[type=range] {
-  -webkit-appearance: none;
-  appearance: none;
-  height: 4px;
-  background: var(--surface3);
-  border-radius: 2px;
-  padding: 0;
-  border: none;
-  box-shadow: none;
-  cursor: pointer;
-}
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 16px; height: 16px;
-  border-radius: 50%;
-  background: var(--accent);
-  cursor: pointer;
-  box-shadow: 0 0 6px rgba(79,142,247,.5);
-}
-input[type=range]:focus { box-shadow: none; border: none; }
-
-.btn-predict {
-  width: 100%;
-  margin-top: 1.5rem;
-  padding: .85rem;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  color: #fff;
-  border: none;
-  border-radius: var(--radius-sm);
-  font-family: 'Inter', sans-serif;
-  font-size: .95rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: opacity .2s, transform .15s;
-  display: flex; align-items: center; justify-content: center; gap: .5rem;
-}
-.btn-predict:hover { opacity: .9; transform: translateY(-1px); }
-.btn-predict:active { transform: translateY(0); }
-
-/* ── Result Panel ──────────────────────────────────────────── */
-.result-panel {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.8rem;
-  position: sticky;
-  top: 80px;
-}
-
-.placeholder-wrap {
-  text-align: center;
-  padding: 2rem 1rem;
-}
-.placeholder-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  display: block;
-}
-.placeholder-wrap p {
-  color: var(--text-muted);
-  font-size: .88rem;
+.card-title p {
+  margin: 0;
+  color: rgba(214, 226, 255, 0.74);
+  max-width: 560px;
   line-height: 1.6;
 }
 
-.model-info-box {
-  margin-top: 1.5rem;
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 1rem;
+.upload-zone {
+  border-radius: 24px;
+  background: rgba(20, 28, 48, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  min-height: 200px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: border-color .2s ease, background .2s ease;
 }
-.model-info-box h4 {
-  font-size: .78rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  margin-bottom: .7rem;
-}
-.model-info-box ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: .4rem;
-}
-.model-info-box li {
-  font-size: .82rem;
-  color: var(--text-muted);
-  display: flex; align-items: center; gap: .5rem;
-}
-.model-info-box li::before {
-  content: '';
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--accent);
-  flex-shrink: 0;
+.upload-zone.dragging {
+  border-color: rgba(79, 142, 247, 0.6);
+  background: rgba(16, 24, 44, 0.97);
 }
 
-/* ── Score display ─────────────────────────────────────────── */
-.result-name-row {
+.upload-zone-inner {
+  text-align: center;
+  color: rgba(230, 238, 255, 0.88);
+}
+.upload-icon {
+  width: 64px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 1rem;
+  border-radius: 18px;
+  background: rgba(79, 142, 247, 0.12);
+  font-size: 1.6rem;
+}
+.upload-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.upload-subtext {
+  margin-top: 0.65rem;
+  color: rgba(214, 226, 255, 0.72);
+  font-size: .95rem;
+}
+
+.upload-actions {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1.5rem;
+  gap: 0.9rem;
   flex-wrap: wrap;
+}
+.btn-secondary,
+.btn-outline {
+  border-radius: 999px;
+  padding: .95rem 1.35rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background .2s ease, border-color .2s ease;
+}
+.btn-secondary {
+  background: linear-gradient(135deg, rgba(79, 142, 247, 0.95), rgba(88, 115, 255, 0.9));
+  color: #fff;
+}
+.btn-outline {
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(235, 241, 255, 0.95);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.progress-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+.progress-fill {
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #4f8ef7, #7c5cfc);
+  transition: width .3s ease;
+}
+
+.field-group {
+  display: grid;
   gap: .5rem;
 }
-.result-name {
-  font-size: 1.1rem;
-  font-weight: 700;
+.field-label {
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: rgba(214, 226, 255, 0.62);
+}
+.field-input,
+.field-textarea {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.04);
+  color: #f8fbff;
+  padding: .95rem 1rem;
+  font-size: .95rem;
+}
+.field-input[readonly],
+.field-textarea[readonly] {
+  opacity: 0.88;
+}
+.field-textarea {
+  min-height: 110px;
+  resize: none;
 }
 
-.score-ring-wrap {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-  position: relative;
+.field-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
 }
-.score-ring-wrap svg { width: 160px; height: 160px; }
+
+.metric-grid {
+  display: grid;
+  gap: 1rem;
+}
+.metric-row {
+  display: grid;
+  gap: .5rem;
+}
+.metric-row label {
+  color: rgba(214, 226, 255, 0.82);
+  font-size: .95rem;
+}
+.metric-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+.metric-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #4f8ef7, #7c5cfc);
+}
+.metric-value {
+  color: rgba(214, 226, 255, 0.72);
+  font-size: .88rem;
+}
+
+.summary-card {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.result-name-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.result-name {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #f8fbff;
+}
+.score-badge,
+.small-badge {
+  border-radius: 999px;
+  padding: .5rem .85rem;
+  font-size: .82rem;
+  font-weight: 700;
+}
+.score-badge { background: rgba(79, 142, 247, 0.12); color: #9fc7ff; }
+.small-badge.excellent { background: rgba(34, 197, 94, 0.16); color: #acf2c9; }
+.small-badge.good { background: rgba(59, 130, 246, 0.16); color: #b7d7ff; }
+.small-badge.average { background: rgba(249, 115, 22, 0.16); color: #ffd1a4; }
+.small-badge.needs { background: rgba(239, 68, 68, 0.16); color: #ffb0b0; }
+
+.score-ring-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.score-ring-wrap svg {
+  width: 100%;
+  height: auto;
+}
 .score-center {
   position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
+  inset: 0;
+  display: grid;
+  place-items: center;
   text-align: center;
 }
 .score-big {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   font-weight: 800;
-  letter-spacing: -1px;
-  line-height: 1;
+  color: #f8fbff;
 }
-.score-sub { font-size: .75rem; color: var(--text-muted); }
+.score-sub {
+  color: rgba(214, 226, 255, 0.72);
+  font-size: .95rem;
+  margin-top: .25rem;
+}
 
-/* ── Probability bars ──────────────────────────────────────── */
-.prob-section h4 {
-  font-size: .78rem;
+.feedback-box {
+  border-radius: 22px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 1rem 1.1rem;
+}
+.feedback-box p {
+  margin: 0;
+  color: rgba(226, 236, 255, 0.9);
+  line-height: 1.7;
+}
+
+.insight-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 22px;
+  padding: 1rem;
+  display: grid;
+  gap: .85rem;
+}
+.insight-card h3 {
+  margin: 0;
+  font-size: 1rem;
   font-weight: 700;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  margin-bottom: .8rem;
+  color: #f8fbff;
 }
-.prob-row {
-  display: flex;
+.insight-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: .6rem;
+}
+.insight-card li {
+  color: rgba(214,226,255,0.82);
+  font-size: .95rem;
+}
+.insight-pill {
+  display: inline-flex;
   align-items: center;
-  gap: .7rem;
-  margin-bottom: .6rem;
-}
-.prob-label { font-size: .78rem; color: var(--text-muted); width: 120px; flex-shrink: 0; }
-.prob-track {
-  flex: 1;
-  height: 6px;
-  background: var(--surface3);
-  border-radius: 3px;
-  overflow: hidden;
-}
-.prob-fill { height: 100%; border-radius: 3px; transition: width .8s ease; }
-.prob-fill-green  { background: linear-gradient(90deg, #22c55e, #16a34a); }
-.prob-fill-yellow { background: linear-gradient(90deg, #f59e0b, #d97706); }
-.prob-fill-red    { background: linear-gradient(90deg, #ef4444, #dc2626); }
-.prob-pct { font-size: .78rem; font-weight: 600; min-width: 36px; text-align: right; }
-
-/* ── Recommendation ────────────────────────────────────────── */
-.recommendation {
-  margin-top: 1.2rem;
-  padding: 1rem;
-  border-radius: var(--radius-sm);
+  justify-content: center;
+  border-radius: 999px;
+  padding: .45rem .85rem;
+  background: rgba(79,142,247,0.12);
+  color: #c9dbff;
+  font-weight: 700;
   font-size: .85rem;
-  line-height: 1.6;
 }
-.rec-green  { background: rgba(34,197,94,.08);  border: 1px solid rgba(34,197,94,.2); }
-.rec-yellow { background: rgba(245,158,11,.08); border: 1px solid rgba(245,158,11,.2); }
-.rec-red    { background: rgba(239,68,68,.08);  border: 1px solid rgba(239,68,68,.2); }
+.progress-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  color: rgba(214,226,255,0.75);
+  font-size: .9rem;
+}
 
-.error-box {
-  background: rgba(239,68,68,.1);
-  border: 1px solid rgba(239,68,68,.3);
-  border-radius: var(--radius-sm);
-  padding: 1rem;
-  color: var(--red);
-  font-size: .88rem;
-}
+@media (max-width: 1024px) { .predict-layout { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .field-row { grid-template-columns: 1fr; } }
 </style>
 {% endblock %}
 
 {% block content %}
 <div class="page-header">
-  <h1>Score an Intern</h1>
-  <p>Enter portfolio details to get an AI-powered readiness prediction using Logistic Regression</p>
+  <h1>Resume ATS Analyzer</h1>
+  <p>Upload a resume PDF and instantly receive an ATS compatibility score, feedback, and recruiter-ready resume insights.</p>
 </div>
 
 <div class="predict-layout">
-
-  <!-- ── Form ── -->
-  <div class="form-card">
-    <h2>
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-      Portfolio Assessment
-    </h2>
-
-    <form method="POST" action="{{ url_for('predict') }}">
-      <div class="form-grid">
-
-        <div class="form-group full">
-          <label>Intern Name</label>
-          <input type="text" name="name" placeholder="e.g. Rahul Sharma"
-                 value="{{ form_data.get('name', '') }}" required/>
-        </div>
-
-        <div class="form-group">
-          <label>Domain / Role</label>
-          <select name="role" required>
-            {% for r in roles %}
-            <option value="{{ r }}" {{ 'selected' if form_data.get('role') == r else '' }}>{{ r }}</option>
-            {% endfor %}
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Tools Used <span class="hint">(comma-separated)</span></label>
-          <input type="text" name="tools_used"
-                 placeholder="Python, React, SQL"
-                 value="{{ form_data.get('tools_used', '') }}" required/>
-        </div>
-
-        <div class="form-group">
-          <label>Number of Projects</label>
-          <input type="number" name="no_of_projects" min="1" max="50"
-                 placeholder="e.g. 8"
-                 value="{{ form_data.get('no_of_projects', '') }}" required/>
-        </div>
-
-        <!-- Sliders -->
-        <div class="slider-group">
-          <div class="slider-row">
-
-            <div class="slider-item">
-              <div class="slider-header">
-                <label>Project Quality <span class="hint">(0–10)</span></label>
-                <span class="slider-val" id="aps-val">{{ form_data.get('avg_project_score', '7') }}</span>
-              </div>
-              <input type="range" name="avg_project_score" min="0" max="10" step="0.1"
-                     value="{{ form_data.get('avg_project_score', '7') }}"
-                     oninput="document.getElementById('aps-val').textContent=this.value"/>
-            </div>
-
-            <div class="slider-item">
-              <div class="slider-header">
-                <label>Documentation Quality <span class="hint">(0–10)</span></label>
-                <span class="slider-val" id="dq-val">{{ form_data.get('documentation_quality', '7') }}</span>
-              </div>
-              <input type="range" name="documentation_quality" min="0" max="10" step="0.1"
-                     value="{{ form_data.get('documentation_quality', '7') }}"
-                     oninput="document.getElementById('dq-val').textContent=this.value"/>
-            </div>
-
-            <div class="slider-item">
-              <div class="slider-header">
-                <label>Business Relevance <span class="hint">(0–10)</span></label>
-                <span class="slider-val" id="br-val">{{ form_data.get('business_relevance', '7') }}</span>
-              </div>
-              <input type="range" name="business_relevance" min="0" max="10" step="0.1"
-                     value="{{ form_data.get('business_relevance', '7') }}"
-                     oninput="document.getElementById('br-val').textContent=this.value"/>
-            </div>
-
-            <div class="slider-item">
-              <div class="slider-header">
-                <label>Presentation Score <span class="hint">(0–10)</span></label>
-                <span class="slider-val" id="ps-val">{{ form_data.get('presentation_score', '7') }}</span>
-              </div>
-              <input type="range" name="presentation_score" min="0" max="10" step="0.1"
-                     value="{{ form_data.get('presentation_score', '7') }}"
-                     oninput="document.getElementById('ps-val').textContent=this.value"/>
-            </div>
-
-            <div class="slider-item">
-              <div class="slider-header">
-                <label>Task Consistency <span class="hint">(0–10)</span></label>
-                <span class="slider-val" id="tc-val">{{ form_data.get('task_consistency', '7') }}</span>
-              </div>
-              <input type="range" name="task_consistency" min="0" max="10" step="0.1"
-                     value="{{ form_data.get('task_consistency', '7') }}"
-                     oninput="document.getElementById('tc-val').textContent=this.value"/>
-            </div>
-
-          </div>
-        </div>
-
+  <div class="card resume-card">
+    <div class="card-title">
+      <div>
+        <h2>Resume Assessment</h2>
+        <p>Upload a resume to auto-populate candidate details, skills, projects, and ATS metrics in a clean recruiter dashboard.</p>
       </div>
+      <span class="small-badge good" id="statusBadge">Ready to analyze</span>
+    </div>
 
-      <button type="submit" class="btn-predict">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        Predict Readiness
-      </button>
-    </form>
+    <div class="upload-zone" id="uploadZone">
+      <div class="upload-zone-inner">
+        <div class="upload-icon">📄</div>
+        <div class="upload-title">Drag & Drop Resume PDF</div>
+        <div class="upload-subtext">PDF only · Max 5MB</div>
+      </div>
+    </div>
+
+    <input type="file" id="resumeFile" accept=".pdf" hidden />
+
+    <div class="upload-actions">
+      <button type="button" class="btn-secondary" id="uploadButton">Upload Resume</button>
+      <button type="button" class="btn-outline" id="sampleButton">Try Sample Resume</button>
+    </div>
+
+    <div class="progress-track" aria-hidden="true">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <div class="field-label" id="uploadStatus">PDF only · max 5MB · ready to parse.</div>
+
+    <div class="field-row">
+      <div class="field-group">
+        <label class="field-label" for="candidateName">Candidate Name</label>
+        <input id="candidateName" class="field-input" type="text" readonly />
+      </div>
+      <div class="field-group">
+        <label class="field-label" for="candidateRole">Domain / Role</label>
+        <input id="candidateRole" class="field-input" type="text" readonly />
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="candidateSkills">Skills</label>
+      <textarea id="candidateSkills" class="field-textarea" readonly></textarea>
+    </div>
+
+    <div class="field-row">
+      <div class="field-group">
+        <label class="field-label" for="candidateProjects">Number of Projects</label>
+        <input id="candidateProjects" class="field-input" type="text" readonly />
+      </div>
+      <div class="field-group">
+        <label class="field-label" for="githubPresence">GitHub Presence</label>
+        <input id="githubPresence" class="field-input" type="text" readonly />
+      </div>
+    </div>
+
+    <div class="field-row">
+      <div class="field-group">
+        <label class="field-label" for="linkedinPresence">LinkedIn Presence</label>
+        <input id="linkedinPresence" class="field-input" type="text" readonly />
+      </div>
+      <div class="field-group">
+        <label class="field-label" for="internshipExperience">Internship Experience</label>
+        <input id="internshipExperience" class="field-input" type="text" readonly />
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="certificationsList">Certifications</label>
+      <input id="certificationsList" class="field-input" type="text" readonly />
+    </div>
+
+    <div class="metric-grid">
+      <div class="metric-row">
+        <label>Technical Skills</label>
+        <div class="metric-bar"><div class="metric-fill" style="width: 0%"></div></div>
+        <div class="metric-value" id="technicalSkillsValue">0 / 100</div>
+      </div>
+      <div class="metric-row">
+        <label>Documentation Quality</label>
+        <div class="metric-bar"><div class="metric-fill" style="width: 0%"></div></div>
+        <div class="metric-value" id="documentationQualityValue">0 / 100</div>
+      </div>
+      <div class="metric-row">
+        <label>Business Relevance</label>
+        <div class="metric-bar"><div class="metric-fill" style="width: 0%"></div></div>
+        <div class="metric-value" id="businessRelevanceValue">0 / 100</div>
+      </div>
+      <div class="metric-row">
+        <label>Presentation Score</label>
+        <div class="metric-bar"><div class="metric-fill" style="width: 0%"></div></div>
+        <div class="metric-value" id="presentationScoreValue">0 / 100</div>
+      </div>
+      <div class="metric-row">
+        <label>Task Consistency</label>
+        <div class="metric-bar"><div class="metric-fill" style="width: 0%"></div></div>
+        <div class="metric-value" id="taskConsistencyValue">0 / 100</div>
+      </div>
+    </div>
   </div>
 
-  <!-- ── Result Panel ── -->
-  <div class="result-panel">
-    {% if result %}
-      {% if result.error %}
-        <div class="error-box">⚠️ {{ result.error }}</div>
-      {% else %}
+  <div class="summary-card" id="resultPanel">
+    <div class="result-name-row">
+      <div>
+        <div class="result-name" id="summaryTitle">Candidate</div>
+        <div class="small-badge average" id="summaryStatus">Average</div>
+      </div>
+      <div class="score-badge" id="summaryConfidence">Confidence 0%</div>
+    </div>
 
-        <div class="result-name-row">
-          <span class="result-name">{{ result.name }}</span>
-          {% if result.label == 'Job Ready' %}
-            <span class="badge badge-green">✅ Job Ready</span>
-          {% elif result.label == 'Almost Ready' %}
-            <span class="badge badge-yellow">⚡ Almost Ready</span>
-          {% else %}
-            <span class="badge badge-red">📈 Needs Improvement</span>
-          {% endif %}
-        </div>
-
-        <!-- Score ring -->
-        <div class="score-ring-wrap">
-          {% set stroke_color = '#22c55e' if result.label == 'Job Ready' else ('#f59e0b' if result.label == 'Almost Ready' else '#ef4444') %}
-          {% set dash = (result.score / 100 * 283) | round(1) %}
-          <svg viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="45" fill="none" stroke="#1a2235" stroke-width="8"/>
-            <circle cx="50" cy="50" r="45" fill="none"
-              stroke="{{ stroke_color }}"
-              stroke-width="8"
-              stroke-dasharray="{{ dash }} 283"
-              stroke-linecap="round"
-              transform="rotate(-90 50 50)"
-              style="transition: stroke-dasharray .8s ease;"/>
-          </svg>
-          <div class="score-center">
-            <div class="score-big" style="color:{{ stroke_color }}">{{ result.score }}</div>
-            <div class="score-sub">/ 100</div>
-          </div>
-        </div>
-
-        <!-- Probability bars -->
-        <div class="prob-section">
-          <h4>Class Probabilities</h4>
-          {% for cls, pct in result.class_probs.items() %}
-          <div class="prob-row">
-            <span class="prob-label">{{ cls }}</span>
-            <div class="prob-track">
-              <div class="prob-fill
-                {% if cls == 'Job Ready' %}prob-fill-green
-                {% elif cls == 'Almost Ready' %}prob-fill-yellow
-                {% else %}prob-fill-red{% endif %}"
-                style="width:{{ pct }}%"></div>
-            </div>
-            <span class="prob-pct">{{ pct }}%</span>
-          </div>
-          {% endfor %}
-        </div>
-
-        <!-- Recommendation -->
-        <div class="recommendation
-          {% if result.label == 'Job Ready' %}rec-green
-          {% elif result.label == 'Almost Ready' %}rec-yellow
-          {% else %}rec-red{% endif %}">
-          {% if result.label == 'Job Ready' %}
-            🎉 <strong>Excellent!</strong> Strong portfolio quality across all dimensions. This intern is placement-ready.
-          {% elif result.label == 'Almost Ready' %}
-            ⚡ <strong>Good progress!</strong> A few more projects and improved documentation will push this intern to Job Ready.
-          {% else %}
-            📚 <strong>Needs work.</strong> Focus on increasing project count, business relevance, and documentation quality.
-          {% endif %}
-        </div>
-
-      {% endif %}
-    {% else %}
-      <div class="placeholder-wrap">
-        <span class="placeholder-icon">🤖</span>
-        <p>Fill in the form and click <strong>Predict Readiness</strong> to get an AI-powered score.</p>
-        <div class="model-info-box">
-          <h4>Model Details</h4>
-          <ul>
-            <li>Algorithm: Logistic Regression (L2)</li>
-            <li>Test Accuracy: 96.14%</li>
-            <li>Balanced Accuracy: 96.32%</li>
-            <li>CV Balanced Accuracy: 96.91%</li>
-            <li>Classes: 3 (Job Ready, Almost Ready, Needs Improvement)</li>
-            <li>Features: 14 engineered</li>
-          </ul>
+    <div class="insight-card">
+      <div class="score-ring-wrap">
+        <svg viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="10" />
+          <circle id="scoreStroke" cx="50" cy="50" r="45" fill="none" stroke="#4f76f7" stroke-width="10" stroke-linecap="round" stroke-dasharray="0 283" />
+        </svg>
+        <div class="score-center">
+          <div class="score-big" id="summaryScore">0.0</div>
+          <div class="score-sub">ATS Score</div>
         </div>
       </div>
-    {% endif %}
-  </div>
+      <div class="result-name-row">
+        <div>
+          <p class="score-sub">Resume Rating</p>
+        </div>
+        <div class="insight-pill" id="summaryRating">Average</div>
+      </div>
+    </div>
 
+    <div class="insight-card">
+      <h3>Skill Match Progress</h3>
+      <div class="progress-meta">
+        <span id="skillMatchText">0% skills matched</span>
+        <span id="skillMatchProgressValue">0%</span>
+      </div>
+      <div class="metric-bar"><div class="metric-fill" id="skillMatchProgressBar" style="width: 0%;"></div></div>
+    </div>
+
+    <div class="insight-card">
+      <h3>Resume Quality Insights</h3>
+      <ul id="resumeQualityInsightsList">
+        <li>No quality insights available yet.</li>
+      </ul>
+    </div>
+
+    <div class="insight-card">
+      <h3>Key Strengths</h3>
+      <ul id="strengthsList">
+        <li>No strengths available yet.</li>
+      </ul>
+    </div>
+
+    <div class="insight-card">
+      <h3>Improvements Needed</h3>
+      <ul id="improvementsList">
+        <li>No improvement suggestions yet.</li>
+      </ul>
+    </div>
+
+    <div class="insight-card">
+      <h3>Missing Keywords</h3>
+      <ul id="missingSkillsList">
+        <li>No missing keywords detected.</li>
+      </ul>
+    </div>
+
+    <div class="insight-card">
+      <h3>Recommendations</h3>
+      <ul id="recommendationsList">
+        <li>Upload a resume to see recruiter-style recommendations.</li>
+      </ul>
+    </div>
+
+    <div class="feedback-box" id="feedbackBox">
+      <p>Upload a resume to generate ATS analytics and recruiter-ready recommendations.</p>
+    </div>
+  </div>
 </div>
+
+<script>
+const uploadZone = document.getElementById('uploadZone');
+const resumeFile = document.getElementById('resumeFile');
+const uploadButton = document.getElementById('uploadButton');
+const sampleButton = document.getElementById('sampleButton');
+const uploadStatus = document.getElementById('uploadStatus');
+const progressFill = document.getElementById('progressFill');
+const statusBadge = document.getElementById('statusBadge');
+
+const candidateName = document.getElementById('candidateName');
+const candidateRole = document.getElementById('candidateRole');
+const candidateSkills = document.getElementById('candidateSkills');
+const candidateProjects = document.getElementById('candidateProjects');
+const githubPresence = document.getElementById('githubPresence');
+const linkedinPresence = document.getElementById('linkedinPresence');
+const internshipExperience = document.getElementById('internshipExperience');
+const certificationsList = document.getElementById('certificationsList');
+
+const technicalSkillsValue = document.getElementById('technicalSkillsValue');
+const documentationQualityValue = document.getElementById('documentationQualityValue');
+const businessRelevanceValue = document.getElementById('businessRelevanceValue');
+const presentationScoreValue = document.getElementById('presentationScoreValue');
+const taskConsistencyValue = document.getElementById('taskConsistencyValue');
+const summaryTitle = document.getElementById('summaryTitle');
+const summaryStatus = document.getElementById('summaryStatus');
+const summaryConfidence = document.getElementById('summaryConfidence');
+const summaryScore = document.getElementById('summaryScore');
+const scoreStroke = document.getElementById('scoreStroke');
+const feedbackBox = document.getElementById('feedbackBox');
+const summaryRating = document.getElementById('summaryRating');
+const skillMatchText = document.getElementById('skillMatchText');
+const skillMatchProgressValue = document.getElementById('skillMatchProgressValue');
+const skillMatchProgressBar = document.getElementById('skillMatchProgressBar');
+const resumeQualityInsightsList = document.getElementById('resumeQualityInsightsList');
+const strengthsList = document.getElementById('strengthsList');
+const improvementsList = document.getElementById('improvementsList');
+const missingSkillsList = document.getElementById('missingSkillsList');
+const recommendationsList = document.getElementById('recommendationsList');
+
+function setUploadState(state, text) {
+  const states = {
+    idle: 'PDF only · max 5MB · ready to parse.',
+    uploading: 'Uploading resume…',
+    parsing: 'Parsing resume content…',
+    success: 'Resume parsed successfully. Generating ATS summary…',
+    error: 'Upload failed. Try another PDF or sample resume.',
+  };
+  uploadStatus.textContent = text || states[state] || states.idle;
+  uploadZone.classList.toggle('uploading', state === 'uploading');
+}
+
+function setProgress(value) {
+  progressFill.style.width = `${value}%`;
+}
+
+function animateProgress(finalValue, callback) {
+  let progress = 0;
+  const step = Math.max(5, Math.floor(finalValue / 10));
+  const timer = setInterval(() => {
+    progress += step;
+    if (progress >= finalValue) {
+      progress = finalValue;
+      clearInterval(timer);
+      callback?.();
+    }
+    setProgress(progress);
+  }, 100);
+}
+
+function setDetailField(el, value) {
+  if (!el) return;
+  el.value = value || 'Not found';
+}
+
+function setSummaryStatus(score) {
+  if (score >= 85) {
+    summaryStatus.textContent = 'Excellent';
+    summaryStatus.className = 'small-badge excellent';
+  } else if (score >= 70) {
+    summaryStatus.textContent = 'Good';
+    summaryStatus.className = 'small-badge good';
+  } else if (score >= 50) {
+    summaryStatus.textContent = 'Average';
+    summaryStatus.className = 'small-badge average';
+  } else {
+    summaryStatus.textContent = 'Needs Improvement';
+    summaryStatus.className = 'small-badge needs';
+  }
+}
+
+function handleParseResponse(parsed) {
+  if (parsed.error) {
+    setUploadState('error', parsed.error);
+    feedbackBox.innerHTML = `<p>${parsed.error}</p>`;
+    return;
+  }
+  setUploadState('success');
+  renderParsedData(parsed);
+  const parsedFeatures = parsed.ml_features || parsed.parsed_features;
+  fetchPrediction({ parsed_features: parsedFeatures, parsed, name: parsed.personal.name });
+}
+
+function renderParsedData(parsed) {
+  setDetailField(candidateName, parsed.personal.name || 'Candidate');
+  setDetailField(candidateRole, parsed.role || 'General');
+  setDetailField(candidateSkills, parsed.skills.all_skills.join(', '));
+  setDetailField(candidateProjects, parsed.projects.project_count);
+  setDetailField(githubPresence, parsed.links.github ? 'Yes' : 'No');
+  setDetailField(linkedinPresence, parsed.links.linkedin ? 'Yes' : 'No');
+  setDetailField(internshipExperience, parsed.experience.internships > 0 ? 'Yes' : 'No');
+  setDetailField(certificationsList, parsed.certifications.length ? parsed.certifications.join(', ') : 'None');
+
+  const tech = Math.min(100, parsed.skills.all_skills.length * 10);
+  const mlFeatures = parsed.ml_features || parsed.parsed_features || {};
+  const docs = Math.min(100, Math.round((mlFeatures.documentation_quality || 0) * 10));
+  const business = Math.min(100, Math.round((mlFeatures.business_relevance || 0) * 10));
+  const presentation = Math.min(100, Math.round((mlFeatures.presentation_score || 0) * 10));
+  const consistency = Math.min(100, Math.round((mlFeatures.task_consistency || 0) * 10));
+
+  technicalSkillsValue.textContent = `${tech} / 100`;
+  documentationQualityValue.textContent = `${docs} / 100`;
+  businessRelevanceValue.textContent = `${business} / 100`;
+  presentationScoreValue.textContent = `${presentation} / 100`;
+  taskConsistencyValue.textContent = `${consistency} / 100`;
+
+  document.querySelectorAll('.metric-fill').forEach((fill, idx) => {
+    const values = [tech, docs, business, presentation, consistency];
+    fill.style.width = `${values[idx]}%`;
+  });
+
+  summaryTitle.textContent = parsed.personal.name || 'Candidate';
+  statusBadge.textContent = 'Resume loaded';
+  statusBadge.className = 'small-badge good';
+}
+
+function renderResult(result) {
+  if (!result || result.error) {
+    feedbackBox.innerHTML = `<p>${result?.error || 'Could not compute ATS results.'}</p>`;
+    return;
+  }
+
+  summaryTitle.textContent = result.name || 'Candidate';
+  summaryScore.textContent = result.ats_score.toFixed(1);
+  scoreStroke.setAttribute('stroke-dasharray', `${(result.ats_score / 100 * 283).toFixed(1)} 283`);
+  summaryConfidence.textContent = `Confidence ${result.confidence ?? 0}%`;
+  setSummaryStatus(result.ats_score);
+  summaryRating.textContent = result.label || 'Average';
+
+  const skillMatch = result.skill_match_progress ?? result.skill_match_percentage ?? Math.round(result.ats_score || 0);
+  skillMatchText.textContent = `${skillMatch}% skills matched`;
+  skillMatchProgressValue.textContent = `${skillMatch}%`;
+  skillMatchProgressBar.style.width = `${skillMatch}%`;
+
+  const qualityInsights = result.resume_quality_insights || result.quality_insights || [];
+  resumeQualityInsightsList.innerHTML = qualityInsights.length
+    ? qualityInsights.map(item => `<li>${item}</li>`).join('')
+    : '<li>No quality insights available yet.</li>';
+
+  const strengths = result.strengths || [];
+  strengthsList.innerHTML = strengths.length
+    ? strengths.map(item => `<li>✅ ${item}</li>`).join('')
+    : '<li>No strengths available yet.</li>';
+
+  const improvements = result.improvements_needed || result.weaknesses || [];
+  improvementsList.innerHTML = improvements.length
+    ? improvements.map(item => `<li>⚠️ ${item}</li>`).join('')
+    : '<li>No improvement suggestions yet.</li>';
+
+  const missingSkills = result.missing_skills || result.missing_keywords || [];
+  missingSkillsList.innerHTML = missingSkills.length
+    ? missingSkills.map(item => `<li>${item}</li>`).join('')
+    : '<li>No missing keywords detected.</li>';
+
+  const recommendations = result.recommendations || result.suggestions || [];
+  recommendationsList.innerHTML = recommendations.length
+    ? recommendations.map(item => `<li>${item}</li>`).join('')
+    : '<li>Upload a resume to see recruiter-style recommendations.</li>';
+
+  feedbackBox.innerHTML = '<p>Resume analytics are displayed in the dashboard cards above.</p>';
+}
+
+async function fetchPrediction(data) {
+  try {
+    const response = await fetch('/api/predict', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(errorText || 'Prediction request failed.');
+    }
+    const payload = await response.json();
+    renderResult(payload);
+  } catch (error) {
+    feedbackBox.innerHTML = `<p>${error.message}</p>`;
+  }
+}
+
+async function handleFileUpload(file) {
+  if (!file) return;
+  if (file.type !== 'application/pdf') {
+    setUploadState('error', 'Only PDF resumes are supported.');
+    return;
+  }
+  if (file.size > 5_000_000) {
+    setUploadState('error', 'Resume is too large. Please use a file under 5MB.');
+    return;
+  }
+
+  setUploadState('uploading');
+  setProgress(0);
+  animateProgress(40, async () => {
+    setUploadState('parsing');
+    try {
+      const body = new FormData();
+      body.append('resume', file);
+      const response = await fetch('/api/parse_resume', { method: 'POST', body });
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(errorText || 'Failed to parse resume.');
+      }
+      const parsed = await response.json();
+      animateProgress(100, () => handleParseResponse(parsed));
+    } catch (error) {
+      setUploadState('error', error.message);
+      feedbackBox.innerHTML = `<p>${error.message}</p>`;
+    }
+  });
+}
+
+uploadZone.addEventListener('click', () => resumeFile.click());
+resumeFile.addEventListener('change', (event) => handleFileUpload(event.target.files[0]));
+
+uploadZone.addEventListener('dragover', (event) => {
+  event.preventDefault();
+  uploadZone.classList.add('dragging');
+});
+uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('dragging'));
+uploadZone.addEventListener('drop', (event) => {
+  event.preventDefault();
+  uploadZone.classList.remove('dragging');
+  const file = event.dataTransfer.files[0];
+  handleFileUpload(file);
+});
+
+uploadButton.addEventListener('click', () => resumeFile.click());
+sampleButton.addEventListener('click', async () => {
+  setUploadState('parsing', 'Loading sample resume…');
+  setProgress(30);
+  const response = await fetch('/api/sample_resume');
+  const parsed = await response.json();
+  animateProgress(100, () => handleParseResponse(parsed));
+});
+</script>
 {% endblock %}
